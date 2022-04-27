@@ -16,8 +16,6 @@ server.on('request', function (req, res) {
     let urlPath = url.parse(req.url).pathname;
     let qs = querystring.parse(req.url.split('?')[1]);
 
-    // if (urlPath === '/mock' && qs.callback) {
-
     if (qs.callback) {
         res.writeHead(200, { 'Content-Type': 'application/json;charset=utf-8' });
 
