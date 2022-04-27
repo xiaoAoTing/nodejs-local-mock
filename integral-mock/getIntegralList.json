@@ -1,0 +1,51 @@
+{
+    "code": 0,
+    "msg": "成功",
+    "data": [
+        {
+            "camper_name": "张三",
+            "id_num": "11312321312",
+            "integral_num": "100",
+            "belong_vip": "张三",
+            "belong_sale": "张三",
+            "integral_change": "+100",
+            "change_type": [
+                "参营获得",
+                "营种",
+                "营期"
+            ],
+            "reason": "变动原因",
+            "operate_time": "yyyy-mm-dd - hh-mm-ss"
+        },
+        {
+            "camper_name": "张三",
+            "id_num": "11312321312",
+            "integral_num": "100",
+            "belong_vip": "张三",
+            "belong_sale": "张三",
+            "integral_change": "+100",
+            "change_type": [
+                "参营获得",
+                "营种",
+                "营期"
+            ],
+            "reason": "变动原因",
+            "operate_time": "yyyy-mm-dd - hh-mm-ss"
+        },
+        {
+            "camper_name": "张三",
+            "id_num": "11312321312",
+            "integral_num": "100",
+            "belong_vip": "张三",
+            "belong_sale": "张三",
+            "integral_change": "+100",
+            "change_type": [
+                "参营获得",
+                "营种",
+                "营期"
+            ],
+            "reason": "变动原因",
+            "operate_time": "yyyy-mm-dd - hh-mm-ss"
+        }
+    ]
+}

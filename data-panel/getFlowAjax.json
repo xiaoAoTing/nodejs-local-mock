@@ -1,0 +1,550 @@
+{
+    "code": 0,
+    "msg": "操作成功",
+    "data": {
+        "new_student": {
+            "auth_user": "114",
+            "register_user": "88",
+            "auth_user_rank": 8,
+            "register_user_rank": 1,
+            "rank_type": 1,
+            "fiow_stu_type": 1,
+            "source_proportion": [
+                {
+                    "text": "单人聊天会话中的小程序消息卡片",
+                    "percentage": 30.3
+                },
+                {
+                    "text": "群聊会话中的小程序消息卡片",
+                    "percentage": 21.21
+                },
+                {
+                    "text": "长按图片识别小程序码",
+                    "percentage": 15.15
+                },
+                {
+                    "text": "公众号会话下发的小程序消息卡片",
+                    "percentage": 12.12
+                },
+                {
+                    "text": "朋友圈分享小程序",
+                    "percentage": 21.22
+                },
+                {
+                    "text": "其他",
+                    "percentage": 21.2
+                }
+            ],
+            "source_other": [
+                {
+                    "text": "用户搜索",
+                    "percentage": 21.22
+                }
+            ],
+            "focus_rank": [
+                {
+                    "people_num": "111",
+                    "camp_name": "游美·夏令营｜2022美式营-北京",
+                    "phone": "13601162933",
+                    "rank": 1,
+                    "new_students_num": "111"
+                },
+                {
+                    "people_num": "52",
+                    "camp_name": "游美·夏令营｜魔法学院主题双语营",
+                    "phone": "13488816116",
+                    "rank": 2,
+                    "new_students_num": "52"
+                },
+                {
+                    "people_num": "42",
+                    "camp_name": "游美·夏令营｜西双版纳亲子营",
+                    "phone": "13810730639",
+                    "rank": 3,
+                    "new_students_num": "42"
+                },
+                {
+                    "people_num": "35",
+                    "camp_name": "游美·夏令营｜丛林之子-英文戏剧营（北京）",
+                    "phone": "13604189545",
+                    "rank": 4,
+                    "new_students_num": "35"
+                },
+                {
+                    "people_num": "19",
+                    "camp_name": "游美·夏令营｜2022美式营-上海",
+                    "phone": "13856365903",
+                    "rank": 5,
+                    "new_students_num": "19"
+                },
+                {
+                    "people_num": "19",
+                    "camp_name": "游美·夏令营｜2022美式营-千岛湖",
+                    "phone": "15652762802",
+                    "rank": 6,
+                    "new_students_num": "19"
+                },
+                {
+                    "people_num": "19",
+                    "camp_name": "游美·夏令营｜2022美式营-成都",
+                    "phone": "13311025907",
+                    "rank": 7,
+                    "new_students_num": "19"
+                },
+                {
+                    "people_num": "19",
+                    "camp_name": "第二届“未来领袖”全球青少年戈壁徒步挑战赛",
+                    "phone": "13108662707",
+                    "rank": 8,
+                    "new_students_num": "19"
+                },
+                {
+                    "people_num": "14",
+                    "camp_name": "游美·夏令营｜风起少年兵-独立营（北京）",
+                    "phone": "13681087213",
+                    "rank": 9,
+                    "new_students_num": "14"
+                },
+                {
+                    "people_num": "12",
+                    "camp_name": "游美·夏令营｜云南梯田自然探索营（亲子）",
+                    "phone": "15027050243",
+                    "rank": 10,
+                    "new_students_num": "12"
+                }
+            ],
+            "trend_data": [
+                {
+                    "starttime": 1649606400,
+                    "endtime": 1649692799,
+                    "0": "2022-04-11",
+                    "1": "10",
+                    "2": "6"
+                },
+                {
+                    "starttime": 1649692800,
+                    "endtime": 1649779199,
+                    "0": "2022-04-12",
+                    "1": "10",
+                    "2": "7"
+                },
+                {
+                    "starttime": 1649779200,
+                    "endtime": 1649865599,
+                    "0": "2022-04-13",
+                    "1": "11",
+                    "2": "8"
+                },
+                {
+                    "starttime": 1649865600,
+                    "endtime": 1649951999,
+                    "0": "2022-04-14",
+                    "1": "25",
+                    "2": "21"
+                },
+                {
+                    "starttime": 1649952000,
+                    "endtime": 1650038399,
+                    "0": "2022-04-15",
+                    "1": "9",
+                    "2": "7"
+                },
+                {
+                    "starttime": 1650038400,
+                    "endtime": 1650124799,
+                    "0": "2022-04-16",
+                    "1": "14",
+                    "2": "9"
+                },
+                {
+                    "starttime": 1650124800,
+                    "endtime": 1650211199,
+                    "0": "2022-04-17",
+                    "1": "9",
+                    "2": "8"
+                }
+            ],
+            "proportion": 22.06
+        },
+        "old_student": {
+            "active_num": "117",
+            "register_user": 0,
+            "active_num_rank": 8,
+            "register_user_rank": 1,
+            "rank_type": 1,
+            "fiow_stu_type": 2,
+            "source_proportion": [
+                {
+                    "text": "单人聊天会话中的小程序消息卡片",
+                    "percentage": 30.3
+                },
+                {
+                    "text": "群聊会话中的小程序消息卡片",
+                    "percentage": 21.21
+                },
+                {
+                    "text": "长按图片识别小程序码",
+                    "percentage": 15.15
+                },
+                {
+                    "text": "公众号会话下发的小程序消息卡片",
+                    "percentage": 12.12
+                },
+                {
+                    "text": "朋友圈分享小程序",
+                    "percentage": 21.22
+                },
+                {
+                    "text": "其他",
+                    "percentage": 21.2
+                }
+            ],
+            "source_other": [
+                {
+                    "text": "用户搜索",
+                    "percentage": 21.22
+                }
+            ],
+            "focus_rank": [
+                {
+                    "people_num": "87",
+                    "camp_name": "游美·夏令营｜2022美式营-北京",
+                    "access_id": "695",
+                    "rank": 1,
+                    "consumption": "1",
+                    "not_consumption": 86
+                },
+                {
+                    "people_num": "74",
+                    "camp_name": "游美·夏令营｜魔法学院主题双语营",
+                    "access_id": "723",
+                    "rank": 2,
+                    "consumption": "10",
+                    "not_consumption": 64
+                },
+                {
+                    "people_num": "35",
+                    "camp_name": "游美·夏令营｜2022美式营-上海",
+                    "access_id": "696",
+                    "rank": 3,
+                    "consumption": "1",
+                    "not_consumption": 34
+                },
+                {
+                    "people_num": "32",
+                    "camp_name": "游美·夏令营｜三亚海岛探索营（福朋喜来登）",
+                    "access_id": "729",
+                    "rank": 4,
+                    "consumption": "1",
+                    "not_consumption": 31
+                },
+                {
+                    "people_num": "22",
+                    "camp_name": "游美·夏令营｜2022美式营-成都",
+                    "access_id": "698",
+                    "rank": 5,
+                    "consumption": "1",
+                    "not_consumption": 21
+                },
+                {
+                    "people_num": "22",
+                    "camp_name": "游美·夏令营｜丛林之子-英文戏剧营（北京）",
+                    "access_id": "726",
+                    "rank": 6,
+                    "consumption": "1",
+                    "not_consumption": 21
+                },
+                {
+                    "people_num": "21",
+                    "camp_name": "游美·夏令营｜云南梯田自然探索营（亲子）",
+                    "access_id": "635",
+                    "rank": 7,
+                    "consumption": "1",
+                    "not_consumption": 20
+                },
+                {
+                    "people_num": "19",
+                    "camp_name": "游美·夏令营｜三亚海岛探索营（阿拉莫纳）",
+                    "access_id": "733",
+                    "rank": 8,
+                    "consumption": "1",
+                    "not_consumption": 18
+                },
+                {
+                    "people_num": "16",
+                    "camp_name": "游美·夏令营｜北京马术探索营",
+                    "access_id": "774",
+                    "rank": 9,
+                    "consumption": "1",
+                    "not_consumption": 15
+                },
+                {
+                    "people_num": "14",
+                    "camp_name": "游美·夏令营｜2022美式营-千岛湖",
+                    "access_id": "697",
+                    "rank": 10,
+                    "consumption": "7",
+                    "not_consumption": 7
+                }
+            ],
+            "trend_data": [
+                {
+                    "starttime": 1649606400,
+                    "endtime": 1649692799,
+                    "0": "2022-04-11",
+                    "1": 33,
+                    "2": "0"
+                },
+                {
+                    "starttime": 1649692800,
+                    "endtime": 1649779199,
+                    "0": "2022-04-12",
+                    "1": 26,
+                    "2": "0"
+                },
+                {
+                    "starttime": 1649779200,
+                    "endtime": 1649865599,
+                    "0": "2022-04-13",
+                    "1": 26,
+                    "2": "0"
+                },
+                {
+                    "starttime": 1649865600,
+                    "endtime": 1649951999,
+                    "0": "2022-04-14",
+                    "1": 24,
+                    "2": "0"
+                },
+                {
+                    "starttime": 1649952000,
+                    "endtime": 1650038399,
+                    "0": "2022-04-15",
+                    "1": 19,
+                    "2": "1"
+                },
+                {
+                    "starttime": 1650038400,
+                    "endtime": 1650124799,
+                    "0": "2022-04-16",
+                    "1": 26,
+                    "2": "1"
+                },
+                {
+                    "starttime": 1650124800,
+                    "endtime": 1650211199,
+                    "0": "2022-04-17",
+                    "1": 25,
+                    "2": "1"
+                }
+            ],
+            "proportion": 29.32
+        },
+        "old_noorder": {
+            "active_num": "215",
+            "valid_active_num": "194",
+            "active_num_rank": 1,
+            "register_user_rank": 1,
+            "rank_type": 1,
+            "fiow_stu_type": 3,
+            "source_proportion": {
+                "source_per": null,
+                "invite": 22.33,
+                "friend": 25.58,
+                "sence": {
+                    "zb": 12.56,
+                    "sence": "微信"
+                },
+                "source_proportion_detail": [
+                    {
+                        "text": "销售邀请",
+                        "percentage": 22.33
+                    },
+                    {
+                        "text": "朋友邀请",
+                        "percentage": 25.58
+                    },
+                    {
+                        "text": "自然流量-微信",
+                        "percentage": 12.56
+                    },
+                    {
+                        "text": "其他",
+                        "percentage": 39.53
+                    }
+                ]
+            },
+            "focus_rank": [
+                {
+                    "people_num": "169",
+                    "camp_name": "游美·夏令营｜2022美式营-北京",
+                    "access_id": "695",
+                    "rank": 1
+                },
+                {
+                    "people_num": "142",
+                    "camp_name": "游美·夏令营｜魔法学院主题双语营",
+                    "access_id": "723",
+                    "rank": 2
+                },
+                {
+                    "people_num": "82",
+                    "camp_name": "游美·夏令营｜2022美式营-上海",
+                    "access_id": "696",
+                    "rank": 3
+                },
+                {
+                    "people_num": "66",
+                    "camp_name": "游美·夏令营｜风起少年兵-独立营（北京）",
+                    "access_id": "725",
+                    "rank": 4
+                },
+                {
+                    "people_num": "65",
+                    "camp_name": "第二届“未来领袖”全球青少年戈壁徒步挑战赛",
+                    "access_id": "439",
+                    "rank": 5
+                },
+                {
+                    "people_num": "61",
+                    "camp_name": "游美·夏令营｜西双版纳亲子营",
+                    "access_id": "734",
+                    "rank": 6
+                },
+                {
+                    "people_num": "57",
+                    "camp_name": "游美·夏令营｜2022美式营-千岛湖",
+                    "access_id": "697",
+                    "rank": 7
+                },
+                {
+                    "people_num": "45",
+                    "camp_name": "游美·夏令营｜三亚海岛探索营（福朋喜来登）",
+                    "access_id": "729",
+                    "rank": 8
+                },
+                {
+                    "people_num": "36",
+                    "camp_name": "游美·夏令营｜三亚海岛探索营（阿拉莫纳）",
+                    "access_id": "733",
+                    "rank": 9
+                },
+                {
+                    "people_num": "30",
+                    "camp_name": "游美·夏令营｜2022美式营-千岛湖【酒店住宿】",
+                    "access_id": "714",
+                    "rank": 10
+                }
+            ],
+            "trend_data": [
+                [
+                    "2022-04-11",
+                    55,
+                    53
+                ],
+                [
+                    "2022-04-12",
+                    40,
+                    40
+                ],
+                [
+                    "2022-04-13",
+                    44,
+                    39
+                ],
+                [
+                    "2022-04-14",
+                    61,
+                    54
+                ],
+                [
+                    "2022-04-15",
+                    46,
+                    38
+                ],
+                [
+                    "2022-04-16",
+                    47,
+                    43
+                ],
+                [
+                    "2022-04-17",
+                    37,
+                    33
+                ]
+            ]
+        },
+        "invite": [
+            {
+                "parents_name": "",
+                "tel": "17896073086",
+                "owned_sales": "乐淘张老师-小游",
+                "invite_count": "5",
+                "rank": 1
+            },
+            {
+                "parents_name": "",
+                "tel": "13501008681",
+                "owned_sales": null,
+                "invite_count": "3",
+                "rank": 2
+            },
+            {
+                "parents_name": "",
+                "tel": "13810730639",
+                "owned_sales": null,
+                "invite_count": "3",
+                "rank": 3
+            },
+            {
+                "parents_name": "",
+                "tel": "15652762802",
+                "owned_sales": null,
+                "invite_count": "2",
+                "rank": 4
+            },
+            {
+                "parents_name": "",
+                "tel": "18007316816",
+                "owned_sales": null,
+                "invite_count": "1",
+                "rank": 5
+            },
+            {
+                "parents_name": "",
+                "tel": "13581635329",
+                "owned_sales": null,
+                "invite_count": "1",
+                "rank": 6
+            },
+            {
+                "parents_name": "",
+                "tel": "15251293452",
+                "owned_sales": null,
+                "invite_count": "1",
+                "rank": 7
+            },
+            {
+                "parents_name": "",
+                "tel": "13581599427",
+                "owned_sales": null,
+                "invite_count": "1",
+                "rank": 8
+            },
+            {
+                "parents_name": "",
+                "tel": "13601360922",
+                "owned_sales": null,
+                "invite_count": "1",
+                "rank": 9
+            },
+            {
+                "parents_name": "",
+                "tel": "13811113120",
+                "owned_sales": null,
+                "invite_count": "1",
+                "rank": 10
+            }
+        ]
+    }
+}

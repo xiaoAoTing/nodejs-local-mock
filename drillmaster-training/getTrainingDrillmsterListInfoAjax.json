@@ -1,0 +1,62 @@
+{
+    "code":0,
+    "msg":"获取成功",
+    "condition":[
+
+    ],
+    "training_id":"180",
+    "training_class":"1",
+    "training_date":"2022-04-12",
+    "training_time":"15:00:00 - 20:00:00",
+    "totalnum":"3",
+    "data":[
+        {
+            "training_id":"180",
+            "training_class":"1",
+            "drillmaster_id":"2193",
+            "drillmaster_name":"晓晓",
+            "drillmaster_sex":"女",
+            "drillmaster_phone":"13552437341",
+            "drillmaster_from":null,
+            "drillmaster_province_city":"",
+            "sign_in_status":"1",
+            "sign_in_status_name":"已签到",
+            "sign_in_time":null,
+            "training_result_status":"0",
+            "training_result_status_name":"待考核",
+            "training_score":"-"
+        },
+        {
+            "training_id":"180",
+            "training_class":"1",
+            "drillmaster_id":"2181",
+            "drillmaster_name":"zhb",
+            "drillmaster_sex":"男",
+            "drillmaster_phone":"15810863942",
+            "drillmaster_from":null,
+            "drillmaster_province_city":"",
+            "sign_in_status":"1",
+            "sign_in_status_name":"已签到",
+            "sign_in_time":"2022-04-12 17:19:53",
+            "training_result_status":"0",
+            "training_result_status_name":"待考核",
+            "training_score":"-"
+        },
+        {
+            "training_id":"180",
+            "training_class":"1",
+            "drillmaster_id":"2177",
+            "drillmaster_name":"houheju",
+            "drillmaster_sex":"男",
+            "drillmaster_phone":"17701262006",
+            "drillmaster_from":null,
+            "drillmaster_province_city":"",
+            "sign_in_status":"1",
+            "sign_in_status_name":"已签到",
+            "sign_in_time":"2022-04-12 17:20:08",
+            "training_result_status":"0",
+            "training_result_status_name":"待考核",
+            "training_score":"-"
+        }
+    ]
+}

@@ -1,0 +1,155 @@
+{
+    "ranking": {
+        "new_total": "31",
+        "pm": 1,
+        "type": 1
+    },
+    "new_stu": {
+        "source_per": 83.33,
+        "invite": 35,
+        "friend": 20,
+        "sence": {
+            "zb": 30,
+            "sence": "微信"
+        },
+        "source_proportion_detail": [
+            {
+                "text": "销售邀请",
+                "percentage": 35
+            },
+            {
+                "text": "朋友邀请",
+                "percentage": 20
+            },
+            {
+                "text": "自然流量-微信",
+                "percentage": 30
+            },
+            {
+                "text": "其他",
+                "percentage": 15
+            }
+        ],
+        "other_source": [
+            {
+                "text": "销售邀请",
+                "percentage": "20"
+            }
+        ]
+    },
+    "old_stu": {
+        "source_per": 16.67,
+        "invite": 0,
+        "friend": 0,
+        "sence": {
+            "zb": 50,
+            "sence": "微信"
+        },
+        "other_source": [
+            {
+                "text": "销售邀请",
+                "percentage": "20"
+            }
+        ],
+        "source_proportion_detail": [
+            {
+                "text": "销售邀请",
+                "percentage": 0
+            },
+            {
+                "text": "朋友邀请",
+                "percentage": 0
+            },
+            {
+                "text": "自然流量-微信",
+                "percentage": 50
+            },
+            {
+                "text": "其他",
+                "percentage": 50
+            }
+        ]
+    },
+    "sale_stu": {
+        "average": 19.3,
+        "select_top": [
+            {
+                "tnumber": "10",
+                "pname": "游美·夏令营｜云南梯田自然探索营（亲子）",
+                "period": "2022/07/24-2022/07/30",
+                "period_id": "4664",
+                "per": 22.73
+            },
+            {
+                "tnumber": "8",
+                "pname": "游美·夏令营｜2022美式营-北京",
+                "period": "2022/07/17-2022/07/23",
+                "period_id": "4172",
+                "per": 2.52
+            },
+            {
+                "tnumber": "5",
+                "pname": "游美·夏令营｜魔法学院主题双语营",
+                "period": "2022/07/03-2022/07/08",
+                "period_id": "4418",
+                "per": 2.05
+            }
+        ]
+    },
+    "pero_ranking": {
+        "new": [
+            {
+                "t_number": "8",
+                "pname": "游美·夏令营｜云南梯田自然探索营（亲子）",
+                "period": "2022/07/24-2022/07/30",
+                "period_id": "4664",
+                "top": 1,
+                "percentage": 80
+            },
+            {
+                "t_number": "5",
+                "pname": "游美·夏令营｜2022美式营-北京",
+                "period": "2022/07/17-2022/07/23",
+                "period_id": "4172",
+                "top": 2,
+                "percentage": 100
+            },
+            {
+                "t_number": "4",
+                "pname": "游美·夏令营｜魔法学院主题双语营",
+                "period": "2022/07/03-2022/07/08",
+                "period_id": "4418",
+                "top": 3,
+                "percentage": 80
+            }
+        ],
+        "old": [
+            {
+                "t_number": "2",
+                "pname": "游美·夏令营｜2022美式营-成都",
+                "period": "2022/07/24-2022/07/30",
+                "period_id": "4184",
+                "top": 1,
+                "percentage": 50
+            },
+            {
+                "t_number": "2",
+                "pname": "游美·夏令营｜云南梯田自然探索营（亲子）",
+                "period": "2022/07/24-2022/07/30",
+                "period_id": "4664",
+                "top": 2,
+                "percentage": 20
+            },
+            {
+                "t_number": "1",
+                "pname": "游美·夏令营｜三亚海岛探索营（福朋喜来登）",
+                "period": "2022/08/08-2022/08/14",
+                "period_id": "4397",
+                "top": 3,
+                "percentage": 20
+            }
+        ]
+    },
+    "code": 0,
+    "msg": "操作成功"
+}

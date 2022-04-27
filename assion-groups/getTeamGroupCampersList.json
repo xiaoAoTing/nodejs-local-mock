@@ -1,0 +1,56 @@
+{
+    "code": 0,
+    "msg": "操作成功！",
+    "data": {
+        "not_set_campers_list": [],
+        "team_group_campers_list": [
+            {
+                "team_id": "3163",
+                "team_name": "1团",
+                "team_nick_name": "",
+                "campers_num": 1,
+                "student_num": "1",
+                "group_list": [
+                    {
+                        "group_id": "4594",
+                        "group_name": "1组",
+                        "group_nick_name": "",
+                        "student_num": "1",
+                        "campers_list": [
+                            {
+                                "sid": "4010",
+                                "offsid": 0,
+                                "name": "儿子",
+                                "show_conf_field": [
+                                    {
+                                        "field": "性别",
+                                        "value": "男"
+                                    },
+                                    {
+                                        "field": "同行人",
+                                        "value": "同行: 老王/老王爸爸/老王妈妈"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group_id": "4622",
+                        "group_name": "2组",
+                        "group_nick_name": "",
+                        "student_num": 0
+                    },
+                    {
+                        "group_id": "4623",
+                        "group_name": "3组",
+                        "group_nick_name": "",
+                        "student_num": 0
+                    }
+                ]
+            }
+        ],
+        "field_conf_list": [
+            "性别"
+        ]
+    }
+}

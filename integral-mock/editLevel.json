@@ -1,0 +1,11 @@
+{
+    "code": 0,
+    "msg": "成功",
+    "data": {
+		"level_id": "123123",
+		"level": "1", 				
+		"level_name": "nihao", 				
+		"condition": "20",  				
+		"max_level": "10"
+	}
+}

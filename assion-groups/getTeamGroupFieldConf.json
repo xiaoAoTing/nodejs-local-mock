@@ -1,0 +1,81 @@
+{
+    "code": 0,
+    "data": [
+        {
+            "name": "性别",
+            "field_code": 1,
+            "is_select": 0
+        },
+        {
+            "name": "年龄",
+            "field_code": 2,
+            "is_select": 0
+        },
+        {
+            "name": "学校",
+            "field_code": 3,
+            "is_select": 0
+        },
+        {
+            "name": "年级",
+            "field_code": 4,
+            "is_select": 0
+        },
+        {
+            "name": "班级",
+            "field_code": 5,
+            "is_select": 0
+        },
+        {
+            "name": "鞋码",
+            "field_code": 6,
+            "is_select": 0
+        },
+        {
+            "name": "身高",
+            "field_code": 7,
+            "is_select": 0
+        },
+        {
+            "name": "体重",
+            "field_code": 8,
+            "is_select": 0
+        },
+        {
+            "name": "民族",
+            "field_code": 9,
+            "is_select": 0
+        },
+        {
+            "name": "所在城市",
+            "field_code": 10,
+            "is_select": 0
+        },
+        {
+            "name": "疾病史",
+            "field_code": 11,
+            "is_select": 0
+        },
+        {
+            "name": "饮食禁忌",
+            "field_code": 12,
+            "is_select": 0
+        },
+        {
+            "name": "药物过敏",
+            "field_code": 13,
+            "is_select": 0
+        },
+        {
+            "name": "营员编号",
+            "field_code": 14,
+            "is_select": 0
+        },
+        {
+            "name": "同行人",
+            "field_code": 15,
+            "is_select": 0
+        }
+    ],
+    "msg": "操作成功！"
+}

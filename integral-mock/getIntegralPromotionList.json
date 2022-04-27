@@ -1,0 +1,28 @@
+{
+    "code": 0,
+    "msg": "成功",
+    "max_level": "3",
+    "data": [
+        {
+            "level_id": "100",
+            "level": "1",
+            "level_name": "xxxx",
+            "condition": "10积分",
+            "people_num": "111"
+        },
+        {
+            "level_id": "100",
+            "level": "1",
+            "level_name": "xxxx",
+            "condition": "10积分",
+            "people_num": "111"
+        },
+        {
+            "level_id": "100",
+            "level": "1",
+            "level_name": "xxxx",
+            "condition": "10积分",
+            "people_num": "111"
+        }
+    ]
+}
