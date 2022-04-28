@@ -8,8 +8,9 @@ const INTEGRAL_MOCK = 'integral-mock';
 const ASSION_GROUPS = 'assion-groups';
 const DRILLMASTER_TRAINING  = 'drillmaster-training'
 const DATA_PANEL = 'data-panel';
+const MEDAL_CAMPERS = 'medal-campers';
 
-const DIRECTORY = DATA_PANEL; // 当前测试目录模块;
+const DIRECTORY = MEDAL_CAMPERS; // 当前测试目录模块;
 
 // 监听服务器请求事件
 server.on('request', function (req, res) {

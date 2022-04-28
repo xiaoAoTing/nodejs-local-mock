@@ -1,0 +1,369 @@
+{
+    "roleid": 1,
+    "name": "虚拟币",
+    "is_show_integral": "1",
+    "integral_data": [
+        {
+            "sid": "4116",
+            "integral_level": [
+                "1级",
+                "1级"
+            ],
+            "integral_num": 0
+        },
+        {
+            "sid": "4115",
+            "integral_level": [
+                "1级",
+                "1级"
+            ],
+            "integral_num": 0
+        },
+        {
+            "sid": "4114",
+            "integral_level": [
+                "1级",
+                "1级"
+            ],
+            "integral_num": 0
+        },
+        {
+            "sid": "4113",
+            "integral_level": [
+                "1级",
+                "1级"
+            ],
+            "integral_num": 0
+        },
+        {
+            "sid": "4112",
+            "integral_level": [
+                "1级",
+                "1级"
+            ],
+            "integral_num": 0
+        },
+        {
+            "sid": "4111",
+            "integral_level": [
+                "1级",
+                "1级"
+            ],
+            "integral_num": 0
+        },
+        {
+            "sid": "4110",
+            "integral_level": [
+                "1级",
+                "1级"
+            ],
+            "integral_num": 0
+        },
+        {
+            "sid": "4109",
+            "integral_level": [
+                "1级",
+                "1级"
+            ],
+            "integral_num": 0
+        },
+        {
+            "sid": "4108",
+            "integral_level": [
+                "1级",
+                "1级"
+            ],
+            "integral_num": 0
+        },
+        {
+            "sid": "4107",
+            "integral_level": [
+                "1级",
+                "1级"
+            ],
+            "integral_num": 0
+        }
+    ],
+    "integral_options": [],
+    "integral_name": "营员积分积分1",
+    "code": 0,
+    "totalnum": "1232",
+    "data": [
+        {
+            "sid": "4116",
+            "from": "线上",
+            "birthdate": "1470240000",
+            "studentname": "圆脸",
+            "userid": "6899",
+            "phone": "13652437341",
+            "addtime": "2022-04-28 19:39:37",
+            "idcard_type": "3",
+            "idcard": "880088",
+            "sex": "1",
+            "coin": "0",
+            "money_count": "0.02",
+            "pcount": "1",
+            "school_name": "",
+            "grade": "",
+            "classes": "",
+            "medal_num": "10",
+            "store_list": [],
+            "user_type_arr": "",
+            "is_vip": 1,
+            "age": 5,
+            "sale_name": "qqqq4",
+            "friend": [],
+            "remark_num": 0,
+            "have_tag": []
+        },
+        {
+            "sid": "4115",
+            "medal_num": "10",
+            "from": "线上",
+            "birthdate": -2007187200,
+            "studentname": "fzbces",
+            "userid": "7032",
+            "phone": "13659630008",
+            "addtime": "2022-04-28 12:15:25",
+            "idcard_type": "1",
+            "idcard": "63232319060526582X",
+            "sex": "2",
+            "coin": "0",
+            "money_count": "0.00",
+            "pcount": "0",
+            "school_name": "",
+            "grade": "",
+            "classes": "",
+            "store_list": [],
+            "user_type_arr": "",
+            "is_vip": 1,
+            "age": 115,
+            "sale_name": "c1",
+            "friend": [],
+            "remark_num": 0,
+            "have_tag": []
+        },
+        {
+            "sid": "4114",
+            "medal_num": "10",
+            "from": "线上",
+            "birthdate": -2007187200,
+            "studentname": "zhb测试3",
+            "userid": "7032",
+            "phone": "13659630007",
+            "addtime": "2022-04-28 11:22:07",
+            "idcard_type": "1",
+            "idcard": "632323190605265686",
+            "sex": "2",
+            "coin": "0",
+            "money_count": "0.00",
+            "pcount": "1",
+            "school_name": "",
+            "grade": "",
+            "classes": "",
+            "store_list": [],
+            "user_type_arr": "",
+            "is_vip": 1,
+            "age": 115,
+            "sale_name": "c1",
+            "friend": [],
+            "remark_num": 0,
+            "have_tag": []
+        },
+        {
+            "sid": "4113",
+            "medal_num": "10",
+            "from": "线上",
+            "birthdate": -2007187200,
+            "studentname": "zhb测试2",
+            "userid": "7032",
+            "phone": "13659630016",
+            "addtime": "2022-04-28 11:21:34",
+            "idcard_type": "1",
+            "idcard": "632323190605261124",
+            "sex": "2",
+            "coin": "0",
+            "money_count": "0.00",
+            "pcount": "0",
+            "school_name": "",
+            "grade": "",
+            "classes": "",
+            "store_list": [],
+            "user_type_arr": "",
+            "is_vip": 1,
+            "age": 115,
+            "sale_name": "c1",
+            "friend": [],
+            "remark_num": 0,
+            "have_tag": []
+        },
+        {
+            "sid": "4112",
+            "from": "线上",
+            "medal_num": "10",
+            "birthdate": -2007187200,
+            "studentname": "zb测试1",
+            "userid": "7032",
+            "phone": "13659630013",
+            "addtime": "2022-04-28 11:21:05",
+            "idcard_type": "1",
+            "idcard": "632323190605265168",
+            "sex": "2",
+            "coin": "0",
+            "money_count": "0.00",
+            "pcount": "0",
+            "school_name": "",
+            "grade": "",
+            "classes": "",
+            "store_list": [],
+            "user_type_arr": "",
+            "is_vip": 1,
+            "age": 115,
+            "sale_name": "c1",
+            "friend": [],
+            "remark_num": 0,
+            "have_tag": []
+        },
+        {
+            "sid": "4111",
+            "from": "线上",
+            "medal_num": "10",
+            "birthdate": 636739200,
+            "studentname": "aa",
+            "userid": "7032",
+            "phone": "13659630015",
+            "addtime": "2022-04-27 19:19:27",
+            "idcard_type": "1",
+            "idcard": "110101199003071612",
+            "sex": "1",
+            "coin": "0",
+            "money_count": "0.00",
+            "pcount": "1",
+            "school_name": "",
+            "grade": "",
+            "classes": "",
+            "store_list": [],
+            "user_type_arr": "",
+            "is_vip": 1,
+            "age": 32,
+            "sale_name": "c1",
+            "friend": [],
+            "remark_num": 0,
+            "have_tag": []
+        },
+        {
+            "sid": "4110",
+            "from": "线上",
+            "medal_num": "10",
+            "birthdate": "1455984000",
+            "studentname": "魔方",
+            "userid": "6899",
+            "phone": "13552437341",
+            "addtime": "2022-04-27 15:00:32",
+            "idcard_type": "3",
+            "idcard": "9996633了99999899",
+            "sex": "2",
+            "coin": "0",
+            "money_count": "0.00",
+            "pcount": "0",
+            "school_name": "",
+            "grade": "",
+            "classes": "",
+            "store_list": [],
+            "user_type_arr": "",
+            "is_vip": 1,
+            "age": 6,
+            "sale_name": "qqqq4",
+            "friend": [],
+            "remark_num": 0,
+            "have_tag": []
+        },
+        {
+            "sid": "4109",
+            "from": "线上",
+            "medal_num": "10",
+            "birthdate": "1335369600",
+            "studentname": "了解",
+            "userid": "6899",
+            "phone": "13552437341",
+            "addtime": "2022-04-26 16:47:25",
+            "idcard_type": "3",
+            "idcard": "88566",
+            "sex": "2",
+            "coin": "0",
+            "money_count": "0.08",
+            "pcount": "3",
+            "school_name": "",
+            "grade": "",
+            "classes": "",
+            "store_list": [],
+            "user_type_arr": "",
+            "is_vip": 1,
+            "age": 10,
+            "sale_name": "qqqq4",
+            "friend": [],
+            "remark_num": 0,
+            "have_tag": [
+                "dd"
+            ]
+        },
+        {
+            "sid": "4108",
+            "medal_num": "10",
+            "from": "线上",
+            "birthdate": "1556208000",
+            "studentname": "八九",
+            "userid": "6899",
+            "phone": "135524373452",
+            "addtime": "2022-04-26 14:07:30",
+            "idcard_type": "3",
+            "idcard": "88871商品",
+            "sex": "2",
+            "coin": "0",
+            "money_count": "0.05",
+            "pcount": "3",
+            "school_name": "",
+            "grade": "",
+            "classes": "",
+            "store_list": [],
+            "user_type_arr": "",
+            "is_vip": 1,
+            "age": 3,
+            "sale_name": "qqqq4",
+            "friend": [],
+            "remark_num": 0,
+            "have_tag": [
+                "dd"
+            ]
+        },
+        {
+            "sid": "4107",
+            "from": "线上",
+            "birthdate": "1335283200",
+            "studentname": "组件8",
+            "medal_num": "10",
+            "userid": "6899",
+            "phone": "13552435689",
+            "addtime": "2022-04-26 10:51:22",
+            "idcard_type": "3",
+            "idcard": "图980022999",
+            "sex": "1",
+            "coin": "0",
+            "money_count": "0.09",
+            "pcount": "4",
+            "school_name": "",
+            "grade": "",
+            "classes": "",
+            "store_list": [],
+            "user_type_arr": "",
+            "is_vip": 1,
+            "age": 10,
+            "sale_name": "qqqq4",
+            "friend": [],
+            "remark_num": 0,
+            "have_tag": [
+                "dd"
+            ]
+        }
+    ]
+}
