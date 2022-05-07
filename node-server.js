@@ -1,8 +1,9 @@
 'use strict';
-let http = require('http'); // 通过 require 将 http 库包含到程序中
-let url = require('url'); // 引入 url 模块解析 url 字符串
-let querystring = require('querystring'); // 引入 querystring 模块处理 query 字符串
-let server = http.createServer(); // 创建新的 HTTP 服务器
+const http = require('http'); // 通过 require 将 http 库包含到程序中
+const url = require('url'); // 引入 url 模块解析 url 字符串
+const querystring = require('querystring'); // 引入 querystring 模块处理 query 字符串
+const fs = require('fs');
+const server = http.createServer(); // 创建新的 HTTP 服务器
 
 const INTEGRAL_MOCK = 'integral-mock';
 const ASSION_GROUPS = 'assion-groups';
@@ -30,9 +31,19 @@ server.on('request', function (req, res) {
         res.end(callback);
     }
 
-    else {
+    // else {
+    //     res.writeHead(200, { 'Content-Type': 'text/html;charset=utf-8' });
+    //     res.end('Not the jsonp\n');
+    // }
+
+    if (urlPath == '/') {
         res.writeHead(200, { 'Content-Type': 'text/html;charset=utf-8' });
-        res.end('Not the jsonp\n');
+        fs.readFile('./index.html', 'utf8', function(err, dataStr) {
+            if (err) {
+                return res.end(err);
+            }
+            res.end(dataStr);
+        })
     }
 
 });
