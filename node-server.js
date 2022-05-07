@@ -1,9 +1,9 @@
 'use strict';
-const http = require('http'); // 通过 require 将 http 库包含到程序中
-const url = require('url'); // 引入 url 模块解析 url 字符串
-const querystring = require('querystring'); // 引入 querystring 模块处理 query 字符串
+const http = require('http'); 
+const url = require('url'); 
+const querystring = require('querystring'); 
 const fs = require('fs');
-const server = http.createServer(); // 创建新的 HTTP 服务器
+const server = http.createServer(); 
 
 const INTEGRAL_MOCK = 'integral-mock';
 const ASSION_GROUPS = 'assion-groups';
