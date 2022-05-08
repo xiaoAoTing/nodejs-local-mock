@@ -12,6 +12,7 @@
 ## Usage
 请求方式 `jsonp`, query 数据中携带回调函数名为 `callback`;
 ```javascript
+let loading = null
 $.ajax({
     url: 'http://localhost:8080/mock/' + 目录名 + 文件名,
     data: {},
