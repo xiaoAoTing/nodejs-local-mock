@@ -10,13 +10,23 @@ const ASSION_GROUPS = 'assion-groups';
 const DRILLMASTER_TRAINING  = 'drillmaster-training'
 const DATA_PANEL = 'data-panel';
 const MEDAL_CAMPERS = 'medal-campers';
-
 const DIRECTORY = MEDAL_CAMPERS; // 当前测试目录模块;
 
 // 监听服务器请求事件
 server.on('request', function (req, res) {
     let urlPath = url.parse(req.url).pathname;
     let qs = querystring.parse(req.url.split('?')[1]);
+
+    if (urlPath == '/') {
+        res.writeHead(200, { 'Content-Type': 'text/html;charset=utf-8' });
+        fs.readFile('./index.html', 'utf8', function(err, dataStr) {
+            if (err) {
+                return res.end(err);
+            }
+            res.end(dataStr);
+        })
+        return ;
+    }
 
     if (qs.callback) {
         res.writeHead(200, { 'Content-Type': 'application/json;charset=utf-8' });
@@ -31,23 +41,13 @@ server.on('request', function (req, res) {
         res.end(callback);
     }
 
-    // else {
-    //     res.writeHead(200, { 'Content-Type': 'text/html;charset=utf-8' });
-    //     res.end('Not the jsonp\n');
-    // }
-
-    if (urlPath == '/') {
+    else {
         res.writeHead(200, { 'Content-Type': 'text/html;charset=utf-8' });
-        fs.readFile('./index.html', 'utf8', function(err, dataStr) {
-            if (err) {
-                return res.end(err);
-            }
-            res.end(dataStr);
-        })
+        res.end('Not the jsonp\n');
     }
 
 });
 
 server.listen('8080', () => {
-    console.log('Server running! 8080');
+    console.log('Server running at "http://localhost:8080"');
 });
