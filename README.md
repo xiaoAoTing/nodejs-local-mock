@@ -12,7 +12,6 @@
 ## Usage
 请求方式 `jsonp`, query 数据中携带回调函数名为 `callback`;
 ```javascript
-let loading = null
 $.ajax({
     url: 'http://localhost:8080/mock/' + 目录名 + 文件名,
     data: {},
@@ -20,13 +19,9 @@ $.ajax({
     jsonpCallback: 'jsonp_callback' + 随机串,
     method: 'post',
     beforeSend() {
-        loading = layer.load(1, {
-            shade: [0.3, '#000']
-        });
+        // javascript code 
     }
 }).done(function (res) {
-    layer.close(loading)
-    if (res.code != 0) return;
-    
+    // javascript code 
 })
 ```
