@@ -1,94 +1,225 @@
 {
     "roleid": 1,
     "name": "虚拟币",
-    "is_show_integral": "1",
-    "integral_data": [
-        {
-            "sid": "4116",
-            "integral_level": [
-                "1级",
-                "1级"
-            ],
-            "integral_num": 0
-        },
-        {
-            "sid": "4115",
-            "integral_level": [
-                "1级",
-                "1级"
-            ],
-            "integral_num": 0
-        },
-        {
-            "sid": "4114",
-            "integral_level": [
-                "1级",
-                "1级"
-            ],
-            "integral_num": 0
-        },
-        {
-            "sid": "4113",
-            "integral_level": [
-                "1级",
-                "1级"
-            ],
-            "integral_num": 0
-        },
-        {
-            "sid": "4112",
-            "integral_level": [
-                "1级",
-                "1级"
-            ],
-            "integral_num": 0
-        },
-        {
-            "sid": "4111",
-            "integral_level": [
-                "1级",
-                "1级"
-            ],
-            "integral_num": 0
-        },
-        {
-            "sid": "4110",
-            "integral_level": [
-                "1级",
-                "1级"
-            ],
-            "integral_num": 0
-        },
-        {
-            "sid": "4109",
-            "integral_level": [
-                "1级",
-                "1级"
-            ],
-            "integral_num": 0
-        },
-        {
-            "sid": "4108",
-            "integral_level": [
-                "1级",
-                "1级"
-            ],
-            "integral_num": 0
-        },
-        {
-            "sid": "4107",
-            "integral_level": [
-                "1级",
-                "1级"
-            ],
-            "integral_num": 0
-        }
-    ],
-    "integral_options": [],
-    "integral_name": "营员积分积分1",
     "code": 0,
-    "totalnum": "1232",
+    "totalnum": "1237",
     "data": [
+        {
+            "sid": "4121",
+            "from": "线上",
+            "birthdate": "1493395200",
+            "studentname": "关闭",
+            "userid": "6899",
+            "phone": "13552435693",
+            "addtime": "2022-04-29 16:21:26",
+            "idcard_type": "3",
+            "idcard": "图路口99663",
+            "sex": "1",
+            "coin": "0",
+            "money_count": "0.04",
+            "pcount": "1",
+            "school_name": "",
+            "grade": "",
+            "classes": "",
+            "store_list": [],
+            "user_type_arr": "",
+            "is_vip": 1,
+            "age": 5,
+            "sale_name": "qqqq4",
+            "friend": [],
+            "remark_num": 0,
+            "have_tag": [],
+            "medal_count": 1,
+            "medal_list": [
+                {
+                    "addtime": "2022-04-29 16:22:20",
+                    "medal_name": "积分勋章",
+                    "medal_icon": "http://file.dev.xinduobang.cn/2022-04-26/626789646c575.png"
+                }
+            ]
+        },
+        {
+            "sid": "4120",
+            "from": "线上",
+            "birthdate": "1493395200",
+            "studentname": "茄子",
+            "userid": "6899",
+            "phone": "13552467342",
+            "addtime": "2022-04-29 16:12:06",
+            "idcard_type": "3",
+            "idcard": "shell9999",
+            "sex": "1",
+            "coin": "0",
+            "money_count": "0.10",
+            "pcount": "2",
+            "school_name": "",
+            "grade": "",
+            "classes": "",
+            "store_list": [],
+            "user_type_arr": "",
+            "is_vip": 1,
+            "age": 5,
+            "sale_name": "qqqq4",
+            "friend": [],
+            "remark_num": 0,
+            "have_tag": [
+                "dd"
+            ],
+            "medal_count": 1,
+            "medal_list": [
+                {
+                    "addtime": "2022-04-29 16:14:03",
+                    "medal_name": "积分勋章",
+                    "medal_icon": "http://file.dev.xinduobang.cn/2022-04-26/626789646c575.png"
+                },
+                {
+                    "addtime": "2022-04-29 16:14:03",
+                    "medal_name": "积分勋章",
+                    "medal_icon": "http://file.dev.xinduobang.cn/2022-04-26/626789646c575.png"
+                },
+                {
+                    "addtime": "2022-04-29 16:14:03",
+                    "medal_name": "积分勋章",
+                    "medal_icon": "http://file.dev.xinduobang.cn/2022-04-26/626789646c575.png"
+                }
+            ]
+        },
+        {
+            "sid": "4119",
+            "from": "线上",
+            "birthdate": "1556467200",
+            "studentname": "心理课",
+            "userid": "6899",
+            "phone": "135524358693",
+            "addtime": "2022-04-29 15:55:30",
+            "idcard_type": "3",
+            "idcard": "总987456321",
+            "sex": "1",
+            "coin": "0",
+            "money_count": "0.04",
+            "pcount": "1",
+            "school_name": "",
+            "grade": "",
+            "classes": "",
+            "store_list": [],
+            "user_type_arr": "",
+            "is_vip": 1,
+            "age": 3,
+            "sale_name": "qqqq4",
+            "friend": [],
+            "remark_num": 0,
+            "have_tag": [],
+            "medal_count": 1,
+            "medal_list": [
+                {
+                    "addtime": "2022-04-29 16:14:03",
+                    "medal_name": "积分勋章",
+                    "medal_icon": "http://file.dev.xinduobang.cn/2022-04-26/626789646c575.png"
+                },
+                {
+                    "addtime": "2022-04-29 16:14:03",
+                    "medal_name": "积分勋章",
+                    "medal_icon": "http://file.dev.xinduobang.cn/2022-04-26/626789646c575.png"
+                },
+                {
+                    "addtime": "2022-04-29 16:14:03",
+                    "medal_name": "积分勋章",
+                    "medal_icon": "http://file.dev.xinduobang.cn/2022-04-26/626789646c575.png"
+                }
+            ]
+        },
+        {
+            "sid": "4118",
+            "from": "线上",
+            "birthdate": "1556467200",
+            "studentname": "挂历",
+            "userid": "6899",
+            "phone": "13552437341",
+            "addtime": "2022-04-29 13:08:11",
+            "idcard_type": "3",
+            "idcard": "挂历555",
+            "sex": "2",
+            "coin": "0",
+            "money_count": "0.05",
+            "pcount": "2",
+            "school_name": "",
+            "grade": "",
+            "classes": "",
+            "store_list": [],
+            "user_type_arr": "",
+            "is_vip": 1,
+            "age": 3,
+            "sale_name": "qqqq4",
+            "friend": [],
+            "remark_num": 0,
+            "have_tag": [
+                "dd"
+            ],
+            "medal_count": 1,
+            "medal_list": [
+                {
+                    "addtime": "2022-04-29 16:14:03",
+                    "medal_name": "积分勋章",
+                    "medal_icon": "http://file.dev.xinduobang.cn/2022-04-26/626789646c575.png"
+                },
+                {
+                    "addtime": "2022-04-29 16:14:03",
+                    "medal_name": "积分勋章",
+                    "medal_icon": "http://file.dev.xinduobang.cn/2022-04-26/626789646c575.png"
+                },
+                {
+                    "addtime": "2022-04-29 16:14:03",
+                    "medal_name": "积分勋章",
+                    "medal_icon": "http://file.dev.xinduobang.cn/2022-04-26/626789646c575.png"
+                }
+            ]
+        },
+        {
+            "sid": "4117",
+            "from": "线上",
+            "birthdate": "1556467200",
+            "studentname": "课题",
+            "userid": "6899",
+            "phone": "13558695363",
+            "addtime": "2022-04-29 10:58:40",
+            "idcard_type": "3",
+            "idcard": "课题888",
+            "sex": "2",
+            "coin": "0",
+            "money_count": "0.04",
+            "pcount": "2",
+            "school_name": "",
+            "grade": "",
+            "classes": "",
+            "store_list": [],
+            "user_type_arr": "",
+            "is_vip": 1,
+            "age": 3,
+            "sale_name": "qqqq4",
+            "friend": [],
+            "remark_num": 0,
+            "have_tag": [
+                "dd"
+            ],
+            "medal_count": 1,
+            "medal_list": [
+                {
+                    "addtime": "2022-04-29 16:14:03",
+                    "medal_name": "积分勋章",
+                    "medal_icon": "http://file.dev.xinduobang.cn/2022-04-26/626789646c575.png"
+                },
+                {
+                    "addtime": "2022-04-29 16:14:03",
+                    "medal_name": "积分勋章",
+                    "medal_icon": "http://file.dev.xinduobang.cn/2022-04-26/626789646c575.png"
+                },
+                {
+                    "addtime": "2022-04-29 16:14:03",
+                    "medal_name": "积分勋章",
+                    "medal_icon": "http://file.dev.xinduobang.cn/2022-04-26/626789646c575.png"
+                }
+            ]
+        },
         {
             "sid": "4116",
             "from": "线上",
@@ -106,7 +237,6 @@
             "school_name": "",
             "grade": "",
             "classes": "",
-            "medal_num": "10",
             "store_list": [],
             "user_type_arr": "",
             "is_vip": 1,
@@ -114,11 +244,28 @@
             "sale_name": "qqqq4",
             "friend": [],
             "remark_num": 0,
-            "have_tag": []
+            "have_tag": [],
+            "medal_count": 1,
+            "medal_list": [
+                {
+                    "addtime": "2022-04-29 16:14:03",
+                    "medal_name": "积分勋章",
+                    "medal_icon": "http://file.dev.xinduobang.cn/2022-04-26/626789646c575.png"
+                },
+                {
+                    "addtime": "2022-04-29 16:14:03",
+                    "medal_name": "积分勋章",
+                    "medal_icon": "http://file.dev.xinduobang.cn/2022-04-26/626789646c575.png"
+                },
+                {
+                    "addtime": "2022-04-29 16:14:03",
+                    "medal_name": "积分勋章",
+                    "medal_icon": "http://file.dev.xinduobang.cn/2022-04-26/626789646c575.png"
+                }
+            ]
         },
         {
             "sid": "4115",
-            "medal_num": "10",
             "from": "线上",
             "birthdate": -2007187200,
             "studentname": "fzbces",
@@ -141,11 +288,28 @@
             "sale_name": "c1",
             "friend": [],
             "remark_num": 0,
-            "have_tag": []
+            "have_tag": [],
+            "medal_count": 0,
+            "medal_list": [
+                {
+                    "addtime": "2022-04-29 16:14:03",
+                    "medal_name": "积分勋章",
+                    "medal_icon": "http://file.dev.xinduobang.cn/2022-04-26/626789646c575.png"
+                },
+                {
+                    "addtime": "2022-04-29 16:14:03",
+                    "medal_name": "积分勋章",
+                    "medal_icon": "http://file.dev.xinduobang.cn/2022-04-26/626789646c575.png"
+                },
+                {
+                    "addtime": "2022-04-29 16:14:03",
+                    "medal_name": "积分勋章",
+                    "medal_icon": "http://file.dev.xinduobang.cn/2022-04-26/626789646c575.png"
+                }
+            ]
         },
         {
             "sid": "4114",
-            "medal_num": "10",
             "from": "线上",
             "birthdate": -2007187200,
             "studentname": "zhb测试3",
@@ -168,11 +332,28 @@
             "sale_name": "c1",
             "friend": [],
             "remark_num": 0,
-            "have_tag": []
+            "have_tag": [],
+            "medal_count": 1,
+            "medal_list": [
+                {
+                    "addtime": "2022-04-29 16:14:03",
+                    "medal_name": "积分勋章",
+                    "medal_icon": "http://file.dev.xinduobang.cn/2022-04-26/626789646c575.png"
+                },
+                {
+                    "addtime": "2022-04-29 16:14:03",
+                    "medal_name": "积分勋章",
+                    "medal_icon": "http://file.dev.xinduobang.cn/2022-04-26/626789646c575.png"
+                },
+                {
+                    "addtime": "2022-04-29 16:14:03",
+                    "medal_name": "积分勋章",
+                    "medal_icon": "http://file.dev.xinduobang.cn/2022-04-26/626789646c575.png"
+                }
+            ]
         },
         {
             "sid": "4113",
-            "medal_num": "10",
             "from": "线上",
             "birthdate": -2007187200,
             "studentname": "zhb测试2",
@@ -195,12 +376,13 @@
             "sale_name": "c1",
             "friend": [],
             "remark_num": 0,
-            "have_tag": []
+            "have_tag": [],
+            "medal_count": 0,
+            "medal_list": []
         },
         {
             "sid": "4112",
             "from": "线上",
-            "medal_num": "10",
             "birthdate": -2007187200,
             "studentname": "zb测试1",
             "userid": "7032",
@@ -222,147 +404,24 @@
             "sale_name": "c1",
             "friend": [],
             "remark_num": 0,
-            "have_tag": []
-        },
-        {
-            "sid": "4111",
-            "from": "线上",
-            "medal_num": "10",
-            "birthdate": 636739200,
-            "studentname": "aa",
-            "userid": "7032",
-            "phone": "13659630015",
-            "addtime": "2022-04-27 19:19:27",
-            "idcard_type": "1",
-            "idcard": "110101199003071612",
-            "sex": "1",
-            "coin": "0",
-            "money_count": "0.00",
-            "pcount": "1",
-            "school_name": "",
-            "grade": "",
-            "classes": "",
-            "store_list": [],
-            "user_type_arr": "",
-            "is_vip": 1,
-            "age": 32,
-            "sale_name": "c1",
-            "friend": [],
-            "remark_num": 0,
-            "have_tag": []
-        },
-        {
-            "sid": "4110",
-            "from": "线上",
-            "medal_num": "10",
-            "birthdate": "1455984000",
-            "studentname": "魔方",
-            "userid": "6899",
-            "phone": "13552437341",
-            "addtime": "2022-04-27 15:00:32",
-            "idcard_type": "3",
-            "idcard": "9996633了99999899",
-            "sex": "2",
-            "coin": "0",
-            "money_count": "0.00",
-            "pcount": "0",
-            "school_name": "",
-            "grade": "",
-            "classes": "",
-            "store_list": [],
-            "user_type_arr": "",
-            "is_vip": 1,
-            "age": 6,
-            "sale_name": "qqqq4",
-            "friend": [],
-            "remark_num": 0,
-            "have_tag": []
-        },
-        {
-            "sid": "4109",
-            "from": "线上",
-            "medal_num": "10",
-            "birthdate": "1335369600",
-            "studentname": "了解",
-            "userid": "6899",
-            "phone": "13552437341",
-            "addtime": "2022-04-26 16:47:25",
-            "idcard_type": "3",
-            "idcard": "88566",
-            "sex": "2",
-            "coin": "0",
-            "money_count": "0.08",
-            "pcount": "3",
-            "school_name": "",
-            "grade": "",
-            "classes": "",
-            "store_list": [],
-            "user_type_arr": "",
-            "is_vip": 1,
-            "age": 10,
-            "sale_name": "qqqq4",
-            "friend": [],
-            "remark_num": 0,
-            "have_tag": [
-                "dd"
-            ]
-        },
-        {
-            "sid": "4108",
-            "medal_num": "10",
-            "from": "线上",
-            "birthdate": "1556208000",
-            "studentname": "八九",
-            "userid": "6899",
-            "phone": "135524373452",
-            "addtime": "2022-04-26 14:07:30",
-            "idcard_type": "3",
-            "idcard": "88871商品",
-            "sex": "2",
-            "coin": "0",
-            "money_count": "0.05",
-            "pcount": "3",
-            "school_name": "",
-            "grade": "",
-            "classes": "",
-            "store_list": [],
-            "user_type_arr": "",
-            "is_vip": 1,
-            "age": 3,
-            "sale_name": "qqqq4",
-            "friend": [],
-            "remark_num": 0,
-            "have_tag": [
-                "dd"
-            ]
-        },
-        {
-            "sid": "4107",
-            "from": "线上",
-            "birthdate": "1335283200",
-            "studentname": "组件8",
-            "medal_num": "10",
-            "userid": "6899",
-            "phone": "13552435689",
-            "addtime": "2022-04-26 10:51:22",
-            "idcard_type": "3",
-            "idcard": "图980022999",
-            "sex": "1",
-            "coin": "0",
-            "money_count": "0.09",
-            "pcount": "4",
-            "school_name": "",
-            "grade": "",
-            "classes": "",
-            "store_list": [],
-            "user_type_arr": "",
-            "is_vip": 1,
-            "age": 10,
-            "sale_name": "qqqq4",
-            "friend": [],
-            "remark_num": 0,
-            "have_tag": [
-                "dd"
+            "have_tag": [],
+            "medal_count": 0,
+            "medal_list": [
+                {
+                    "addtime": "2022-04-29 16:14:03",
+                    "medal_name": "积分勋章",
+                    "medal_icon": "http://file.dev.xinduobang.cn/2022-04-26/626789646c575.png"
+                },
+                {
+                    "addtime": "2022-04-29 16:14:03",
+                    "medal_name": "积分勋章",
+                    "medal_icon": "http://file.dev.xinduobang.cn/2022-04-26/626789646c575.png"
+                },
+                {
+                    "addtime": "2022-04-29 16:14:03",
+                    "medal_name": "积分勋章",
+                    "medal_icon": "http://file.dev.xinduobang.cn/2022-04-26/626789646c575.png"
+                }
             ]
         }
     ]
