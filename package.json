@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-local-mock",
+  "version": "1.0.0",
+  "description": "Jsonp local simulation data",
+  "main": "node-server.js",
+  "scripts": {
+    "server": "node node-server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaoAoTing/nodejs-local-mock.git"
+  },
+  "author": "zhou-sheng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xiaoAoTing/nodejs-local-mock/issues"
+  },
+  "homepage": "https://github.com/xiaoAoTing/nodejs-local-mock#readme",
+  "dependencies": {
+    "ololog": "^1.1.175"
+  }
+}
