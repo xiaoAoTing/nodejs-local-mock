@@ -4,6 +4,7 @@ const url = require('url');
 const querystring = require('querystring'); 
 const fs = require('fs');
 const server = http.createServer(); 
+const ololog = require('ololog');
 
 const INTEGRAL_MOCK = 'integral-mock';
 const ASSION_GROUPS = 'assion-groups';
@@ -50,5 +51,5 @@ server.on('request', function (req, res) {
 });
 
 server.listen('8080', () => {
-    console.log('Server running at "http://localhost:8080"');
+    ololog.lightRed('This is not a Error: Server running at "http://localhost:8080"');
 });
