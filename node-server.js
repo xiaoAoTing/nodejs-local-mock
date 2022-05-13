@@ -17,6 +17,8 @@ server.on('request', function (req, res) {
     let urlPath = url.parse(req.url).pathname;
     let qs = querystring.parse(req.url.split('?')[1]);
 
+    console.log('Listened for requests !');
+
     if (urlPath == '/') {
         res.writeHead(200, { 'Content-Type': 'text/html;charset=utf-8' });
         fs.readFile('./index.html', 'utf8', function(err, dataStr) {
@@ -37,7 +39,6 @@ server.on('request', function (req, res) {
         data = JSON.stringify(data);
         let callback = qs.callback + '(' + data + ');';
 
-        console.log(callback, 'Response !');
         res.end(callback);
     }
 
