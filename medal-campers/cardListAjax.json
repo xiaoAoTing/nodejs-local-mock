@@ -1,0 +1,138 @@
+{
+    "code": 0,
+    "taskingNum": "6",
+    "msg": "操作成功",
+    "data": [
+        {
+            "card_id": "606",
+            "name": "指定使用(222)",
+            "desc": "222",
+            "type": "1",
+            "sale_desc": "无门槛减0.02元",
+            "have_num": "3",
+            "all_num": "无限制",
+            "use_desc": "2022-05-08 00:00至2022-05-25 00:00",
+            "maket_desc": [
+                "推广领取（统一小程序码/链接）"
+            ],
+            "status": ""
+        },
+        {
+            "card_id": "605",
+            "name": "原价(333)",
+            "desc": "333",
+            "type": "1",
+            "sale_desc": "无门槛减0.05元",
+            "have_num": "3",
+            "all_num": "无限制",
+            "use_desc": "2022-05-08 00:00至2022-05-19 00:00",
+            "maket_desc": [
+                "推广领取（统一小程序码/链接）"
+            ],
+            "status": ""
+        },
+        {
+            "card_id": "604",
+            "name": "man减年卡",
+            "desc": "",
+            "type": "2",
+            "sale_desc": "满0.10元打5.0折",
+            "have_num": "3",
+            "all_num": "无限制",
+            "use_desc": "2022-05-08 00:00至2022-05-27 00:00",
+            "maket_desc": [
+                "推广领取（统一小程序码/链接）"
+            ],
+            "status": ""
+        },
+        {
+            "card_id": "603",
+            "name": "第一种",
+            "desc": "",
+            "type": "1",
+            "sale_desc": "无门槛减0.03元",
+            "have_num": "12",
+            "all_num": "无限制",
+            "use_desc": "2022-05-08 00:00至2022-05-25 00:00",
+            "maket_desc": [
+                "推广领取（统一小程序码/链接）"
+            ],
+            "status": ""
+        },
+        {
+            "card_id": "602",
+            "name": "年卡券(3333)",
+            "desc": "3333",
+            "type": "1",
+            "sale_desc": "无门槛减0.02元",
+            "have_num": "32",
+            "all_num": "无限制",
+            "use_desc": "2022-05-08 00:00至2022-05-20 00:00",
+            "maket_desc": [
+                "推广领取（统一小程序码/链接）"
+            ],
+            "status": ""
+        },
+        {
+            "card_id": "601",
+            "name": "优惠",
+            "desc": "",
+            "type": "1",
+            "sale_desc": "无门槛减0.01元",
+            "have_num": "22",
+            "all_num": "无限制",
+            "use_desc": "2022-04-24 00:00至2022-04-30 00:00(已过期)",
+            "maket_desc": [],
+            "status": "(已过期)"
+        },
+        {
+            "card_id": "600",
+            "name": "测试年卡2",
+            "desc": "",
+            "type": "1",
+            "sale_desc": "无门槛减0.01元",
+            "have_num": "297",
+            "all_num": "无限制",
+            "use_desc": "领取当日起2天内有效",
+            "maket_desc": [],
+            "status": ""
+        },
+        {
+            "card_id": "599",
+            "name": "测试啊啊啊啊(测试)",
+            "desc": "测试",
+            "type": "1",
+            "sale_desc": "无门槛减0.01元",
+            "have_num": "620",
+            "all_num": "无限制",
+            "use_desc": "领取当日起4天内有效",
+            "maket_desc": [],
+            "status": ""
+        },
+        {
+            "card_id": "598",
+            "name": "测试优惠券支持年卡",
+            "desc": "",
+            "type": "1",
+            "sale_desc": "无门槛减0.01元",
+            "have_num": "2",
+            "all_num": "无限制",
+            "use_desc": "领取当日起2天内有效",
+            "maket_desc": [],
+            "status": ""
+        },
+        {
+            "card_id": "597",
+            "name": "777",
+            "desc": "",
+            "type": "1",
+            "sale_desc": "无门槛减1.00元",
+            "have_num": "9",
+            "all_num": "无限制",
+            "use_desc": "2022-04-11 00:00至2022-04-29 00:00(已过期)",
+            "maket_desc": [],
+            "status": "(已过期)"
+        }
+    ],
+    "totalnum": "116"
+}
