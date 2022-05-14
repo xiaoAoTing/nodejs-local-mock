@@ -4,7 +4,7 @@
   "description": "Jsonp local simulation data",
   "main": "node-server.js",
   "scripts": {
-    "server": "node node-server.js"
+    "server": "nodemon node-server.js"
   },
   "repository": {
     "type": "git",
