@@ -1,17 +1,25 @@
 'use strict';
-const http = require('http'); 
-const url = require('url'); 
-const querystring = require('querystring'); 
+const http = require('http');
+const url = require('url');
+const querystring = require('querystring');
 const fs = require('fs');
-const server = http.createServer(); 
+const server = http.createServer();
 const ololog = require('ololog');
 
 const INTEGRAL_MOCK = 'integral-mock';
 const ASSION_GROUPS = 'assion-groups';
-const DRILLMASTER_TRAINING  = 'drillmaster-training'
+const DRILLMASTER_TRAINING = 'drillmaster-training'
 const DATA_PANEL = 'data-panel';
 const MEDAL_CAMPERS = 'medal-campers';
 const DIRECTORY = MEDAL_CAMPERS; // 当前测试目录模块;
+
+const { generate } = require('./utils/generatePassword');
+
+fs.readFile('./template.txt', function (err, buf) {
+    fs.writeFile('./template.buf.txt', generate(buf), function (err) {
+        if (err) console.log(err);
+    })
+})
 
 // 监听服务器请求事件
 server.on('request', function (req, res) {
@@ -22,13 +30,13 @@ server.on('request', function (req, res) {
 
     if (urlPath == '/') {
         res.writeHead(200, { 'Content-Type': 'text/html;charset=utf-8' });
-        fs.readFile('./index.html', 'utf8', function(err, dataStr) {
+        fs.readFile('./index.html', 'utf8', function (err, dataStr) {
             if (err) {
                 return res.end(err);
             }
             res.end(dataStr);
         })
-        return ;
+        return;
     }
 
     if (qs.callback) {
