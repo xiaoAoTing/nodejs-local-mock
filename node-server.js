@@ -15,12 +15,6 @@ const DIRECTORY = MEDAL_CAMPERS; // 当前测试目录模块;
 
 const { generate } = require('./utils/generatePassword');
 
-fs.readFile('./template.txt', function (err, buf) {
-    fs.writeFile('./template.buf.txt', generate(buf), function (err) {
-        if (err) console.log(err);
-    })
-})
-
 // 监听服务器请求事件
 server.on('request', function (req, res) {
     let urlPath = url.parse(req.url).pathname;
