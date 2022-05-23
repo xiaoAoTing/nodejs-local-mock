@@ -23,14 +23,16 @@ function route(request, response) {
 
     if (qs.callback) {
         response.writeHead(200, { 'Content-Type': 'application/json;charset=utf-8' });
-
-        let basename = path.basename(pathname);
-        let data = require(`/mock/${DIRECTORY}/${basename}`);
-
-        data = JSON.stringify(data);
-        let callback = qs.callback + '(' + data + ');';
-
-        response.end(callback);
+        let basename = path.basename(pathname) + '.json';
+        
+        fs.readFile(path.join(`./mock/${DIRECTORY}/${basename}`), function (err, buf) {
+            if (err) {
+                console.log(err);
+                return;
+            }
+            let callback = qs.callback + '(' + buf.toString() + ');';
+            response.end(callback);
+        })
     }
 
     else {
