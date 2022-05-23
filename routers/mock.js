@@ -2,12 +2,26 @@ const url = require('url');
 const querystring = require('querystring');
 const fs = require('fs');
 const path = require('path');
-
-const { MEDAL_CAMPERS } = require('../config/constant');
-const DIRECTORY = MEDAL_CAMPERS;
-
 const express = require('express');
-const app = express();
+const root = __dirname;
+
+const DIRECTORY = {
+    INTEGRAL_MOCK: 'integral-mock',
+    ASSION_GROUPS: 'assion-groups',
+    DRILLMASTER_TRAINING: 'drillmaster-training',
+    DATA_PANEL: 'data-panel',
+    MEDAL_CAMPERS: 'medal-campers'
+}
+const CURRENT_DIRECTORY = DIRECTORY['MEDAL_CAMPERS'];
+
+let router = express.Router();
+
+router.get('/mock/:filename', function (req, res) {
+    console.log(__dirname, 'dirname');
+    fs.readFile(path.join('./public/mock/', req.params.filename + '.json'), function (err, buf) {
+        res.jsonp(buf.toString());
+    })
+})
 
 function route(request, response) {
     let pathname = url.parse(request.url).pathname;
@@ -28,7 +42,7 @@ function route(request, response) {
         response.writeHead(200, { 'Content-Type': 'application/json;charset=utf-8' });
         let basename = path.basename(pathname) + '.json';
         
-        fs.readFile(path.join(`./mock/${DIRECTORY}/${basename}`), function (err, buf) {
+        fs.readFile(path.join(`./mock/${CURRENT_DIRECTORY}/${basename}`), function (err, buf) {
             if (err) {
                 console.log(err);
                 return;
@@ -44,6 +58,4 @@ function route(request, response) {
     }
 }
 
-module.exports = {
-    route,
-}
+module.exports = router;
