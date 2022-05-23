@@ -10,7 +10,7 @@ function route(request, response) {
     let pathname = url.parse(request.url).pathname;
     let qs = querystring.parse(request.url.split('?')[1]);
 
-    if (pathname == '/') {
+    if (pathname == '/' || pathname == '/index.html' || pathname == '/index') {
         response.writeHead(200, { 'Content-Type': 'text/html;charset=utf-8' });
         fs.readFile('./index.html', 'utf8', function (err, dataStr) {
             if (err) {
