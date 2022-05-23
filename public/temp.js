@@ -1,0 +1,1 @@
+console.write(111);

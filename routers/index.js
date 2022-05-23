@@ -6,6 +6,9 @@ const path = require('path');
 const { MEDAL_CAMPERS } = require('../config/constant');
 const DIRECTORY = MEDAL_CAMPERS;
 
+const express = require('express');
+const app = express();
+
 function route(request, response) {
     let pathname = url.parse(request.url).pathname;
     let qs = querystring.parse(request.url.split('?')[1]);
@@ -42,5 +45,5 @@ function route(request, response) {
 }
 
 module.exports = {
-    route
+    route,
 }
