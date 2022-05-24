@@ -5,6 +5,8 @@ const app = express();
 
 app.use(require('./routers/mock'));
 
+app.set('jsonp callback name', 'callback');
+
 app.use('/public', express.static('public', {
     extensions: ['html', 'htm', 'js', 'json']
 }));
