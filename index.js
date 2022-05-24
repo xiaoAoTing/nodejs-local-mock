@@ -3,7 +3,7 @@ const ololog = require('ololog');
 const express = require('express');
 const app = express();
 
-app.use(require('./routers/mock'));
+app.use('/mock', require('./routers/mock'));
 
 app.set('jsonp callback name', 'callback');
 
