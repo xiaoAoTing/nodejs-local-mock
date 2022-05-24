@@ -1,7 +1,6 @@
 const fs = require('fs');
 const path = require('path');
 const express = require('express');
-const root = __dirname;
 
 const DIRECTORY = {
     INTEGRAL_MOCK: 'integral-mock',
