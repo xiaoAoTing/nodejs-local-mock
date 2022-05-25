@@ -8,8 +8,10 @@ const customBodyParser = require('./middleware/custom-body-parser');
 // Setting 
 app.set('jsonp callback name', 'callback');
 
-// Custom middleware 
+// Middleware 
 app.use(customBodyParser);
+// app.use(express.json());
+// app.use(express.urlencoded);
 
 // Static 
 app.use('/public', express.static('public', {
@@ -18,6 +20,7 @@ app.use('/public', express.static('public', {
 
 // Router 
 app.use('/mock', require('./routers/mock'));
+app.use('/index', require('./routers/index'));
 
 // Error handling
 app.use(errorHandling);
