@@ -30,6 +30,7 @@ $.ajax({
 
 ```
 -project    
+    -middleware           // 中间件
     -mock                 // 前端 Mock 服务 json 文件存放目录
         -data-panel       
             getInfo.json
