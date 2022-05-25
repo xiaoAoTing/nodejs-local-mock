@@ -20,7 +20,7 @@ router.get('/:filename', function (req, res) {
             res.sendStatus(404);
             return ;
         }
-        res.jsonp(buf.toString());
+        res.jsonp(JSON.parse(buf.toString()));
     })
 })
 
