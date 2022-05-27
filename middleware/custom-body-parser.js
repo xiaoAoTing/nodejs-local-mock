@@ -11,4 +11,6 @@ function customBodyParser(request, response, next) {
     })
 }
 
-module.exports = customBodyParser;
+module.exports = function () {
+    return customBodyParser;
+};

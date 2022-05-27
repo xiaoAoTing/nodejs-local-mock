@@ -6,4 +6,12 @@ router.post('/', function (req, res) {
     res.send(req.body);
 })
 
+router.post('/getUserInfo', function (req, res) {
+    res.send({
+        statusCode: 200,
+        message: '操作成功',
+        data: req.body || {}
+    })
+})
+
 module.exports = router;

@@ -4,12 +4,47 @@ const express = require('express');
 const app = express();
 const errorHandling = require('./middleware/error-handling');
 const customBodyParser = require('./middleware/custom-body-parser');
+const cors = require('cors');
+const myCors = require('./middleware/myCors');
+
+const DIRECTORY = {
+    INTEGRAL_MOCK: 'integral-mock',
+    ASSION_GROUPS: 'assion-groups',
+    DRILLMASTER_TRAINING: 'drillmaster-training',
+    DATA_PANEL: 'data-panel',
+    MEDAL_CAMPERS: 'medal-campers'
+}
+const CURRENT_DIRECTORY = DIRECTORY['MEDAL_CAMPERS'];
 
 // Setting 
-app.set('jsonp callback name', 'callback');
+const JSONP_CALLBACK_NAME = 'callback';
+app.set('jsonp callback name', JSONP_CALLBACK_NAME);
+
+/**
+ * Handling JSONP requests.
+ * The request must be defined before CORS.
+ */
+app.get('/mock/:filename', function (req, res) {
+    let basename = req.params.filename;
+    let filePath = path.join('./public/mock/', CURRENT_DIRECTORY, basename + '.json');
+
+    if (!req.query[JSONP_CALLBACK_NAME]) {
+        res.send('Not the JSONP');
+    }
+
+    fs.readFile(filePath, function (err, buf) {
+        if (err) {
+            res.sendStatus(404);
+            return;
+        }
+        res.jsonp(JSON.parse(buf.toString()));
+    })
+})
 
 // Middleware 
-app.use(customBodyParser);
+app.use(customBodyParser());
+// app.use(cors());
+app.use(myCors());
 // app.use(express.json());
 // app.use(express.urlencoded);
 
@@ -19,11 +54,10 @@ app.use('/public', express.static('public', {
 }));
 
 // Router 
-app.use('/mock', require('./routers/mock'));
 app.use('/index', require('./routers/index'));
 
 // Error handling
-app.use(errorHandling);
+app.use(errorHandling());
 
 app.listen('8080', () => {
     ololog.lightGreen('Server running at "http://localhost:8080"');

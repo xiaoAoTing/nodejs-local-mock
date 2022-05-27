@@ -11,4 +11,6 @@ function errorHandling(err, request, response, next) {
     next();
 }
 
-module.exports = errorHandling;
+module.exports = function () {
+	return errorHandling;
+};
