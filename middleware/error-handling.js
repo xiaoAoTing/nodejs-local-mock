@@ -1,3 +1,5 @@
+const fs = require('fs');
+
 /**
  * express 错误处理中间件
  * @param {Object | Null} err 错误对象
@@ -6,9 +8,9 @@
  * @param {Function} next 放行函数
  */
 function errorHandling(err, request, response, next) {
-  const errMsg = `Error message: ${err.message};`;
-  const errUrl = `URL: ${request.originalUrl};`;
-  const time = `Time: ${new Date()}`;
+  const errMsg = `Error message: ${err.message};\n`;
+  const errUrl = `URL: ${request.originalUrl};\n`;
+  const time = `Time: ${new Date()}\n`;
   fs.appendFileSync('./log.txt', errMsg + errUrl + time);
 
   response.send('Error message: ' + err.message); // 返回错误信息至客户端

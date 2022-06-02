@@ -1,0 +1,442 @@
+{
+    "code": 0,
+    "msg": "操作成功！",
+    "data": {
+        "not_set_campers_list": [
+            {
+                "sid": "4194",
+                "offsid": 0,
+                "name": "新加营员",
+                "show_conf_field": [
+                    {
+                        "field": "性别",
+                        "value": "女"
+                    },
+                    {
+                        "field": "年龄",
+                        "value": 15
+                    },
+                    {
+                        "field": "同行人",
+                        "value": [
+                            "黑色",
+                            "拼团2",
+                            "拼团6",
+                            "得了6",
+                            "毛毛",
+                            "拼团3",
+                            "毛毛毛",
+                            "期间",
+                            "期间99"
+                        ]
+                    }
+                ]
+            },
+            {
+                "sid": "4199",
+                "offsid": 0,
+                "name": "拼团6",
+                "show_conf_field": [
+                    {
+                        "field": "性别",
+                        "value": "男"
+                    },
+                    {
+                        "field": "年龄",
+                        "value": 14
+                    },
+                    {
+                        "field": "同行人",
+                        "value": [
+                            "黑色",
+                            "新加营员",
+                            "拼团2",
+                            "得了6",
+                            "毛毛",
+                            "拼团3",
+                            "毛毛毛",
+                            "期间",
+                            "期间99"
+                        ]
+                    }
+                ]
+            },
+            {
+                "sid": "4206",
+                "offsid": 0,
+                "name": "拼团3",
+                "show_conf_field": [
+                    {
+                        "field": "性别",
+                        "value": "男"
+                    },
+                    {
+                        "field": "年龄",
+                        "value": 12
+                    },
+                    {
+                        "field": "同行人",
+                        "value": [
+                            "黑色",
+                            "新加营员",
+                            "拼团2",
+                            "拼团6",
+                            "得了6",
+                            "毛毛",
+                            "毛毛毛",
+                            "期间",
+                            "期间99"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "team_group_campers_list": [
+            {
+                "team_id": "4129",
+                "team_name": "1团",
+                "team_nick_name": "",
+                "campers_num": 5,
+                "student_num": "5",
+                "group_list": [
+                    {
+                        "group_id": "5840",
+                        "group_name": "1组",
+                        "group_nick_name": "",
+                        "student_num": "3",
+                        "campers_list": [
+                            {
+                                "sid": "4205",
+                                "offsid": 0,
+                                "name": "毛毛",
+                                "show_conf_field": [
+                                    {
+                                        "field": "性别",
+                                        "value": "女"
+                                    },
+                                    {
+                                        "field": "年龄",
+                                        "value": 10
+                                    },
+                                    {
+                                        "field": "同行人",
+                                        "value": [
+                                            "黑色",
+                                            "新加营员",
+                                            "拼团2",
+                                            "拼团6",
+                                            "得了6",
+                                            "拼团3",
+                                            "毛毛毛",
+                                            "期间",
+                                            "期间99"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "sid": "4207",
+                                "offsid": 0,
+                                "name": "毛毛毛",
+                                "show_conf_field": [
+                                    {
+                                        "field": "性别",
+                                        "value": "男"
+                                    },
+                                    {
+                                        "field": "年龄",
+                                        "value": 9
+                                    },
+                                    {
+                                        "field": "同行人",
+                                        "value": [
+                                            "黑色",
+                                            "新加营员",
+                                            "拼团2",
+                                            "拼团6",
+                                            "得了6",
+                                            "毛毛",
+                                            "拼团3",
+                                            "期间",
+                                            "期间99"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "sid": "4208",
+                                "offsid": 0,
+                                "name": "期间",
+                                "show_conf_field": [
+                                    {
+                                        "field": "性别",
+                                        "value": "女"
+                                    },
+                                    {
+                                        "field": "年龄",
+                                        "value": 8
+                                    },
+                                    {
+                                        "field": "同行人",
+                                        "value": [
+                                            "黑色",
+                                            "新加营员",
+                                            "拼团2",
+                                            "拼团6",
+                                            "得了6",
+                                            "毛毛",
+                                            "拼团3",
+                                            "毛毛毛",
+                                            "期间99"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group_id": "5841",
+                        "group_name": "2组",
+                        "group_nick_name": "",
+                        "student_num": "2",
+                        "campers_list": [
+                            {
+                                "sid": "4209",
+                                "offsid": 0,
+                                "name": "期间99",
+                                "show_conf_field": [
+                                    {
+                                        "field": "性别",
+                                        "value": "女"
+                                    },
+                                    {
+                                        "field": "年龄",
+                                        "value": 6
+                                    },
+                                    {
+                                        "field": "同行人",
+                                        "value": [
+                                            "黑色",
+                                            "新加营员",
+                                            "拼团2",
+                                            "拼团6",
+                                            "得了6",
+                                            "毛毛",
+                                            "拼团3",
+                                            "毛毛毛",
+                                            "期间"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "sid": "4192",
+                                "offsid": 0,
+                                "name": "黑色",
+                                "show_conf_field": [
+                                    {
+                                        "field": "性别",
+                                        "value": "女"
+                                    },
+                                    {
+                                        "field": "年龄",
+                                        "value": 5
+                                    },
+                                    {
+                                        "field": "同行人",
+                                        "value": [
+                                            "新加营员",
+                                            "拼团2",
+                                            "拼团6",
+                                            "得了6",
+                                            "毛毛",
+                                            "拼团3",
+                                            "毛毛毛",
+                                            "期间",
+                                            "期间99"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "team_id": "4130",
+                "team_name": "2团",
+                "team_nick_name": "",
+                "campers_num": 5,
+                "student_num": "5",
+                "group_list": [
+                    {
+                        "group_id": "5838",
+                        "group_name": "1组",
+                        "group_nick_name": "",
+                        "student_num": "3",
+                        "campers_list": [
+                            {
+                                "sid": "4194",
+                                "offsid": 0,
+                                "name": "新加营员",
+                                "show_conf_field": [
+                                    {
+                                        "field": "性别",
+                                        "value": "女"
+                                    },
+                                    {
+                                        "field": "年龄",
+                                        "value": 15
+                                    },
+                                    {
+                                        "field": "同行人",
+                                        "value": [
+                                            "黑色",
+                                            "拼团2",
+                                            "拼团6",
+                                            "得了6",
+                                            "毛毛",
+                                            "拼团3",
+                                            "毛毛毛",
+                                            "期间",
+                                            "期间99"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "sid": "4199",
+                                "offsid": 0,
+                                "name": "拼团6",
+                                "show_conf_field": [
+                                    {
+                                        "field": "性别",
+                                        "value": "男"
+                                    },
+                                    {
+                                        "field": "年龄",
+                                        "value": 14
+                                    },
+                                    {
+                                        "field": "同行人",
+                                        "value": [
+                                            "黑色",
+                                            "新加营员",
+                                            "拼团2",
+                                            "得了6",
+                                            "毛毛",
+                                            "拼团3",
+                                            "毛毛毛",
+                                            "期间",
+                                            "期间99"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "sid": "4206",
+                                "offsid": 0,
+                                "name": "拼团3",
+                                "show_conf_field": [
+                                    {
+                                        "field": "性别",
+                                        "value": "男"
+                                    },
+                                    {
+                                        "field": "年龄",
+                                        "value": 12
+                                    },
+                                    {
+                                        "field": "同行人",
+                                        "value": [
+                                            "黑色",
+                                            "新加营员",
+                                            "拼团2",
+                                            "拼团6",
+                                            "得了6",
+                                            "毛毛",
+                                            "毛毛毛",
+                                            "期间",
+                                            "期间99"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "group_id": "5839",
+                        "group_name": "2组",
+                        "group_nick_name": "",
+                        "student_num": "2",
+                        "campers_list": [
+                            {
+                                "sid": "4197",
+                                "offsid": 0,
+                                "name": "拼团2",
+                                "show_conf_field": [
+                                    {
+                                        "field": "性别",
+                                        "value": "男"
+                                    },
+                                    {
+                                        "field": "年龄",
+                                        "value": 13
+                                    },
+                                    {
+                                        "field": "同行人",
+                                        "value": [
+                                            "黑色",
+                                            "新加营员",
+                                            "拼团6",
+                                            "得了6",
+                                            "毛毛",
+                                            "拼团3",
+                                            "毛毛毛",
+                                            "期间",
+                                            "期间99"
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "sid": "4204",
+                                "offsid": 0,
+                                "name": "得了6",
+                                "show_conf_field": [
+                                    {
+                                        "field": "性别",
+                                        "value": "男"
+                                    },
+                                    {
+                                        "field": "年龄",
+                                        "value": 11
+                                    },
+                                    {
+                                        "field": "同行人",
+                                        "value": [
+                                            "黑色",
+                                            "新加营员",
+                                            "拼团2",
+                                            "拼团6",
+                                            "毛毛",
+                                            "拼团3",
+                                            "毛毛毛",
+                                            "期间",
+                                            "期间99"
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            }
+        ],
+        "field_conf_list": [
+            "性别",
+            "年龄",
+            "同行人"
+        ]
+    }
+}
