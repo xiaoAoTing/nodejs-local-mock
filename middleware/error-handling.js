@@ -8,10 +8,11 @@ const fs = require('fs');
  * @param {Function} next 放行函数
  */
 function errorHandling(err, request, response, next) {
+  const placeholder = '-----------------------------------------';
   const errMsg = `Error message: ${err.message};\n`;
   const errUrl = `URL: ${request.originalUrl};\n`;
   const time = `Time: ${new Date()}\n`;
-  fs.appendFileSync('./log.txt', errMsg + errUrl + time);
+  fs.appendFileSync('./log.txt', placeholder + errMsg + errUrl + time);
 
   response.send('Error message: ' + err.message); // 返回错误信息至客户端
   next();
