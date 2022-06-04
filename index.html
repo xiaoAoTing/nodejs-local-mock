@@ -1,26 +1,940 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta charset="utf-8">
+    <title>教官管理</title>
+    <link href="__PUBLIC__/css//bootstrap.css" rel="stylesheet">
+    <link href="__PUBLIC__/css/common.css?v=20191109" rel="stylesheet">
+    <link href="__PUBLIC__/css/selectize.bootstrap3.css" rel="stylesheet">
+    <link href="__PUBLIC__/css/webuploader.css" rel="stylesheet">
+    <link href="__PUBLIC__/css/mricode.pagination.css" rel="stylesheet" type="text/css" />
+    <!--[if lt IE 9]>
+          <script src="__PUBLIC__/js/html5shiv.min.js"></script>
+          <script src="__PUBLIC__/js/respond.min.js"></script>
+     <![endif]-->
     <style>
-        .cc {
-            width: 100%;
-            display: block;
+        .layui-layer-content {
+            overflow: inherit !important;
+        }
+
+        #temp-download-btn {
+            color: #069add;
+            cursor: pointer;
+        }
+
+        #import-drillmaster-box {
             position: relative;
+        }
+
+        #import-drillmaster-box .sham-table {
+            display: flex;
+            overflow-x: auto;
+            white-space: nowrap;
+            overflow-y: hidden;
+        }
+
+        #uploader-excel-btn label {
+            position: absolute !important;
+            top: 0px;
+            left: 0px;
+            z-index: 100;
+            width: 90px !important;
+            height: 32px !important;
+        }
+
+        #import-drillmaster-box .sham-table div {
+            padding: 10px 20px;
+            border: 1px solid #ccc;
         }
     </style>
 </head>
 
+
 <body>
-    <tr>
-        <td>年卡7</td>
-        <td><input type="number" style="width: 90px;" min="1" value="1" /></td>
-        <td><a href="javascript:;" class="remove-coupon-btn" data-id="619">移除</a></td>
-    </tr>
+
+    <div class="container">
+        <!-- Tips -->
+        <div class="alert alert-warning" style="margin-bottom: 0;overflow: hidden;display: none;">
+            <div style="float: left;margin-left: 25%;">
+                为了您的最佳使用体验，建议使用特性支持度最高的谷歌浏览器,
+                <a href="" target="_blank" id="down_chrome">点击下载</a>
+            </div>
+            <div style="float: right;color: #C2C2C2;">
+                1周内不再提醒
+            </div>
+            <div style="float: right;margin-right: 5px;"><a href="#" class="close" data-dismiss="alert">&times;</a>
+            </div>
+        </div>
+        <include file="./Application/Admin/View/Index/top_new.html" />
+        <div class="bottomflex">
+            <include file="./Application/Admin/View/Index/left_new.html" />
+            <div class="content">
+                <form class="clearfix" id="filter-form">
+                    <!-- 第一组 -->
+                    <div class="col-lg-4">
+                        <div class="form-horizontal" style="padding: 20px 20px 10px;">
+                            <div class="form-group mr30 mb15">
+                                <label class="col-sm-3 control-label">关键词:</label>
+                                <div class="col-sm-9">
+                                    <input id="keywords" name="keywords" type="text" placeholder="请输入教官名称/手机号"
+                                        class="form-control" />
+                                </div>
+                            </div>
+                            <div class="form-group mr30 mb15">
+                                <label class="col-sm-3 control-label">状态:</label>
+                                <div class="col-sm-9">
+                                    <select class="form-control" name="select_drillmaster_status">
+                                        <option value="0">全部</option>
+                                        <option value="1" selected>正常</option>
+                                        <option value="2">冻结</option>
+                                        <option value="3">淘汰</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group mr30 mb15">
+                                <label class="col-sm-3 control-label">最近带营日期:</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="select_drillmaster_lastcamp_date" class="form-control"
+                                        id="lately-date" />
+                                </div>
+                            </div>
+                            <div class="form-group mr30 mb15" style="text-align: center;">
+                                <label class="col-sm-3 control-label">系数:</label>
+                                <div class="col-sm-9" style="display: flex;justify-content: space-between;">
+                                    <input name="select_start_drillmaster_coefficient" type="text" style="width: 90px;"
+                                        class="form-control" />
+                                    <span style="line-height: 30px;"> - </span>
+                                    <input name="select_end_drillmaster_coefficient" type="text" style="width: 90px;"
+                                        class="form-control" />
+                                </div>
+                            </div>
+                            <div class="form-group mr30 mb15">
+                                <label class="col-sm-3 control-label"></label>
+                                <div class="col-sm-9">
+                                    <a style="float: left;display: inline; width: 90px;margin: 0;margin-right: 10px;"
+                                        id="search-btn" href="javascript:;" class="addbtn btn btn-primary">搜索</a>
+                                    <a style="float: left;display: inline; width: 90px;margin: 0px;" href="javascript:;"
+                                        class="btn btn-default addbtn">导出</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 第二组 -->
+                    <div class="col-lg-4">
+                        <div class="form-horizontal" style="padding: 20px 20px 10px;">
+                            <div class="form-group mr30 mb15">
+                                <label class="col-sm-3 control-label">胜任岗位:</label>
+                                <div class="col-sm-9">
+                                    <select class="form-control" name="select_role_id">
+
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group mr30 mb15">
+                                <label class="col-sm-3 control-label">类型:</label>
+                                <div class="col-sm-9">
+                                    <select class="form-control" name="select_drillmaster_type">
+                                        <option value="0" selected>全部</option>
+                                        <option value="1">正式教官</option>
+                                        <option value="2">预备教官</option>
+                                        <option value="3">潜在教官</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group mr30 mb15">
+                                <label class="col-sm-3 control-label">生日:</label>
+                                <div class="col-sm-9">
+                                    <input type="text" name="select_birthday" class="form-control" id="birthday-date" />
+                                </div>
+                            </div>
+                            <div class="form-group mr30 mb15" style="text-align: center;">
+                                <label class="col-sm-3 control-label">能力值:</label>
+                                <div class="col-sm-9" style="display: flex; justify-content: space-between;">
+                                    <input name="selsect_start_drillmaster_ability_value" style="width: 90px;"
+                                        class="form-control" />
+                                    <span style="line-height: 30px;"> - </span>
+                                    <input name="selsect_end_drillmaster_ability_value" type="text" style="width: 90px;"
+                                        class="form-control" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 第三组 -->
+                    <div class="col-lg-4">
+                        <div class="form-horizontal" style="padding: 20px 20px 10px;">
+                            <div class="form-group mr30 mb15">
+                                <label class="col-sm-3 control-label">性别:</label>
+                                <div class="col-sm-9">
+                                    <select class="form-control" name="select_sex">
+                                        <option value="0" selected>全部</option>
+                                        <option value="1">男</option>
+                                        <option value="2">女</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group mr30 mb15">
+                                <label class="col-sm-3 control-label">级别:</label>
+                                <div class="col-sm-9">
+                                    <select class="form-control" name="select_drillmaster_level">
+                                        <option value="0" selected>全部</option>
+                                        <option value="1">1级</option>
+                                        <option value="2">2级</option>
+                                        <option value="3">3级</option>
+                                        <option value="4">4级</option>
+                                        <option value="5">5级</option>
+                                        <option value="6">6级</option>
+                                        <option value="7">7级</option>
+                                        <option value="8">8级</option>
+                                        <option value="9">9级</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group mr30 mb15" style="text-align: center;">
+                                <label class="col-sm-3 control-label"
+                                    style="white-space: nowrap;position: relative;left: -25px;">累计带营时长范围:</label>
+                                <div class="col-sm-9" style="display: flex; justify-content: space-between;">
+                                    <input name="select_start_drillmaster_valid_period_days" style="width: 90px;"
+                                        type="text" class="form-control" />
+                                    <span style="line-height: 30px;">-</span>
+                                    <input name="select_end_drillmaster_valid_period_days" style="width: 90px;"
+                                        type="text" class="form-control" />
+                                    <span style="float: left; line-height: 30px;">天</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group mr30 mb15" style="text-align: center;">
+                            <label class="col-sm-4 control-label"></label>
+                            <div class="col-sm-8">
+                                <a style="margin: 0px 15px;float: right;display: inline; width: 90px;"
+                                    id="import-drillmaster" href="javascript:;" class="addbtn btn btn-primary">
+                                    导入教官
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <!-- teble -->
+                <div id="table-content">
+                    <div class="form-inline" style="padding: 20px 20px 20px 0px;">
+                        <label>每页显示</label>
+                        <select id="page-size" style="display: inline-block; width: 50px;">
+                            <option value="10">10</option>
+                            <option value="20">20</option>
+                            <option value="50">50</option>
+                            <option value="100">100</option>
+                        </select>
+                        <label>条</label>
+                        <label id="tally" style="margin-top: 7px; float: right;"></label>
+                    </div>
+                    <div class="content">
+
+                    </div>
+                    <div id="pageCon">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 记录违规 Modal  -->
+    <form id="record-illegality-box" style="display: none;">
+        <div class="form-horizontal" style="padding: 20px 20px 10px;">
+            <div class="form-group mr30 mb15">
+                <label class="col-sm-2 control-label">营种:</label>
+                <div class="col-sm-9">
+                    <select class="form-control" name="course_id" multiple>
+
+                    </select>
+                </div>
+            </div>
+            <div class="form-group mr30 mb15">
+                <label class="col-sm-2 control-label">营期:</label>
+                <div class="col-sm-9">
+                    <select class="form-control" name="course_period_id" multiple>
+
+                    </select>
+                </div>
+            </div>
+            <div class="form-group mr30 mb15">
+                <label class="col-sm-2 control-label">类别:</label>
+                <div class="col-sm-9">
+                    <select class="form-control" name="violation_type">
+                        <option value="0" selected>请选择违规类别</option>
+                        <option value="1">职责未履行到位</option>
+                        <option value="2">工作态度不端正</option>
+                        <option value="3">未遵守行为规范</option>
+                        <option value="4">个人失职造成投诉或安全事故</option>
+                    </select>
+                </div>
+            </div>
+            <div class="comment">
+                <span class="col-sm-2"></span>
+                <span class="col-sm-9" style="height: 20px;font-size: 12px; margin-bottom: 20px;" id="type-count">
+                    该教官已记录 0 次此类型
+                </span>
+            </div>
+            <div class="form-group mr30 mb15" style="text-align: center;">
+                <label class="col-sm-2 control-label">记录行为:</label>
+                <div class="col-sm-9">
+                    <textarea name="violation_content" style="max-height: 94px;min-width: 390px;max-width: 390px;"
+                        class="form-control" rows="4"></textarea>
+                </div>
+            </div>
+            <div class="form-group mr30 mb15" style="text-align: center;">
+                <label class="col-sm-2 control-label">处理意见:</label>
+                <div class="col-sm-9">
+                    <textarea style="max-height: 94px;min-width: 390px;max-width: 390px;" name="opinion"
+                        class="form-control" rows="4"></textarea>
+                </div>
+            </div>
+        </div>
+    </form>
+    <!-- 编辑标签-->
+    <div id="add-tag-box" style="padding: 15px;display: none;">
+        请选择标签:
+        <div class="form-group select" style="margin-top: 10px;">
+            <select style="width: 265px;" class="form-control" multiple id="add-tag">
+
+            </select>
+        </div>
+    </div>
+    <div id="import-drillmaster-box" style="padding: 15px;display: none;">
+        <p>导入说明:</p>
+        <p>1. 导入文件必须为 xls / xlsx 格式的 Excel 文件。<a id="temp-download-btn">( 模板下载 )</a></p>
+        <p>2. 标题带 * 标记是必填项</p>
+        <p>3. 接车地点选项范围必须是 浦东、徐汇 2 个接车地点, 多个地点使用英文逗号进行分割</p>
+        <p>4. 胜任岗位选项范围必须是: 营地主任, 营地主任助理, 带队导师, 微信导师, 物资教官, 后勤教官, 主教官, 微信教官, 带队教官, OJT主教官, OJT微信教官, OJT带队教官;
+            胜任多个岗位时使用英文逗号进行分割</p>
+        <div class="sham-table">
+            <div>教官昵称</div>
+            <div>真实姓名</div>
+            <div>性别</div>
+            <div>手机号</div>
+            <div>身份证号</div>
+            <div>入职时间</div>
+            <div>学校及校区</div>
+            <div>专业</div>
+            <div>护照号</div>
+            <div>护照有效期</div>
+            <div>制服尺寸</div>
+            <div>银行账号</div>
+            <div>银行</div>
+            <div>开户银行</div>
+            <div>开户地</div>
+            <div>开户支行</div>
+            <div>支付宝账号</div>
+            <div>支付宝名</div>
+            <div>接收快递地址</div>
+            <div>接车地点</div>
+        </div>
+        <div id="uploader-excel-btn" style="margin-top: 20px;">上传 Excel </div>
+        <div class="status-box">未选择文件</div>
+        <div id="upload-info" class="hidden">
+            <div class="tab-content" style="height: 240px; overflow: auto;">
+                <div role="tabpanel" class="tab-pane active" id="upload-all">
+                    <table class="table table-bordered table-hover">
+
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 教官列表模板 -->
+    <script type="template" id="instructor-table-temp">
+          <table class="table table-bordered table-hover">
+               <tr class="title">
+                    <th>编号</th>
+                    <th>姓名</th>
+                    <th>性别</th>
+                    <th>生日</th>
+                    <th>手机号</th>
+                    <th>常住地</th>
+                    <th>类型</th>
+                    <th>级别</th>
+                    <th>系数</th>
+                    <th>能力值</th>
+                    <th>带营时长</th>
+                    <th>胜任岗位</th>
+                    <th>状态</th>
+                    <th>来源</th>
+                    <th>公众号</th>
+                    <th>个人数据</th>
+                    <th>操作</th>
+               </tr>
+               {{ each data as value index }}
+                    <tr class="trcon">
+                         <td>{{ value.uid }}</td>     
+                         <td>{{ value.realname }}</td>
+                         <td>{{ value.sex_str }}</td>
+                         <td>{{ value.birthday }}</td>
+                         <td>{{ value.phone }}</td>
+                         <td>{{ value.province_city }}</td>
+                         <td>{{ value.drillmster_type_name }}</td>
+                         <td>{{ value.level_name }}</td>     
+                         <td>{{ value.coefficient }}</td>
+                         <td>{{ value.ability_value }}</td>
+                         <td>{{ value.campdays }}</td>
+                         <td>
+                              {{ each value.competent_position as v i }}
+                                   {{ v }} <br>
+                              {{ /each }}
+                         </td>
+                         <td>{{ value.status_name }}</td>
+                         <td>{{ value.drillmster_data_from }}</td>
+                         <td>{{ value.wx_number }}</td>
+                         <td>
+                              {{ each value.person_data as v i }}
+                                   {{ v }} <br />
+                              {{ /each }}
+                         </td>
+                         <td>
+                              <button
+                                   data-uid="{{ value.uid }}"
+                                   class="add-remark-btn  btn btn-default btn-sm">备注
+                              </button>
+                              <button 
+                                   data-uid="{{ value.uid }}"
+                                   class="make-tag-btn  btn btn-default btn-sm">打标签
+                              </button>
+                              <a
+                                   href="__APP__/Admin/Drillmster/baseInfo?uid={{ value.uid }}&realname={{ value.realname }}"
+                                   class="btn btn-primary btn-sm">查看
+                              </a>
+                              {{ if value.status_name != '淘汰' }}
+                                   <a 
+                                        data-uid="{{ value.uid }}"
+                                        href="javascript:;" 
+                                        class="weed-out btn btn-danger btn-sm">淘汰
+                                   </a>
+                              {{ /if }}
+                              <a 
+                                   href="javascript:;" 
+                                   data-uid="{{ value.uid }}"
+                                   class="record-illegality-btn btn btn-warning btn-sm">记录违规
+                              </a>
+                         </td>
+                    </tr>
+               {{ /each }}
+               {{ if data.length == 0 }}
+                    <tr><td colspan="20">暂无数据</td></tr>
+               {{ /if }}
+          </table>
+     </script>
+    <script src="__PUBLIC__/js/jquery.js"></script>
+    <script src="__PUBLIC__/js/selectize.js"></script>
+    <script src="__PUBLIC__/js/mricode.pagination.js" type="text/javascript" charset="utf-8"></script>
+    <script src="__PUBLIC__/js/bootstrap.min.js"></script>
+    <script src="__PUBLIC__/js/layer.js"></script>
+    <script src="__PUBLIC__/js/template.js" type="text/javascript" charset="utf-8"></script>
+    <script src="__PUBLIC__/laydate/laydate.js" type="text/javascript" charset="utf-8"></script>
+    <script src="__PUBLIC__/js/jQuery.print.js"></script>
+    <script src="__PUBLIC__/js/webuploader.js"></script>
+    <script>
+        function serializeQuery(queryStr) {
+            let data = {};
+            if (queryStr[0] == "?") {
+                queryStr = queryStr.slice(1);
+            }
+            decodeURI(queryStr)
+                .split("&")
+                .forEach((item) => {
+                    item = item.split("=");
+                    data[item[0]] = item[1];
+                });
+            return data;
+        }
+
+        function selectizeReset(...args) {
+            args.forEach(item => {
+                if (!(item.clear && item.clearOptions)) item = item[0].selectize;
+                item.clear()
+                item.clearOptions()
+            })
+        }
+
+        // 获取教官参与的营种
+        function getDrillmasterCourse(drillmasterID) {
+            let loading = null;
+            $.ajax({
+                url: '__APP__/Admin/Drillmster/getDrillmasterCourse',
+                data: { uid: drillmasterID },
+                method: 'post',
+                beforeSend: function () {
+                    loading = layer.load(1, {
+                        shade: [0.3, '#000']
+                    });
+                }
+            }).done(function (res) {
+                layer.close(loading)
+                if (res.code != 0) return;
+                let data = res.data || [];
+                data && data.forEach(item => {
+                    $('select[name=course_id]')[0].selectize.addOption({ value: item.cid, text: item.cname })
+                })
+                data.length === 0 && $('select[name=course_id]')[0].selectize.addOption({ value: 0, text: '当前教官没有参加的营种' })
+            })
+        }
+
+        // 获取营期
+        function getDrillmasterPeriod(courseId) {
+            let loading = null
+            $.ajax({
+                url: '__APP__/Admin/Drillmster/getDrillmasterPeriod',
+                method: 'post',
+                data: { course_id: courseId },
+                beforeSend: function () {
+                    loading = layer.load(1, {
+                        shade: [0.3, '#000']
+                    });
+                }
+            }).done(function (res) {
+                layer.close(loading);
+                if (res.code != 0) return;
+                layer.close(loading);
+                let data = res.data || [];
+                data && data.forEach(item => {
+                    $('select[name=course_period_id]')[0].selectize.addOption({ value: item.id, text: item.name })
+                })
+                data.length === 0 && $('select[name=course_period_id]')[0].selectize.addOption({ value: 0, text: '当前教官没有参加的营期' })
+            })
+        }
+
+        // 记录违规
+        function recordIllegality(drillmasterID) {
+            layer.open({
+                title: '记录违规',
+                type: 1,
+                content: $('#record-illegality-box'),
+                area: ['600px', '600px'],
+                type: 1,
+                btn: ['确定'],
+                yes: function (openIndex) {
+                    saveDrillmasterViolationRecord(drillmasterID, openIndex)
+                },
+                end: function () {
+                    selectizeReset($('select[name=course_id]'), $('select[name=course_period_id]'))
+                    $('#record-illegality-box')[0].reset();
+                }
+            })
+            getDrillmasterCourse(drillmasterID)
+        }
+
+        // 保存记录违规
+        function saveDrillmasterViolationRecord(drillmasterID, openIndex) {
+            let loading = null;
+            let data = {
+                uid: drillmasterID,
+                course_id: $('select[name=course_id] option:selected').val(),
+                course_period_id: $('select[name=course_period_id] option:selected').val(),
+                violation_type: $('select[name=violation_type] option:selected').val(),
+                violation_content: $('textarea[name=violation_content]').val(),
+                opinion: $('textarea[name=opinion]').val()
+            }
+            $.ajax({
+                url: '__APP__/Admin/DrillmsterViolationRecord/saveDrillmasterViolationRecord',
+                method: 'post',
+                data: data,
+                beforeSend: function () {
+                    loading = layer.load(1, {
+                        shade: [0.3, '#000']
+                    });
+                }
+            }).done(function (res) {
+                layer.msg(res.msg)
+                layer.close(loading)
+                if (res.code != 0) return;
+
+                layer.close(openIndex)
+            })
+        }
+
+        // 获取教官列表数据
+        let pageSize = 10 // 每页条数
+        function getDrillmsterIndexListInfoAjax(filterFields) {
+            let sendData = {}
+            let loading = null;
+            for (let [key, value] of new FormData($('#filter-form')[0])) sendData[key] = value;
+            if ($("#pageCon").pagination()) {
+                $("#pageCon").pagination('destroy');
+            }
+            $("#pageCon").pagination({
+                pageSize: pageSize,
+                pageBtnCount: 7,
+                remote: {
+                    url: '__APP__/Admin/Drillmster/getDrillmsterIndexListInfoAjax',
+                    totalName: 'totalnum',
+                    beforeSend: function () {
+                        loading = layer.load(1, {
+                            shade: [0.3, '#000']
+                        });
+                    },
+                    pageParams: function (data) {
+                        let pageNum = data.pageIndex + 1;
+                        return {
+                            pageNum: pageNum,
+                            pageSize: data.pageSize,
+                            ...filterFields,
+                            ...sendData
+                        }
+                    },
+                    success: function (res) {
+                        layer.close(loading)
+                        if (res.code != 0) return;
+
+                        $('#tally').html(`当前显示第 ${res.page_start_record}-${res.page_end_record} 条, 共 ${res.totalnum} 条`)
+
+                        // 渲染模板
+                        let htmlStr = template('instructor-table-temp', res)
+                        $('#table-content .content').html(htmlStr)
+                    },
+                }
+            });
+        }
+
+        // 添加备注
+        function saveDrillmsterRemarkAjax(drillmasterID) {
+            layer.prompt({ title: '备注内容', formType: 2, }, function yes(value, index) {
+                let data = {
+                    uid: drillmasterID,
+                    remark: value,
+                }
+                if (data.remark === '') {
+                    layer.msg('请输入备注内容')
+                    return;
+                }
+                $.ajax({
+                    url: '__APP__/Admin/Drillmster/saveDrillmsterRemarkAjax',
+                    method: 'post',
+                    data: data,
+                    success(res) {
+                        layer.msg(res.msg)
+                        if (res.code != 0) return;
+                        layer.close(index)
+                    }
+                })
+            })
+        }
+
+        // 编辑标签
+        function editDrillmsterTagAjax(drillmasterID) {
+            let loading = null
+            layer.open({
+                title: '打标签',
+                btn: ['确定', '取消'],
+                type: 1,
+                area: ['320px', '188px'],
+                content: $('#add-tag-box'),
+                yes: function (index) {
+                    saveDrillmsterTagAjax(drillmasterID, index)
+                },
+                end: function () {
+                    selectizeReset($('#add-tag'))
+                },
+                success: function () {
+                    $.ajax({
+                        url: '__APP__/Admin/DrillmsterTag/editDrillmsterTagAjax',
+                        data: { uid: drillmasterID },
+                        beforeSend: function () {
+                            loading = layer.load(1, {
+                                shade: [0.3, '#000']
+                            });
+                        }
+                    }).done(function (res) {
+                        layer.close(loading)
+                        if (res.code != 0) return;
+                        let data = res.data || [];
+
+                        data && data.forEach(item => {
+                            $('#add-tag')[0].selectize.addOption({ value: item.tag_id, text: item.tag_name })
+                            item.is_select && $('#add-tag')[0].selectize.addItem(item.tag_id)
+                        })
+                    })
+                }
+            });
+        }
+
+        // 保存教官标签
+        function saveDrillmsterTagAjax(drillmasterID, openIndex) {
+            let loading = null;
+            $.ajax({
+                url: '__APP__/Admin/DrillmsterTag/saveDrillmsterTagAjax',
+                method: 'post',
+                data: { uid: drillmasterID, tag_id_arr: $('#add-tag')[0].selectize.items },
+                beforeSend: function () {
+                    loading = layer.load(1, {
+                        shade: [0.3, '#000']
+                    });
+                }
+            }).done(function (res) {
+                layer.msg(res.msg)
+                layer.close(loading)
+                if (res.code != 0) return;
+                layer.close(openIndex)
+            })
+        }
+
+        // 导入教官
+        function openImportDrillmasterBox() {
+            layer.open({
+                title: '导入教官',
+                content: $('#import-drillmaster-box'),
+                area: ['600px', '600px'],
+                type: 1,
+                btn: ['保存', '取消'],
+                yes: function (openIndex) {
+                    saveDrillmasterInputExcel(openIndex)
+                },
+                success: function () {
+                    uploaderExcel.__instance.refresh()
+                },
+                end: function () {
+                    uploaderExcel.__clearFile()
+                }
+            });
+        }
+
+        // 保存导入教官
+        function saveDrillmasterInputExcel(openIndex) {
+            let loading = null;
+            if (uploaderExcel.__instance.getFiles().length === 0) return layer.msg('请选择上传的文件');
+            if (!uploaderExcel.__verify) return layer.msg('请校验 Excel 文件');
+            $.ajax({
+                url: '__APP__/Admin/Drillmster/saveDrillmasterInputExcel',
+                data: {},
+                method: 'post',
+                beforeSend: function () {
+                    loading = layer.load(1, {
+                        shade: [0.3, '#000']
+                    });
+                }
+            }).done(function (res) {
+                layer.close(loading);
+                layer.msg(res.msg)
+                if (res.code != 0) return;
+                layer.close(openIndex)
+            })
+        }
+
+        // 上传 Excel
+        function uploaderExcel() {
+            uploaderExcel.__instance = new WebUploader.Uploader({
+                swf: '__PUBLIC__/js/Uploader.swf',
+                server: '__APP__/Admin/Drillmster/excelData',
+                duplicate: true,
+                pick: {
+                    id: '#uploader-excel-btn',
+                    multiple: false
+                },
+                accept: {
+                    title: 'Excel',
+                    extensions: 'xls,xlsx',
+                    mimeTypes: 'application/vnd.ms-excel,application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'
+                },
+                compress: false
+            })
+
+            uploaderExcel.__instance.on('fileQueued', function (file) {
+                uploaderExcel.__instance.upload();
+            });
+
+            uploaderExcel.__instance.on('uploadProgress', function (file, percentage) {
+                $('.status-box').html('正在上传 ' + percentage * 100 + '%');
+            });
+
+            uploaderExcel.__instance.on('uploadSuccess', function (file, res) {
+                if (res.code != 0) {
+                    layer.msg(res.msg);
+                    return;
+                }
+                $('.status-box').html('验证完毕: ' + '成功' + res.success_num + '条 ' + '失败' + res.fall_num + '条');
+
+                let data = res.data || [];
+
+                if (data.length !== 0) {
+                    uploaderExcel.__verify = false;
+                    let allResult = '<tr><th>序号</th><th>失败原因</th></tr>';
+                    data && data.forEach((item, index) => {
+                        allResult += '<tr><td>' + item.s_name + '</td><td>' + item.msg + '</td></tr>'
+                    })
+                    $('#upload-all table').html(allResult)
+                    $('#upload-info').removeClass('hidden');
+                    return;
+                } else {
+                    $('#upload-info').addClass('hidden');
+                    uploaderExcel.__verify = true;
+                }
+            })
+
+        }
+
+        // WebUploader 实例
+        uploaderExcel.__instance = null;
+
+        // 校验 Excel 合法性
+        uploaderExcel.__verify = null;
+
+        // 清除上传
+        uploaderExcel.__clearFile = function () {
+            for (let i = 0; i < uploaderExcel.__instance.getFiles().length; i++) {
+                uploaderExcel.__instance.removeFile(uploaderExcel.__instance.getFiles()[i]);
+            }
+            uploaderExcel.__instance.reset();
+            $('.status-box').html('未选择文件')
+            $('#upload-info').addClass('hidden')
+            uploaderExcel.__verify = false;
+        }
+
+        // 日期控件
+        function dataTime() {
+            laydate.render({
+                elem: '#lately-date',
+                format: 'yyyy-MM-dd',
+                range: true
+            });
+            laydate.render({
+                elem: '#birthday-date',
+                format: 'yyyy-MM-dd',
+                range: true
+            });
+        }
+
+        function selectizePlugin() {
+            $('#add-tag').selectize({
+                plugins: ['remove_button'],
+            })
+            $('select[name=course_id]').selectize({
+                maxItems: 1,
+                onChange(courseId) {
+                    courseId = Array.isArray(courseId) ? courseId[0] : courseId;
+                    getDrillmasterPeriod(courseId)
+                }
+            })
+            $('select[name=course_period_id]').selectize({
+                maxItem: 1,
+            })
+        }
+
+        // 获取教官违规次数
+        function getDrillmasterViolationCountAjax(drillmasterID, violation_type) {
+            let loading = null;
+            $.ajax({
+                url: '__APP__/Admin/DrillmsterViolationRecord/getDrillmasterViolationCountAjax',
+                data: { uid: drillmasterID, violation_type },
+                method: 'post',
+                beforeSend: function () {
+                    loading = layer.load(1, {
+                        shade: [0.3, '#000']
+                    });
+                }
+            }).done(function (res) {
+                layer.close(loading);
+                if (res.code != 0) return;
+                let count = res.data;
+                $('#type-count').html(`该教官已记录 ${count} 次此类型`)
+            })
+        }
+
+        // 获取教官岗位列表
+        function getDrillmasterRoleOptions(roleId) {
+            let loading = null;
+            $.ajax({
+                url: '__APP__/Admin/DrillmsterBase/getBaseRoleAjax',
+                data: {},
+                method: 'post',
+                beforeSend: function () {
+                    loading = layer.load(1, {
+                        shade: [0.3, '#000']
+                    });
+                }
+            }).done(function (res) {
+                layer.close(loading);
+                if (res.code != 0) return;
+                let data = res.data || [];
+                let roleOptions = '<option value="0">全部岗位</option>'
+                data && data.forEach(item => {
+                    roleOptions += `<option ${roleId === item.rid ? 'selected' : ''} value="${item.rid}">${item.role_name}</option>`
+                })
+                $('select[name=select_role_id]').html(roleOptions)
+            })
+        }
+
+        // 淘汰教官
+        function outDrillmasterAjax(uid) {
+            layer.confirm('确定要淘汰教官吗 ? ', { title: '警告', formType: 2 }, function yes() {
+                let loading = null;
+                $.ajax({
+                    url: '__APP__/Admin/Drillmster/outDrillmasterAjax',
+                    data: { uid },
+                    method: 'post',
+                    beforeSend: function () {
+                        loading = layer.load(1, {
+                            shade: [0.3, '#000']
+                        });
+                    }
+                }).done(function (res) {
+                    layer.close(loading);
+                    layer.msg(res.msg);
+                    if (res.code != 0) {
+                        return
+                    };
+                    getDrillmsterIndexListInfoAjax();
+                })
+            },
+            );
+        }
+
+        // 初始化
+        function init() {
+            $('body').delegate('#import-drillmaster', 'click', function () {
+                openImportDrillmasterBox()
+            })
+            $('body').delegate('#temp-download-btn', 'click', function () {
+                window.location.href = "__APP__/Admin/Drillmster/getDrillmasterInputExcel"
+            })
+            $('body').delegate('.make-tag-btn', 'click', function () {
+                editDrillmsterTagAjax($(this).data('uid'))
+            })
+            $('body').delegate('.add-remark-btn', 'click', function () {
+                saveDrillmsterRemarkAjax($(this).data('uid'))
+            })
+            $('body').delegate('.record-illegality-btn', 'click', function () {
+                let drillmasterID = $(this).data('uid')
+                $('#record-illegality-box').find('select[name=violation_type]').data('drillmaster-id', drillmasterID)
+                recordIllegality(drillmasterID)
+            })
+            $('body').delegate('#search-btn', 'click', function () {
+                getDrillmsterIndexListInfoAjax()
+            })
+            $('body').delegate('#page-size', 'change', function () {
+                pageSize = $(this).children('option:selected').val()
+                getDrillmsterIndexListInfoAjax()
+            })
+            $('body').delegate('select[name=violation_type]', 'change', function () {
+                let type = $(this).children('option:selected').val()
+                let id = $(this).data('drillmaster-id');
+                getDrillmasterViolationCountAjax(id, type)
+            })
+            $('body').delegate('.weed-out', 'click', function () {
+                let uid = $(this).data('uid');
+                outDrillmasterAjax(uid)
+            })
+
+            let queryObj = serializeQuery(window.location.search);
+            $(`select[name=select_drillmaster_level] option[value=${queryObj.level}]`)
+                .prop('selected', true)
+                .siblings()
+                .prop('selected', false);
+
+            getDrillmsterIndexListInfoAjax({ select_role_id: queryObj.role_id })
+            dataTime()
+            uploaderExcel()
+            selectizePlugin()
+            getDrillmasterRoleOptions(queryObj.role_id)
+        }
+        init()
+
+    </script>
 </body>
 
 </html>
