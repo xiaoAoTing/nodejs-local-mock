@@ -9,7 +9,7 @@ const fs = require('fs');
  */
 function errorHandling(err, request, response, next) {
   const placeholder = '-----------------------------------------';
-  const errMsg = `Error message: ${err.message};\n`;
+  const errMsg = `\nError message: ${err.message};\n`;
   const errUrl = `URL: ${request.originalUrl};\n`;
   const time = `Time: ${new Date()}\n`;
   fs.appendFileSync('./log.txt', placeholder + errMsg + errUrl + time);

@@ -1,0 +1,46 @@
+{
+    "code": 0,
+    "msg": "操作成功",
+    "data": [
+        {
+            "id": "4176",
+            "cut_name": "1团",
+            "period": "4121",
+            "team_nick_name": "",
+            "group_list": [
+                {
+                    "group_id": "5917",
+                    "group_name": "1组",
+                    "group_nick_name": "",
+                    "cutid": "4176"
+                },
+                {
+                    "group_id": "5919",
+                    "group_name": "2组",
+                    "group_nick_name": "二班",
+                    "cutid": "4176"
+                }
+            ]
+        },
+        {
+            "id": "4178",
+            "cut_name": "2团",
+            "period": "4121",
+            "team_nick_name": "",
+            "group_list": [
+                {
+                    "group_id": "5920",
+                    "group_name": "1组",
+                    "group_nick_name": "",
+                    "cutid": "4178"
+                },
+                {
+                    "group_id": "5923",
+                    "group_name": "2组",
+                    "group_nick_name": "二班",
+                    "cutid": "4178"
+                }
+            ]
+        }
+    ]
+}

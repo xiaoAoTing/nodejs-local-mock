@@ -1,6 +1,73 @@
 {
-    "code": 0,
-    "data": {
-        "is_assionment": "0"
-    }
+    activity_id: "1"
+form_contents: [
+        {type: 1, title: "姓名", desc: "请输入姓名或昵称", is_need: 1, limit: 8, content: "123", links: []
+        },…
+    ]0: {type: 1, title: "姓名", desc: "请输入姓名或昵称", is_need: 1, limit: 8, content: "123", links: []
+    }content: "123"
+desc: "请输入姓名或昵称"
+is_need: 1
+limit: 8
+links: []
+title: "姓名"
+type: 1
+1: {type: 2, title: "个人简介",…
+    }content: "123"
+desc: "详细的自我介绍，可以填写自己的身高、体重、特长、优势，以及毕业院校等等，以及自己想要接什么类型的活动或通告均可填写描述的越详细，越有被选中的机会～"
+is_need: 1
+limit: 120
+links: []
+strLength: 3
+title: "个人简介"
+type: 2
+2: {type: 3, title: "模卡照片", desc: "模卡照片", is_need: 0, limit: 9,…
+    }content: "https://static.yunduoke.cn/20220616004706d0a846913.png"
+desc: "模卡照片"
+is_need: 0
+limit: 9
+links: [
+        "https://static.yunduoke.cn/20220616004706d0a846913.png"
+    ]
+title: "模卡照片"
+type: 3
+3: {type: 4, title: "个人视频", desc: "个人视频", is_need: 0, limit: 9, content: "", links: []
+    }content: ""
+desc: "个人视频"
+is_need: 0
+limit: 9
+links: []
+title: "个人视频"
+type: 4
+4: {type: 5, title: "获奖及演出", desc: "可以填写演出经历以及获得的荣誉也可以上传模卡照片等…", is_need: 0, limit: 0, content: "",…
+    }article_photos: "https://static.yunduoke.cn/20220616004714496372192.png|https://static.yunduoke.cn/20220616005113b0f610012.png"
+content: ""
+desc: "可以填写演出经历以及获得的荣誉也可以上传模卡照片等…"
+is_need: 0
+limit: 0
+links: [
+        "https://static.yunduoke.cn/20220616004714496372192.png",…
+    ]
+title: "获奖及演出"
+type: 5
+5: {type: 6, title: "社交账号", desc: "请输入微信、电话号…", is_need: 0, limit: 0, content: "",…
+    }content: ""
+desc: "请输入微信、电话号…"
+is_need: 0
+limit: 0
+links: [
+        {link_id: 1, link_title: "微信号", link_desc: "请输入微信号", link_contnet: "123"
+        },…
+    ]
+title: "社交账号"
+type: 6
+6: {type: 7, title: "头像", desc: "头像", is_need: 0, limit: 0,…
+    }content: "https://static.yunduoke.cn/20220616004650b6ce44319.png"
+desc: "头像"
+is_need: 0
+limit: 0
+links: []
+src: "https://static.yunduoke.cn/20220616004650b6ce44319.png"
+title: "头像"
+type: 7
+token: "9dbec82531b0627f43029ef1cdc243c1"
 }
