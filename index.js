@@ -5,9 +5,9 @@ const app = express();
 const fs = require('fs');
 const path = require('path');
 const errorHandling = require('./middleware/error-handling');
+const cors = require('cors');
 const customBodyParser = require('./middleware/custom-body-parser');
-// const cors = require('cors');
-const myCors = require('./middleware/cors');
+// const myCors = require('./middleware/cors');
 
 const DIRECTORY = {
   INTEGRAL_MOCK: 'integral-mock',
@@ -45,11 +45,11 @@ app.get('/mock/:filename', function(req, res) {
 });
 
 // Middleware
+app.use(cors());
 app.use(customBodyParser());
-// app.use(cors());
-app.use(myCors());
-// app.use(express.json());
-// app.use(express.urlencoded);
+app.use(express.json());
+app.use(express.urlencoded);
+// app.use(myCors());
 
 // Static
 app.use('/public', express.static('public', {
