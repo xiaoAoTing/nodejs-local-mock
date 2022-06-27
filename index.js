@@ -6,7 +6,7 @@ const fs = require('fs');
 const path = require('path');
 const errorHandling = require('./middleware/error-handling');
 const cors = require('cors');
-const customBodyParser = require('./middleware/custom-body-parser');
+// const customBodyParser = require('./middleware/custom-body-parser');
 // const myCors = require('./middleware/cors');
 
 const DIRECTORY = {
@@ -27,6 +27,7 @@ app.set('jsonp callback name', JSONP_CALLBACK_NAME);
  * The request must be defined before CORS.
  */
 app.get('/mock/:filename', function(req, res) {
+  console.log(`Enter`);
   const basename = req.params.filename;
   const paths = ['./public/mock/', CURRENT_DIRECTORY, basename + '.json'];
   const filePath = path.join.apply(null, paths);
@@ -46,9 +47,11 @@ app.get('/mock/:filename', function(req, res) {
 
 // Middleware
 app.use(cors());
-app.use(customBodyParser());
 app.use(express.json());
-app.use(express.urlencoded);
+app.use(express.urlencoded({
+  extended: false
+}));
+// app.use(customBodyParser());
 // app.use(myCors());
 
 // Static
