@@ -75,6 +75,7 @@
         <button type="button" onclick="calc(100)">start - 100</button>
         <button type="button" onclick="calc(1000)">start - 1000</button>
         <button type="button" onclick="calc(10000)">start - 10000</button>
+        <button type="button" onclick="save()">save to database</button>
     </div>
     <hr>
     <div>
@@ -171,6 +172,15 @@
             numberGames = 0;
             $('#number-of-games span').html(numberGames);
             confirmParams();
+        }
+
+        function save() {
+            $.ajax({
+                url: '/index/saveToDatabase',
+                method: 'post',
+            }).done(function (res) {
+                console.log(res, 'response');
+            })
         }
 
 

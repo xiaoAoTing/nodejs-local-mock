@@ -14,4 +14,13 @@ router.post('/getUserInfo', function (req, res) {
     })
 })
 
+router.post('/saveToDatabase', function (req, res) {
+    console.log('saveToDatabase execute !');
+    res.send({
+        statusCode: 200,
+        message: '保存成功',
+        data: req.body || {}
+    })
+})
+
 module.exports = router;
