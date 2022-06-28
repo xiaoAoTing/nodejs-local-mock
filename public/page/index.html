@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock index</title>
+    <style>
+        .clearfix:after {
+            visibility: hidden;
+            display: block;
+            font-size: 0;
+            content: " ";
+            clear: both;
+            height: 0;
+        }
+
+        body {
+            font-size: 12px;
+            text-align: center;
+        }
+
+        input {
+            width: 100px;
+        }
+
+        h4 {
+            text-align: center;
+            font-size: 16px;
+        }
+
+        h6 {
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h4>Set: </h4>
+        <form class="clearfix">
+            <h6>player-1</h6>
+            <div class="form-control">
+                <label>success ratio 1</label>
+                <input type="text" name="ratio-one" value="1-50">
+            </div>
+            <div class="form-control">
+                <label>money</label>
+                <input type="text" name="money-one" value="100">
+            </div>
+            <h6>player-2</h6>
+            <div class="form-control">
+                <label>success ratio 2</label>
+                <input type="text" name="ratio-two" value="51-100">
+            </div>
+            <div class="form-control">
+                <label>money</label>
+                <input type="text" name="money-two" value="100000">
+            </div>
+            <h6>game</h6>
+            <div class="form-control">
+                <label>Single amount size</label>
+                <input type="text" name="money" value="10">
+            </div>
+        </form>
+    </div>
+    <hr>
+    <div>
+        <h4>actions: </h4>
+        <button type="button" onclick="confirmParams()">use the set</button>
+        <button type="button" onclick="restart()">restart</button>
+        <button type="button" onclick="calc(1)">start - 1</button>
+        <button type="button" onclick="calc(10)">start - 10</button>
+        <button type="button" onclick="calc(100)">start - 100</button>
+        <button type="button" onclick="calc(1000)">start - 1000</button>
+        <button type="button" onclick="calc(10000)">start - 10000</button>
+    </div>
+    <hr>
+    <div>
+        <h4>data panel: </h4>
+        <p id="player-panel-1">player-1 money: <span>0</span></p>
+        <p id="player-panel-2">player-2 money: <span>0</span></p>
+        <p id="number-of-games">number-of-games: <span>0</span></p>
+    </div>
+    <script src="https://cdn.staticfile.org/jquery/1.10.0/jquery.js"></script>
+    <script>
+
+        let global_money1 = 0;
+        let global_money2 = 0;
+        let numberGames = 0;
+        let val1 = '';
+        let val2 = '';
+        let gameMoney = '';
+
+        // 得到一个两数之间的随机整数，包括两个数在内
+        function getRandomIntInclusive(min, max) {
+            min = Math.ceil(min);
+            max = Math.floor(max);
+            return Math.floor(Math.random() * (max - min + 1)) + min;
+        }
+
+        function calc(num) {
+            new Array(num).fill(0).forEach(getResult);
+        }
+
+        function getResult() {
+            let result = getRandomIntInclusive(1, 100);
+
+            if (result >= val1[0] && result <= val1[1]) {
+                success1()
+            }
+            else if (result >= val2[0] && result <= val2[1]) {
+                success2()
+            } else {
+                console.error('getResult 无结果', result);
+            }
+
+            numberGames++;
+            $('#number-of-games span').html(numberGames);
+        }
+
+        function success1() {
+            global_money1 += gameMoney;
+            global_money2 -= gameMoney;
+
+            if (global_money1 < 0) {
+                throw Error('Game over: player-1 to broke !')
+            }
+
+            if (global_money2 < 0) {
+                throw Error('Game over: player-2 to broke !')
+            }
+
+            $('#player-panel-1 span').html(global_money1);
+            $('#player-panel-2 span').html(global_money2);
+        }
+
+        function success2() {
+            global_money1 -= gameMoney;
+            global_money2 += gameMoney;
+
+            if (global_money1 < 0) {
+                throw Error('Game over: player-1 to broke !')
+            }
+
+            if (global_money2 < 0) {
+                throw Error('Game over: player-2 to broke !')
+            }
+
+            $('#player-panel-1 span').html(global_money1);
+            $('#player-panel-2 span').html(global_money2);
+        }
+
+        function confirmParams() {
+            let money1 = $('[name=money-one]').val();
+            let money2 = $('[name=money-two]').val();
+            $('#player-panel-1 span').html(money1);
+            $('#player-panel-2 span').html(money2);
+
+            val1 = $('[name=ratio-one]').val().split('-');
+            val2 = $('[name=ratio-two]').val().split('-');
+
+            gameMoney = parseInt($('[name=money]').val());
+
+            global_money1 = parseInt(money1);
+            global_money2 = parseInt(money2);
+        }
+
+        function restart() {
+            numberGames = 0;
+            $('#number-of-games span').html(numberGames);
+            confirmParams();
+        }
+
+
+    </script>
+</body>
+
+</html>
