@@ -1,0 +1,90 @@
+{
+    "code": 0,
+    "msg": "成功",
+    "data": {
+        "list_data": [
+            {
+                "issue_id": "1",
+                "appeal_title": "诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题",
+                "appeal_desc": "诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述",
+                "status": "1",
+                "is_write_back": "1",
+                "write_back": "营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容",
+                "write_back_imgs": [
+                    "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png",
+                    "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png",
+                    "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png",
+                    "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png"
+                ],
+                "add_time": "2022-02-02 20:20:20",
+                "from_field": [
+                    {
+                        "label": "会员",
+                        "names": "张三",
+                        "phone": "1888888888"
+                    },
+                    {
+                        "label": "营员",
+                        "names": "大胖小子, 大臭小子",
+                        "phone": "1888888888"
+                    }
+                ]
+            },
+            {
+                "issue_id": "2",
+                "appeal_title": "诉求标题",
+                "appeal_desc": "诉求描述",
+                "status": "2",
+                "is_write_back": "2",
+                "write_back": "营长回复",
+                "write_back_imgs": [
+                    "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png",
+                    "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png",
+                    "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png",
+                    "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png"
+                ],
+                "add_time": "2022-02-02 20:20:20",
+                "from_field": [
+                    {
+                        "label": "会员",
+                        "names": "张三",
+                        "phone": "1888888888"
+                    },
+                    {
+                        "label": "营员",
+                        "names": "大胖小子, 大臭小子",
+                        "phone": "1888888888"
+                    }
+                ]
+            },
+            {
+                "issue_id": "2",
+                "appeal_title": "诉求标题",
+                "appeal_desc": "诉求描述",
+                "status": "2",
+                "is_write_back": "2",
+                "write_back": "营长回复",
+                "write_back_imgs": [
+                    "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png",
+                    "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png",
+                    "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png",
+                    "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png"
+                ]
+            },
+            {
+                "issue_id": "2",
+                "appeal_title": "诉求标题",
+                "appeal_desc": "诉求描述",
+                "status": "2",
+                "is_write_back": "1",
+                "write_back": "营长回复",
+                "write_back_imgs": [
+                    "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png",
+                    "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png",
+                    "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png",
+                    "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png"
+                ]
+            }
+        ]
+    }
+}

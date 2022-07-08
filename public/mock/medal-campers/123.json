@@ -1,0 +1,38 @@
+{
+    "code": 0,
+    "msg": "获取成功",
+    "condition": {
+      "more_course_id": "1253",
+      "course_period_interval": "2022-07-06 - 2022-08-19",
+      "role_shortage_flags": 0
+    },
+    "totalnum": "1",
+    "data": [
+      {
+        "course_id": "1253",
+        "course_name": "营服优化【复制】",
+        "period_id": "4175",
+        "period_name": "2022/07/06-2022/08/19",
+        "campers_person_count": "3/0",
+        "campers_sex_ratio": "1/2",
+        "drillmster_sex_ratio": "0/0",
+        "yingdizhuren": "0/0/0",
+        "yingdizhuren_role_id": 8,
+        "yingdizhurenzhuli": "0/0/0",
+        "yingdizhurenzhuli_role_id": 9,
+        "weixindaoshi": "0/0/0",
+        "weixindaoshi_role_id": 16,
+        "houqinjiaoguan": "0/0/0",
+        "houqinjiaoguan_role_id": 18,
+        "wuzijiaoguan": "0/0/0",
+        "wuzijiaoguan_role_id": 19,
+        "zhujiaoguan": "0/0/0",
+        "zhujiaoguan_role_id": 11,
+        "weixinjiaoguan": "0/0/0",
+        "weixinjiaoguan_role_id": 14,
+        "daiduijiaoguan": "0/0/0",
+        "daiduijiaoguan_role_id": 15,
+        "level_average": 0
+      }
+    ]
+  }
