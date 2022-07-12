@@ -61,7 +61,7 @@
                 "issue_id": "2",
                 "appeal_title": "诉求标题",
                 "appeal_desc": "诉求描述",
-                "status": "2",
+                "status": "1",
                 "is_write_back": "2",
                 "write_back": "营长回复",
                 "write_back_imgs": [

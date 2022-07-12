@@ -15,8 +15,9 @@ const DIRECTORY = {
   DRILLMASTER_TRAINING: 'drillmaster-training',
   DATA_PANEL: 'data-panel',
   MEDAL_CAMPERS: 'medal-campers',
+  CAMP_LETTER_BOX: 'camp-letter-box'
 };
-const CURRENT_DIRECTORY = DIRECTORY['MEDAL_CAMPERS'];
+const CURRENT_DIRECTORY = DIRECTORY['CAMP_LETTER_BOX'];
 
 // Setting
 const JSONP_CALLBACK_NAME = 'callback';
@@ -26,22 +27,17 @@ app.set('jsonp callback name', JSONP_CALLBACK_NAME);
  * Handling JSONP requests.
  * The request must be defined before CORS.
  */
-app.get('/mock/:filename', function(req, res) {
-  console.log(`Enter`);
+app.get('/mock/:filename', function (req, res) {
   const basename = req.params.filename;
   const paths = ['./public/mock/', CURRENT_DIRECTORY, basename + '.json'];
   const filePath = path.join.apply(null, paths);
 
-  if (!req.query[JSONP_CALLBACK_NAME]) {
-    res.send('Not the JSONP');
-  }
-
-  fs.readFile(filePath, function(err, buf) {
+  fs.readFile(filePath, function (err, buf) {
     if (err) {
       res.sendStatus(404);
       return;
     }
-    res.jsonp(JSON.parse(buf.toString()));
+    res[req.query[JSONP_CALLBACK_NAME] ? 'send' : 'jsonp'](JSON.parse(buf.toString()));
   });
 });
 
