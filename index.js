@@ -19,7 +19,9 @@ const DIRECTORY = {
 };
 const CURRENT_DIRECTORY = DIRECTORY['CAMP_LETTER_BOX'];
 
-// Setting
+/**
+ * Express set.
+ */
 const JSONP_CALLBACK_NAME = 'callback';
 app.set('jsonp callback name', JSONP_CALLBACK_NAME);
 
@@ -41,7 +43,9 @@ app.get('/mock/:filename', function (req, res) {
   });
 });
 
-// Middleware
+/**
+ * Express middleware
+ */
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({
@@ -50,15 +54,21 @@ app.use(express.urlencoded({
 // app.use(customBodyParser());
 // app.use(myCors());
 
-// Static
+/**
+ * Static file
+ */
 app.use('/public', express.static('public', {
   extensions: ['html', 'htm', 'js', 'json'],
 }));
 
-// Router
+/**
+ * Router
+ */
 app.use('/index', require('./routers/index'));
 
-// Error handling
+/**
+ * Error handling
+ */
 app.use(errorHandling());
 
 app.listen('8080', () => {

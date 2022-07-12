@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PX to RPX</title>
+</head>
+
+<body>
+    <div id="app">
+        <div>
+            <label for="">Pixel-1: </label>
+            <input tabindex="1" oninput="onInput(this)" data-key="rpx1" type="text" v-model="px1">
+            <label for="">Rpx-1: </label>
+            <input type="text" v-model="rpx1">
+        </div>
+        <div style="margin-top: 20px;">
+            <label for="">Pixel-2: </label>
+            <input tabindex="2" oninput="onInput(this)" type="text" data-key="rpx2" v-model="px2">
+            <label for="">Rpx-2: </label>
+            <input type="text" v-model="rpx2">
+        </div>
+    </div>
+    <script src="https://cdn.bootcdn.net/ajax/libs/vue/2.7.4/vue.js"></script>
+    <script>
+        // new Vue({
+        //     data: {
+        //         px1: '',
+        //         px2: '',
+        //     },
+        //     computed: {
+        //         rpx1: function () {
+        //             return this.px1 * 2;
+        //         },
+        //         rpx2: function () {
+        //             return this.px2 * 2;
+        //         }
+        //     }
+        // })
+
+        function onInput(e) {
+            let key = e.attributes['data-key'].value;
+            document.querySelector(`input[v-model=${key}]`).value = e.value * 2 + 'rpx';
+        }
+    </script>
+</body>
+
+</html>
