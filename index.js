@@ -26,6 +26,17 @@ const JSONP_CALLBACK_NAME = 'callback';
 app.set('jsonp callback name', JSONP_CALLBACK_NAME);
 
 /**
+ * Express middleware
+ */
+app.use(cors());
+app.use(express.json());
+app.use(express.urlencoded({
+  extended: false
+}));
+// app.use(customBodyParser());
+// app.use(myCors());
+
+/**
  * Handling JSONP requests.
  * The request must be defined before CORS.
  */
@@ -42,17 +53,6 @@ app.get('/mock/:filename', function (req, res) {
     res[req.query[JSONP_CALLBACK_NAME] ? 'jsonp' : 'send'](JSON.parse(buf.toString()));
   });
 });
-
-/**
- * Express middleware
- */
-app.use(cors());
-app.use(express.json());
-app.use(express.urlencoded({
-  extended: false
-}));
-// app.use(customBodyParser());
-// app.use(myCors());
 
 /**
  * Static file
