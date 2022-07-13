@@ -2,22 +2,10 @@
 const ololog = require('ololog');
 const express = require('express');
 const app = express();
-const fs = require('fs');
-const path = require('path');
 const errorHandling = require('./middleware/error-handling');
 const cors = require('cors');
 // const customBodyParser = require('./middleware/custom-body-parser');
 // const myCors = require('./middleware/cors');
-
-const DIRECTORY = {
-  INTEGRAL_MOCK: 'integral-mock',
-  ASSION_GROUPS: 'assion-groups',
-  DRILLMASTER_TRAINING: 'drillmaster-training',
-  DATA_PANEL: 'data-panel',
-  MEDAL_CAMPERS: 'medal-campers',
-  CAMP_LETTER_BOX: 'camp-letter-box'
-};
-const CURRENT_DIRECTORY = DIRECTORY['CAMP_LETTER_BOX'];
 
 /**
  * Express set.
@@ -37,24 +25,6 @@ app.use(express.urlencoded({
 // app.use(myCors());
 
 /**
- * Handling JSONP requests.
- * The request must be defined before CORS.
- */
-app.get('/mock/:filename', function (req, res) {
-  const basename = req.params.filename;
-  const paths = ['./public/mock/', CURRENT_DIRECTORY, basename + '.json'];
-  const filePath = path.join.apply(null, paths);
-
-  fs.readFile(filePath, function (err, buf) {
-    if (err) {
-      res.sendStatus(404);
-      return;
-    }
-    res[req.query[JSONP_CALLBACK_NAME] ? 'jsonp' : 'send'](JSON.parse(buf.toString()));
-  });
-});
-
-/**
  * Static file
  */
 app.use('/public', express.static('public', {
@@ -65,6 +35,7 @@ app.use('/public', express.static('public', {
  * Router
  */
 app.use('/index', require('./routers/index'));
+app.use('/mock', require('./routers/mock'));
 
 /**
  * Error handling

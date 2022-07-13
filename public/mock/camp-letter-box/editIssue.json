@@ -1,0 +1,9 @@
+{
+    "code": 0,
+    "msg": "保存成功",
+    "data": {
+        "issue_content": "问题",
+        "resolve_content": "<p style=\"font-size:28px;\">解决问题解决问题解决问题解决问题解决问题解决问题</p>",
+        "issue_id": "1"
+    }
+}
