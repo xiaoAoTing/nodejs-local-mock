@@ -39,7 +39,7 @@ app.get('/mock/:filename', function (req, res) {
       res.sendStatus(404);
       return;
     }
-    res[req.query[JSONP_CALLBACK_NAME] ? 'send' : 'jsonp'](JSON.parse(buf.toString()));
+    res[req.query[JSONP_CALLBACK_NAME] ? 'jsonp' : 'send'](JSON.parse(buf.toString()));
   });
 });
 
