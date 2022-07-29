@@ -1,0 +1,153 @@
+{
+    "code": 0,
+    "uid": "1",
+    "roleid": "1",
+    "msg": "获取成功",
+    "totalnum": "4",
+    "data": [
+      {
+        "issue_id": "49",
+        "appeal_title": "啊考虑考虑咯我988555566",
+        "appeal_desc": "可口可乐了咯莫96555885",
+        "add_time": "2022-07-25 18:04:00",
+        "course_name": "信箱信箱",
+        "period_name": "2022/07/25-2022/07/29",
+        "is_finish": "1",
+        "is_finish_status": "已处理",
+        "user_name": "--",
+        "user_hpne": "",
+        "pictures_num": "10",
+        "pictures_urls": "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png|https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png|https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png",
+        "campersListSids": [
+          "4229"
+        ],
+        "period_id": "4212",
+        "course_id": "1260",
+        "student_arr": [
+          {
+            "name": "营种99 13556698965",
+            "sid": "4229",
+            "orderid": "17517",
+            "student_order_form_id": "8335"
+          }
+        ],
+        "saler_arr": [
+          "qqqq4 13473415243"
+        ],
+        "finish_id": "2483",
+        "finish_name": "aaa",
+        "finish_time": "2022-07-25 18:04:56"
+      },
+      {
+        "issue_id": "48",
+        "appeal_title": "My Appeal  - 1",
+        "appeal_desc": "孩子不吃饭,孩子不吃饭.孩子不吃饭.孩子不吃饭孩子不吃饭.孩子不吃饭.孩子不吃饭",
+        "add_time": "2022-07-25 17:47:35",
+        "course_name": "夏日亲子营【复制】",
+        "period_name": "2022/07/27-2022/07/30",
+        "is_finish": "1",
+        "is_finish_status": "已处理",
+        "user_name": "？",
+        "user_hpne": "17373458242",
+        "pictures_num": "0",
+        "pictures_urls": "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png|http://file.dev.xinduobang.cn/headimg/f124ee9c267b6dd211d827698df972c4.png?imageView2/2/w/750|https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png",
+        "campersListSids": [
+          "4248",
+          "4162"
+        ],
+        "period_id": "4183",
+        "course_id": "1255",
+        "student_arr": [
+          {
+            "name": "大胖小子_1 ",
+            "sid": "4162",
+            "orderid": "17450",
+            "student_order_form_id": "8264"
+          },
+          {
+            "name": "家长1 17373458242",
+            "sid": "4248",
+            "orderid": "17450",
+            "student_order_form_id": "8265"
+          }
+        ],
+        "saler_arr": [
+          " ",
+          " "
+        ],
+        "finish_id": "2483",
+        "finish_name": "aaa",
+        "finish_time": "2022-07-25 17:56:27"
+      },
+      {
+        "issue_id": "47",
+        "appeal_title": "123213213",
+        "appeal_desc": "123123",
+        "add_time": "2022-07-25 17:46:34",
+        "course_name": "夏日亲子营【复制】",
+        "period_name": "2022/07/27-2022/07/30",
+        "is_finish": "0",
+        "is_finish_status": "待处理",
+        "user_name": "？",
+        "user_hpne": "17373458242",
+        "campersListSids": [
+          "4248",
+          "4162"
+        ],
+        "period_id": "4183",
+        "course_id": "1255",
+        "student_arr": [
+          {
+            "name": "大胖小子_1 ",
+            "sid": "4162",
+            "orderid": "17450",
+            "student_order_form_id": "8264"
+          },
+          {
+            "name": "家长1 17373458242",
+            "sid": "4248",
+            "orderid": "17450",
+            "student_order_form_id": "8265"
+          }
+        ],
+        "saler_arr": [
+          " ",
+          " "
+        ],
+        "finish_id": 0,
+        "finish_name": "",
+        "finish_time": ""
+      },
+      {
+        "issue_id": "46",
+        "appeal_title": "测试测试测试999",
+        "appeal_desc": "监控兔兔兔兔966588",
+        "add_time": "2022-07-25 17:42:34",
+        "course_name": "信箱信箱",
+        "period_name": "2022/07/25-2022/07/29",
+        "is_finish": "1",
+        "is_finish_status": "已处理",
+        "user_name": "--",
+        "user_hpne": "",
+        "campersListSids": [
+          "4229"
+        ],
+        "period_id": "4212",
+        "course_id": "1260",
+        "student_arr": [
+          {
+            "name": "营种99 13556698965",
+            "sid": "4229",
+            "orderid": "17517",
+            "student_order_form_id": "8335"
+          }
+        ],
+        "saler_arr": [
+          "qqqq4 13473415243"
+        ],
+        "finish_id": "2483",
+        "finish_name": "aaa",
+        "finish_time": "2022-07-25 17:56:01"
+      }
+    ]
+  }

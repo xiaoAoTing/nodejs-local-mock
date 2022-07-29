@@ -1,62 +1,64 @@
 {
-    "code": 0,
-    "msg": "成功",
     "data": {
-        "camp_info": [
-            {
-                "camp_id": "111",
-                "camp_name": "营种名称-1营种名称-1营种名称-1营种名称-1营种名称-1营种名称-1",
-                "period_list": [
-                    {
-                        "period_name": "1111/11/11-1111/11/11",
-                        "period_id": "1111",
-                        "is_select": "1"
-                    },
-                    {
-                        "period_name": "2222/22/22-2222/22/22",
-                        "period_id": "1222",
-                        "is_select": "0"
-                    }
-                ]
-            },
-            {
-                "camp_id": "222",
-                "camp_name": "营种名称-2",
-                "period_list": [
-                    {
-                        "period_name": "3333/33/33-3333/33/33",
-                        "period_id": "2111",
-                        "is_select": "0"
-                    },
-                    {
-                        "period_name": "4444/44/44-4444/44/44",
-                        "period_id": "2222",
-                        "is_select": "0"
-                    }
-                ]
-            }
-        ],
-        "faq_list": [
-            {
-                "issue_content": "问题问题问题-1问题问题问题-1问题问题问题-1问题问题问题-1问题问题问题-1问题问题问题-1",
-                "issue_id": "2222"
-            },
-            {
-                "issue_content": "问题问题问题-2",
-                "issue_id": "1111"
-            },
-            {
-                "issue_content": "问题问题问题-2",
-                "issue_id": "33333333"
-            },
-            {
-                "issue_content": "问题问题问题-2问题问题问题-1问题问题问题-1问题问题问题-1问题问题问题-1问题问题问题-1问题问题问题-1",
-                "issue_id": "4444444444"
-            },
-            {
-                "issue_content": "问题问题问题-2",
-                "issue_id": "55555555555555"
-            }
-        ]
+        "code": 0,
+        "msg": "成功",
+        "data": {
+            "camp_info": [
+                {
+                    "camp_id": "111",
+                    "camp_name": "营种名称-1营种名称-1营种名称-1营种名称-1营种名称-1营种名称-1",
+                    "period_list": [
+                        {
+                            "period_name": "1111/11/11-1111/11/11",
+                            "period_id": "1111",
+                            "is_select": "0"
+                        },
+                        {
+                            "period_name": "2222/22/22-2222/22/22",
+                            "period_id": "1222",
+                            "is_select": "0"
+                        }
+                    ]
+                },
+                {
+                    "camp_id": "222",
+                    "camp_name": "营种名称-2",
+                    "period_list": [
+                        {
+                            "period_name": "3333/33/33-3333/33/33",
+                            "period_id": "2111",
+                            "is_select": "0"
+                        },
+                        {
+                            "period_name": "4444/44/44-4444/44/44",
+                            "period_id": "2222",
+                            "is_select": "1"
+                        }
+                    ]
+                }
+            ],
+            "faq_list": [
+                {
+                    "issue_content": "问题问题问题-1问题问题问题-1问题问题问题-1问题问题问题-1问题问题问题-1问题问题问题-1",
+                    "issue_id": "2222"
+                },
+                {
+                    "issue_content": "问题问题问题-2",
+                    "issue_id": "1111"
+                },
+                {
+                    "issue_content": "问题问题问题-2",
+                    "issue_id": "33333333"
+                },
+                {
+                    "issue_content": "问题问题问题-2问题问题问题-1问题问题问题-1问题问题问题-1问题问题问题-1问题问题问题-1问题问题问题-1",
+                    "issue_id": "4444444444"
+                },
+                {
+                    "issue_content": "问题问题问题-2",
+                    "issue_id": "55555555555555"
+                }
+            ]
+        }
     }
 }

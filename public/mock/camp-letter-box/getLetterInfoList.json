@@ -5,13 +5,22 @@
         "list_data": [
             {
                 "issue_id": "1",
-                "appeal_title": "诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题诉求标题",
-                "appeal_desc": "诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述诉求描述",
+                "appeal_title": "诉求标题求标题",
+                "appeal_desc": "诉求述诉求描述诉求描述诉求描述",
                 "status": "1",
+                "camp_name": "-大陈岛-原始海岸风景-单日营",
+                "period_name": "2022/11/11-2222/22/22",
                 "is_write_back": "1",
-                "write_back": "营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容营长回复内容",
-                "write_back_imgs": [
+                "desc_images": [
                     "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png",
+                    "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png",
+                    "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png",
+                    "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png",
+                    "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png",
+                    "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png"
+                ],
+                "write_back": "营长回复内容复内容",
+                "write_back_imgs": [
                     "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png",
                     "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png",
                     "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png"
@@ -35,8 +44,18 @@
                 "appeal_title": "诉求标题",
                 "appeal_desc": "诉求描述",
                 "status": "2",
+                "camp_name": "-大陈岛-原始海岸风景-单日营",
+                "period_name": "2022/11/11-2222/22/22",
                 "is_write_back": "2",
                 "write_back": "营长回复",
+                "desc_images": [
+                    "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png",
+                    "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png",
+                    "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png",
+                    "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png",
+                    "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png",
+                    "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png"
+                ],
                 "write_back_imgs": [
                     "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png",
                     "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png",
@@ -61,6 +80,8 @@
                 "issue_id": "2",
                 "appeal_title": "诉求标题",
                 "appeal_desc": "诉求描述",
+                "camp_name": "-大陈岛-原始海岸风景-单日营",
+                "period_name": "2022/11/11-2222/22/22",
                 "status": "1",
                 "is_write_back": "2",
                 "write_back": "营长回复",
@@ -73,6 +94,8 @@
             },
             {
                 "issue_id": "2",
+                "camp_name": "-大陈岛-原始海岸风景-单日营",
+                "period_name": "2022/11/11-2222/22/22",
                 "appeal_title": "诉求标题",
                 "appeal_desc": "诉求描述",
                 "status": "2",
