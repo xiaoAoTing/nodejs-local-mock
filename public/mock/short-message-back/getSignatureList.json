@@ -1,0 +1,26 @@
+{
+    "code": 0,
+    "msg": "成功",
+    "data": {
+        "list_data": [
+            {
+                "platform_id": "1",
+                "platform_name": "信多帮网络科技",
+                "minapp_name": "游学帮营地系统",
+                "signature": "签名名称",
+                "status_name": "审核中",
+                "status": "1",
+                "organization": "YMCE"
+            },
+            {
+                "platform_id": "2",
+                "platform_name": "网络平台科技.",
+                "minapp_name": "YMCE",
+                "signature": "ONCE",
+                "status_name": "审核中",
+                "status": "1",
+                "organization": "YMCE"
+            }
+        ]
+    }
+}

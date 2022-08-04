@@ -1,0 +1,37 @@
+{
+    "code": 0,
+    "msg": "成功",
+    "data": {
+        "list_data": [
+            {
+                "temp_id": "1",
+                "content": "模板内容模板内容模板内容模板内容模板内容模板内容模板内容模板内容模板内容模板内容模板内容模板内容模板内容模板内容模板内容模板内容模板内容模板内容模板内容模板板内容模板内容模板内容模板内容模板内容模板内容模板内容模板内容模板内容模板内容模板内容模板内容",
+                "type": "1",
+                "note_sign": "【Facebook】",
+                "type_name": "营销类型",
+                "create_time": "创建时间",
+                "status_name": [
+                    "审核中",
+                    "待总后台审核"
+                ],
+                "status": "1",
+                "reason_fail": "Sorry! 审核失败, 内容触及政治敏感, 请修改后重新提交审核谢谢 ~",
+                "organization": "YMCE"
+            },
+            {
+                "temp_id": "2",
+                "content": "模板内容",
+                "type": "1",
+                "note_sign": "【NUMBER ONE 1】",
+                "type_name": "营销类型",
+                "create_time": "创建时间",
+                "status_name": [
+                    "审核失败"
+                ],
+                "status": "4",
+                "reason_fail": "Sorry! 审核失败, 内容触及政治敏感, 请修改后重新提交审核谢谢 ~",
+                "organization": "YMCE"
+            }
+        ]
+    }
+}

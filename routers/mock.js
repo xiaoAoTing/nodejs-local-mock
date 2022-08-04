@@ -9,9 +9,10 @@ const DIRECTORY = {
     DATA_PANEL: 'data-panel',
     MEDAL_CAMPERS: 'medal-campers',
     CAMP_LETTER_BOX: 'camp-letter-box',
-    SHORT_MESSAGE: 'short-message'
+    SHORT_MESSAGE: 'short-message',
+    SHORT_MESSAGE_BACK: 'short-message-back'
 };
-const CURRENT_DIRECTORY = DIRECTORY['SHORT_MESSAGE'];
+const CURRENT_DIRECTORY = DIRECTORY['SHORT_MESSAGE']; 
 const path = require('path');
 const fs = require('fs');
 let router = express.Router();
