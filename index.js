@@ -27,7 +27,13 @@ app.use(express.urlencoded({
 /**
  * Static file
  */
-app.use('/public', express.static('public', {
+app.use('/public/mock', express.static('public/mock', {
+  extensions: ['html', 'htm', 'js', 'json'],
+}));
+app.use('/public/page', express.static('public/page', {
+  extensions: ['html', 'htm', 'js', 'json'],
+}));
+app.use('/public/js', express.static('public/js', {
   extensions: ['html', 'htm', 'js', 'json'],
 }));
 

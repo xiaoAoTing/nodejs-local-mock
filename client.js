@@ -2,14 +2,26 @@ var http = require('http');
 
 var postData = JSON.stringify({
     name: '王二狗子'
-})
+});
+
+// 用于请求的选项
+// var options = {
+//     host: 'localhost',
+//     port: '8080',
+//     path: '/index/',
+//     method: 'post',
+//     headers: {
+//         'Content-Type': 'application/json',
+//         'Content-Length': Buffer.byteLength(postData)
+//     }
+// };
 
 // 用于请求的选项
 var options = {
-    host: 'localhost',
-    port: '8080',
-    path: '/index/',
-    method: 'post',
+    host: 'dldir1.qq.com',
+    port: '443',
+    path: '/tgc/wegame/full/WeGameMiniLoader.std.3.12.02.1620.exe',
+    method: 'get',
     headers: {
         'Content-Type': 'application/json',
         'Content-Length': Buffer.byteLength(postData)
