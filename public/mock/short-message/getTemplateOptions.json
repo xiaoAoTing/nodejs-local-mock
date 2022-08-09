@@ -4,8 +4,8 @@
     "data": {
         "temp_options": [
             {
-                "text": "[信多帮网络科技] 年中大促销全场五折, 专业泛营地系统20年",
-                "temp_id": "1",
+                "sms_template_content": "[信多帮网络科技] 年中大促销全场五折, 专业泛营地系统20年",
+                "sms_template_id": "1",
                 "variable_num": "3",
                 "min_words_num": [
                     ["10", "20"],
@@ -14,14 +14,14 @@
                 ]
             },
             {
-                "text": "[中国联通] 您的流量不足, 已自动为您开通 1 日 100g 流量包, 仅限今日使用 !",
-                "temp_id": "2",
+                "sms_template_content": "[中国联通] 您的流量不足, 已自动为您开通 1 日 100g 流量包, 仅限今日使用 !",
+                "sms_template_id": "2",
                 "variable_num": "0",
                 "min_words_num": []
             },
             {
-                "text": "[Github] Be the first to know about speaker announcements and when tickets for our in-person and virtual experiences launch.",
-                "temp_id": "3",
+                "sms_template_content": "[Github] Be the first to know about speaker announcements and when tickets for our in-person and virtual experiences launch.",
+                "sms_template_id": "3",
                 "variable_num": "0",
                 "min_words_num": []
             }
