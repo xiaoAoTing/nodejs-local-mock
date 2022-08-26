@@ -10,7 +10,8 @@ const DIRECTORY = {
     MEDAL_CAMPERS: 'medal-campers',
     CAMP_LETTER_BOX: 'camp-letter-box',
     SHORT_MESSAGE: 'short-message',
-    SHORT_MESSAGE_BACK: 'short-message-back'
+    SHORT_MESSAGE_BACK: 'short-message-back',
+    VERBAL_TRICK: 'verbal-trick',
 };
 const CURRENT_DIRECTORY = DIRECTORY['SHORT_MESSAGE']; 
 const path = require('path');
