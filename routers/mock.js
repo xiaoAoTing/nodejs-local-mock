@@ -13,7 +13,7 @@ const DIRECTORY = {
     SHORT_MESSAGE_BACK: 'short-message-back',
     VERBAL_TRICK: 'verbal-trick',
 };
-const CURRENT_DIRECTORY = DIRECTORY['SHORT_MESSAGE']; 
+const CURRENT_DIRECTORY = DIRECTORY['VERBAL_TRICK']; 
 const path = require('path');
 const fs = require('fs');
 let router = express.Router();

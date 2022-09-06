@@ -1,0 +1,41 @@
+{
+   "code": 0,
+   "msg": "获取成功",
+   "totalnum": "2",
+   "data": [
+      {
+         "speech_lib_id": "2",
+         "speech_type_id": "5",
+         "speech_type_name": "引导消费-话术",
+         "speech_title": "123123",
+         "speech_content": "123123213;123123",
+         "speech_content_type_name": "文字",
+         "send_count": 0,
+         "creator": "admin",
+         "create_time": "2022-08-30 18:32:46",
+         "speech_content_list": [
+            {
+               "speech_content": "您好",
+               "speech_content_type": "1"
+            }
+         ]
+      },
+      {
+         "speech_lib_id": "1",
+         "speech_type_id": "3",
+         "speech_type_name": "激将消费-话术",
+         "speech_title": "第一句",
+         "speech_content": "Hey，您好请问您的手机尾号是 8524 吗？\n是这样的我们公司新推出了 “大卫王信用卡”每月额度最高可达 1万，每日利息低至 50% ，现在下单还包邮送到家哦 ~",
+         "speech_content_type_name": "文字",
+         "send_count": 0,
+         "creator": "admin",
+         "create_time": "2022-08-30 18:32:19",
+         "speech_content_list": [
+            {
+               "speech_content": "您好",
+               "speech_content_type": "1"
+            }
+         ]
+      }
+   ]
+}

@@ -1,0 +1,26 @@
+{
+    "code": 0,
+    "msg": "成功获取数据",
+    "data": [
+        {
+            "speech_type_id": "1",
+            "speech_type": "企业话术分类名称1",
+            "is_select": "0"
+        },
+        {
+            "speech_type_id": "2",
+            "speech_type": "企业话术分类名称2",
+            "is_select": "0"
+        },
+        {
+            "speech_type_id": "3",
+            "speech_type": "企业话术分类名称3",
+            "is_select": "0"
+        },
+        {
+            "speech_type_id": "4",
+            "speech_type": "企业话术分类名称4",
+            "is_select": "1"
+        }
+    ]
+}

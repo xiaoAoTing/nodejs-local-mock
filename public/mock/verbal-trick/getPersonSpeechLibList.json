@@ -1,0 +1,84 @@
+{
+    "code": 0,
+    "msg": "成功获取数据",
+    "data": [
+        {
+            "speech_lib_id": "1",
+            "speech_type_name": "分类名称1",
+            "speech_title": "标题1",
+            "speech_content": [
+                {
+                    "content": "1231231231312313",
+                    "speech_content_type": "1"
+                }
+            ],
+            "speech_content_type": "1",
+            "send_count": "发送次数1"
+        },
+        {
+            "speech_lib_id": "2",
+            "speech_type_name": "分类名称2",
+            "speech_title": "标题2",
+            "speech_content": [
+                {
+                    "content": "1231231231312313",
+                    "speech_content_type": "2"
+                }
+            ],
+            "speech_content_type": "2",
+            "send_count": "发送次数2"
+        },
+        {
+            "speech_lib_id": "3",
+            "speech_type_name": "分类名称3",
+            "speech_title": "标题3",
+            "speech_content": [
+                {
+                    "content": "1231231231312313",
+                    "speech_content_type": "3"
+                }
+            ],
+            "speech_content_type": "3",
+            "send_count": "发送次数3"
+        },
+        {
+            "speech_lib_id": "4",
+            "speech_type_name": "分类名称4",
+            "speech_title": "标题4",
+            "speech_content": [
+                {
+                    "content": "1231231231312313",
+                    "speech_content_type": "4"
+                }
+            ],
+            "speech_content_type": "4",
+            "send_count": "发送次数"
+        },
+        {
+            "speech_lib_id": "5",
+            "speech_type_name": "分类名称5",
+            "speech_title": "标题5",
+            "speech_content": [
+                {
+                    "content": "1231231231312313",
+                    "speech_content_type": "5"
+                }
+            ],
+            "speech_content_type": "5",
+            "send_count": "发送次数5"
+        },
+        {
+            "speech_lib_id": "6",
+            "speech_type_name": "分类名称6",
+            "speech_title": "标题6",
+            "speech_content": [
+                {
+                    "content": "1231231231312313",
+                    "speech_content_type": "6"
+                }
+            ],
+            "speech_content_type": "6",
+            "send_count": "发送次数"
+        }
+    ]
+}

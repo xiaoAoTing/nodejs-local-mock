@@ -1,0 +1,18 @@
+{
+    "code": 0,
+    "msg": "成功获取数据",
+    "data": [
+        {
+            "speech_type_id": "1",
+            "speech_type": "开门尖山-第一步"
+        },
+        {
+            "speech_type_id": "2",
+            "speech_type": "打算的撒-第一步"
+        },
+        {
+            "speech_type_id": "3",
+            "speech_type": "蔡猛打问-第一步"
+        }
+    ]
+}
