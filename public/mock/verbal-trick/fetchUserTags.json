@@ -1,0 +1,71 @@
+{
+    "code": 0,
+    "msg": "成功",
+    "data": [
+        {
+            "tag_id": "1",
+            "tag_name": "标签名1",
+            "is_select": "1"
+        },
+        {
+            "tag_id": "12",
+            "tag_name": "标签名2",
+            "is_select": "1"
+        },
+        {
+            "tag_id": "1123",
+            "tag_name": "标签名3",
+            "is_select": "1"
+        },
+        {
+            "tag_id": "1231",
+            "tag_name": "标签名4",
+            "is_select": "1"
+        },
+        {
+            "tag_id": "1231",
+            "tag_name": "标签名4",
+            "is_select": "1"
+        },
+        {
+            "tag_id": "1231",
+            "tag_name": "标签名4",
+            "is_select": "1"
+        },
+        {
+            "tag_id": "1231",
+            "tag_name": "标签名4",
+            "is_select": "1"
+        },
+        {
+            "tag_id": "1231",
+            "tag_name": "标签名4",
+            "is_select": "1"
+        },
+        {
+            "tag_id": "1231",
+            "tag_name": "标签名4",
+            "is_select": "1"
+        },
+        {
+            "tag_id": "1231",
+            "tag_name": "标签名4",
+            "is_select": "1"
+        },
+        {
+            "tag_id": "1231",
+            "tag_name": "标签名4",
+            "is_select": "1"
+        },
+        {
+            "tag_id": "1231",
+            "tag_name": "标签名4",
+            "is_select": "1"
+        },
+        {
+            "tag_id": "1231",
+            "tag_name": "标签名4",
+            "is_select": "1"
+        }
+    ]
+}

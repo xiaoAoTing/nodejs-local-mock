@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "msg": "操作成功",
+    "data": {
+        "speech_lib_id": "6",
+        "speech_type_id": "5",
+        "bing_corp_user_id_type": "1",
+        "bing_corp_user_id_arr": [
+            {
+                "qy_userid": "1",
+                "name": "企业员工姓名",
+                "is_select": "0"
+            },
+            {
+                "qy_userid": "2",
+                "name": "企业员工姓名",
+                "is_select": "1"
+            },
+            {
+                "qy_userid": "3",
+                "name": "企业员工姓名",
+                "is_select": "1"
+            }
+        ],
+        "speech_title": "123",
+        "speech_content": [
+            {
+                "speech_content_type": "2",
+                "speech_content": "http://file.dev.xinduobang.cn/headimg/39ce5b43e87a57633657a5d4f5ad2414.jpeg",
+                "speech_content_file_name": ""
+            },
+            {
+                "speech_content_type": "2",
+                "speech_content": "http://file.dev.xinduobang.cn/headimg/ec0d4dca23ab44c8b8f38b3d53062104.png",
+                "speech_content_file_name": ""
+            },
+            {
+                "speech_content_type": "5",
+                "speech_content": "https://file.dev.xinduobang.cn/videofile/63101aba4f0e7.mp4",
+                "speech_content_file_name": "temp - 副本.mp4"
+            }
+        ],
+        "is_notice_flags": "0"
+    }
+}

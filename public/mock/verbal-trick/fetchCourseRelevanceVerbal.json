@@ -1,0 +1,78 @@
+{
+    "code": 0,
+    "data": [
+        {
+            "course_name": "化学营",
+            "count": 10,
+            "verbal_list": [
+                {
+                    "speech_title": "标题1",
+                    "speech_content": [
+                        {
+                            "speech_content": "话术内容",
+                            "speech_content_type": "1",
+                            "speech_content_file_name": "文件名称1",
+                            "speech_content_filesize": "213123TB"
+                        },
+                        {
+                            "speech_content": "话术内容",
+                            "speech_content_type": "5"
+                        }
+                    ]
+                },
+                {
+                    "speech_title": "标题1123123",
+                    "speech_content": [
+                        {
+                            "speech_content": "话术内容",
+                            "speech_content_type": "1",
+                            "speech_content_file_name": "文件名称1",
+                            "speech_content_filesize": "213123TB"
+                        },
+                        {
+                            "speech_content": "话术内容",
+                            "speech_content_type": "5"
+                        }
+                    ]
+                },
+                {
+                    "speech_title": "标题1123123",
+                    "speech_content": [
+                        {
+                            "speech_content": "丢卡四段四段四u的把数据库的巴士的丢卡四段四段四u的把数据库的巴士的丢卡四段四段四u的把数据库的巴士的丢卡四段四段四u的把数据库的巴士的",
+                            "speech_content_type": "1",
+                            "speech_content_file_name": "文件名称1",
+                            "speech_content_filesize": "213123TB"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "course_name": "化学营",
+            "count": 10,
+            "verbal_list": []
+        },
+        {
+            "course_name": "化学营",
+            "count": 10,
+            "verbal_list": [
+                {
+                    "speech_title": "标题1",
+                    "speech_content": [
+                        {
+                            "speech_content": "话术内容",
+                            "speech_content_type": "1",
+                            "speech_content_file_name": "文件名称1",
+                            "speech_content_filesize": "213123TB"
+                        },
+                        {
+                            "speech_content": "话术内容",
+                            "speech_content_type": "5"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

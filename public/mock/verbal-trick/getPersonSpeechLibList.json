@@ -1,6 +1,7 @@
 {
     "code": 0,
     "msg": "成功获取数据",
+    "totalnum": 100,
     "data": [
         {
             "speech_lib_id": "1",
@@ -8,8 +9,12 @@
             "speech_title": "标题1",
             "speech_content": [
                 {
-                    "content": "1231231231312313",
+                    "speech_content": "1231231231312313",
                     "speech_content_type": "1"
+                },
+                {
+                    "speech_content": "https://down.wss.show/2qpj12t/9/al/9al82qpj12t?cdn_sign=1663210633-31-0-ee0192282cc688029b9ecc71366c3472&exp=240&response-content-disposition=attachment%3B%20filename%3D%22temp.mp4%22%3B%20filename%2A%3Dutf-8%27%27temp.mp4",
+                    "speech_content_type": "5"
                 }
             ],
             "speech_content_type": "1",
@@ -21,8 +26,16 @@
             "speech_title": "标题2",
             "speech_content": [
                 {
-                    "content": "1231231231312313",
+                    "speech_content": "His hair is short.",
+                    "speech_content_type": "1"
+                },
+                {
+                    "speech_content": "http://file.dev.xinduobang.cn/headimg/f99e0bf7285dfc0a791a9691547749b3.jpeg?imageView2/2/w/750",
                     "speech_content_type": "2"
+                },
+                {
+                    "speech_content": "Her hair is long.",
+                    "speech_content_type": "1"
                 }
             ],
             "speech_content_type": "2",
@@ -34,7 +47,7 @@
             "speech_title": "标题3",
             "speech_content": [
                 {
-                    "content": "1231231231312313",
+                    "speech_content": "1231231231312313",
                     "speech_content_type": "3"
                 }
             ],
@@ -47,8 +60,10 @@
             "speech_title": "标题4",
             "speech_content": [
                 {
-                    "content": "1231231231312313",
-                    "speech_content_type": "4"
+                    "speech_content": "https://file.dev.xinduobang.cn/pdf/631b0a519d649.pdf",
+                    "speech_content_type": "4",
+                    "speech_content_filename": "合同.pdf",
+                    "speech_content_filesize": "2000kb"
                 }
             ],
             "speech_content_type": "4",
@@ -60,7 +75,7 @@
             "speech_title": "标题5",
             "speech_content": [
                 {
-                    "content": "1231231231312313",
+                    "speech_content": "1231231231312313",
                     "speech_content_type": "5"
                 }
             ],
@@ -73,7 +88,7 @@
             "speech_title": "标题6",
             "speech_content": [
                 {
-                    "content": "1231231231312313",
+                    "speech_content": "1231231231312313",
                     "speech_content_type": "6"
                 }
             ],

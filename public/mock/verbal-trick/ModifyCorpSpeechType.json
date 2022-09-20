@@ -1,0 +1,19 @@
+{
+    "code": 0,
+    "msg": "成功获取数据",
+    "data": {
+        "speech_type_id": "企业话术分类名称ID",
+        "speech_type": "企业话术分类名称",
+        "bind_course_type": "绑定营种类型 1 - 全部营种 ；2 - 指定营种",
+        "bind_course_id_str": [
+            
+        ],
+        "course_list": [
+            {
+                "course_id": "营种ID",
+                "course_name": "营种名称",
+                "is_select": "是否已选择，0 - 未选中 ，1 - 已选中"
+            }
+        ]
+    }
+}
