@@ -1,0 +1,14 @@
+{
+    "code": 0,
+    "msg": "success",
+    "data": [
+        {
+            "tag_id": 1,
+            "tag_name": "大数据"
+        },
+        {
+            "tag_id": 2,
+            "tag_name": "的撒即可"
+        }
+    ]
+}

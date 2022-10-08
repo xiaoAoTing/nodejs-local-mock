@@ -1,0 +1,47 @@
+{
+    "code": 0,
+    "data": {
+        "day": "1",
+        "night": "3",
+        "friends_num": "1",
+        "tutor_num": "1",
+        "course_list": [
+            {
+                "course_name": "i哦哦好急哦i计划营地",
+                "is_buy": "1"
+            },
+            {
+                "course_name": "大数据环境和营地",
+                "is_buy": "1"
+            },
+            {
+                "course_name": "的撒的撒大受打打营地",
+                "is_buy": "0"
+            },
+            {
+                "course_name": "发生的就奥数大数据",
+                "is_buy": "0"
+            },
+            {
+                "course_name": "风机控制箱昆明",
+                "is_buy": "0"
+            },
+            {
+                "course_name": "胡椒粉大数据到付营地",
+                "is_buy": "0"
+            },
+            {
+                "course_name": "的撒的撒大受打打营地",
+                "is_buy": "0"
+            },
+            {
+                "course_name": "委屈哦我的黑白经典营",
+                "is_buy": "1"
+            },
+            {
+                "course_name": "待会多久啊就是多久啊营地",
+                "is_buy": "0"
+            }
+        ]
+    }
+}

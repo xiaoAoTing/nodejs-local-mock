@@ -1,0 +1,201 @@
+{
+    "code": 0,
+    "msg": "balasd",
+    "data": {
+        "page_size": 10,
+        "page_num": 10,
+        "page_total": 5,
+        "access_log": [
+            {
+                "data": {
+                    "id": "3914",
+                    "openid": "oh5k95WFCgEDH-QQw3uucvV9ATGw",
+                    "invite_uid": "0",
+                    "addtime": "1650276591",
+                    "type": "1",
+                    "access_id": "0",
+                    "scene": "1089",
+                    "data_str": ""
+                },
+                "addtime": "2022-04-18 18:09:51",
+                "time": 2,
+                "content": "访问：首页【场景值：微信聊天主界面下拉】",
+                "is_invite": 0,
+                "user_name": "陈建新",
+                "invite_user_name": "陈建新",
+                "invite_uid": "931"
+            },
+            {
+                "data": {
+                    "id": "3913",
+                    "openid": "oh5k95WFCgEDH-QQw3uucvV9ATGw",
+                    "invite_uid": "0",
+                    "addtime": "1650269276",
+                    "type": "1",
+                    "access_id": "0",
+                    "scene": "1047",
+                    "data_str": ""
+                },
+                "addtime": "2022-04-18 16:07:56",
+                "time": 4,
+                "content": "访问：首页【场景值：扫描小程序码】",
+                "is_invite": 0,
+                "user_name": "陈建新",
+                "invite_user_name": "陈建新",
+                "invite_uid": "931"
+            },
+            {
+                "data": {
+                    "id": "3911",
+                    "openid": "oh5k95WFCgEDH-QQw3uucvV9ATGw",
+                    "invite_uid": "0",
+                    "addtime": "1650266420",
+                    "type": "1",
+                    "access_id": "0",
+                    "scene": "1047",
+                    "data_str": ""
+                },
+                "addtime": "2022-04-18 15:20:20",
+                "time": 530,
+                "content": "访问：首页【场景值：扫描小程序码】",
+                "is_invite": 0,
+                "user_name": "陈建新",
+                "invite_user_name": "陈建新",
+                "invite_uid": "931"
+            },
+            {
+                "data": {
+                    "id": "3910",
+                    "openid": "oh5k95WFCgEDH-QQw3uucvV9ATGw",
+                    "invite_uid": "0",
+                    "addtime": "1650266377",
+                    "type": "1",
+                    "access_id": "0",
+                    "scene": "1047",
+                    "data_str": ""
+                },
+                "addtime": "2022-04-18 15:19:37",
+                "time": 7,
+                "content": "访问：首页【场景值：扫描小程序码】",
+                "is_invite": 0,
+                "user_name": "陈建新",
+                "invite_user_name": "陈建新",
+                "invite_uid": "931"
+            },
+            {
+                "data": {
+                    "id": "3909",
+                    "openid": "oh5k95WFCgEDH-QQw3uucvV9ATGw",
+                    "invite_uid": "0",
+                    "addtime": "1650266162",
+                    "type": "1",
+                    "access_id": "0",
+                    "scene": "1047",
+                    "data_str": ""
+                },
+                "addtime": "2022-04-18 15:16:02",
+                "time": 3,
+                "content": "访问：首页【场景值：扫描小程序码】",
+                "is_invite": 0,
+                "user_name": "陈建新",
+                "invite_user_name": "陈建新",
+                "invite_uid": "931"
+            },
+            {
+                "data": {
+                    "id": "3593",
+                    "openid": "oh5k95WFCgEDH-QQw3uucvV9ATGw",
+                    "invite_uid": "0",
+                    "addtime": "1648776549",
+                    "type": "1",
+                    "access_id": "0",
+                    "scene": "1089",
+                    "data_str": ""
+                },
+                "addtime": "2022-04-01 09:29:09",
+                "time": 1,
+                "content": "访问：首页【场景值：微信聊天主界面下拉】",
+                "is_invite": 0,
+                "user_name": "陈建新",
+                "invite_user_name": "陈建新",
+                "invite_uid": "931"
+            },
+            {
+                "data": {
+                    "id": "3588",
+                    "openid": "oh5k95WFCgEDH-QQw3uucvV9ATGw",
+                    "invite_uid": "0",
+                    "addtime": "1648716222",
+                    "type": "57",
+                    "access_id": "148",
+                    "scene": "",
+                    "data_str": ""
+                },
+                "addtime": "2022-03-31 16:43:42",
+                "time": "",
+                "content": "提交营种订单：信多帮SaaS产品简介，订单号：NO20220331164342309652",
+                "is_invite": 0,
+                "user_name": "陈建新",
+                "invite_user_name": "陈建新",
+                "invite_uid": "931"
+            },
+            {
+                "data": {
+                    "id": "3587",
+                    "openid": "oh5k95WFCgEDH-QQw3uucvV9ATGw",
+                    "invite_uid": "0",
+                    "addtime": "1648716214",
+                    "type": "2",
+                    "access_id": "13",
+                    "scene": "1089",
+                    "data_str": ""
+                },
+                "addtime": "2022-03-31 16:43:34",
+                "time": 2,
+                "content": "访问：信多帮SaaS产品简介【场景值：微信聊天主界面下拉】",
+                "is_invite": 0,
+                "user_name": "陈建新",
+                "invite_user_name": "陈建新",
+                "invite_uid": "931"
+            },
+            {
+                "data": {
+                    "id": "3586",
+                    "openid": "oh5k95WFCgEDH-QQw3uucvV9ATGw",
+                    "invite_uid": "0",
+                    "addtime": "1648716212",
+                    "type": "1",
+                    "access_id": "0",
+                    "scene": "1089",
+                    "data_str": ""
+                },
+                "addtime": "2022-03-31 16:43:32",
+                "time": 2,
+                "content": "访问：首页【场景值：微信聊天主界面下拉】",
+                "is_invite": 0,
+                "user_name": "陈建新",
+                "invite_user_name": "陈建新",
+                "invite_uid": "931"
+            },
+            {
+                "data": {
+                    "id": "3585",
+                    "openid": "oh5k95WFCgEDH-QQw3uucvV9ATGw",
+                    "invite_uid": "0",
+                    "addtime": "1648716205",
+                    "type": "1",
+                    "access_id": "0",
+                    "scene": "1089",
+                    "data_str": ""
+                },
+                "addtime": "2022-03-31 16:43:25",
+                "time": 3,
+                "content": "访问：首页【场景值：微信聊天主界面下拉】",
+                "is_invite": 0,
+                "user_name": "陈建新",
+                "invite_user_name": "陈建新",
+                "invite_uid": "931"
+            }
+        ]
+    }
+}

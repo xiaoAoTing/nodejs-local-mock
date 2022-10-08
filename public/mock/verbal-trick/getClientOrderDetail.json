@@ -1,0 +1,313 @@
+{
+    "code": 0,
+    "msg": "balasd",
+    "data": {
+        "page_size": 10,
+        "page_num": 10,
+        "page_total": 5,
+        "order_list": [
+            {
+                "orderid": "14",
+                "order_number": "NO20200426143319160485",
+                "order_detail": {
+                    "couse_id": "9",
+                    "course_name": "军事独立营|退换无忧|营期名称|TAG|后置报名表",
+                    "period_id": "29",
+                    "period_name": "2020/07/21-2020/07/27",
+                    "order_student_name": [
+                        {
+                            "name": "嘉宝",
+                            "form_data": [
+                                {
+                                    "name": "name",
+                                    "true_data_value": "嘉宝",
+                                    "type": "text",
+                                    "title": "姓名",
+                                    "value": "嘉宝",
+                                    "key": "name"
+                                },
+                                {
+                                    "name": "gender",
+                                    "true_data_value": 1,
+                                    "type": "radio",
+                                    "title": "性别",
+                                    "value": "男",
+                                    "key": "gender"
+                                },
+                                {
+                                    "name": "birthday",
+                                    "true_data_value": "2009-11-03",
+                                    "type": "date",
+                                    "title": "出生日期",
+                                    "value": "2009-11-03",
+                                    "key": "birthday"
+                                },
+                                {
+                                    "name": "idcard_type",
+                                    "true_data_value": 1,
+                                    "type": "select",
+                                    "title": "证件类型",
+                                    "value": "身份证",
+                                    "key": "idcard_type"
+                                },
+                                {
+                                    "name": "idcard",
+                                    "true_data_value": "320483200911031910",
+                                    "type": "text",
+                                    "title": "有效证件号",
+                                    "value": "320483200911031910",
+                                    "key": "idcard"
+                                },
+                                {
+                                    "name": "head",
+                                    "true_data_value": "https://dev.cdn.xinduobang.cn//tmp_55ea637622763923fd86e778a24aeea6ed5e3812052baa89.jpg",
+                                    "type": "file",
+                                    "title": "营员正面照",
+                                    "value": "https://dev.cdn.xinduobang.cn//tmp_55ea637622763923fd86e778a24aeea6ed5e3812052baa89.jpg",
+                                    "key": "head"
+                                },
+                                {
+                                    "name": "selectName1",
+                                    "true_data_value": "1",
+                                    "type": "select",
+                                    "title": "学校",
+                                    "value": "雅礼中学",
+                                    "key": "selectName1"
+                                },
+                                {
+                                    "name": "grade",
+                                    "true_data_value": "1",
+                                    "type": "select",
+                                    "title": "年级",
+                                    "value": "二年级",
+                                    "key": "grade"
+                                },
+                                {
+                                    "name": "classes",
+                                    "true_data_value": "0",
+                                    "type": "select",
+                                    "title": "班级",
+                                    "value": "一班",
+                                    "key": "classes"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "student_id_arr": [
+                    "2"
+                ],
+                "order_createtime": "2020-04-26 14:33:19",
+                "order_remark": [
+                    
+                ],
+                "inviter": ""
+            },
+            {
+                "orderid": "14",
+                "order_number": "NO20200426143319160485",
+                "order_detail": {
+                    "couse_id": "9",
+                    "course_name": "军事独立营|退换无忧|营期名称|TAG|后置报名表",
+                    "period_id": "29",
+                    "period_name": "2020/07/21-2020/07/27",
+                    "order_student_name": [
+                        {
+                            "name": "嘉宝",
+                            "form_data": [
+                                {
+                                    "name": "name",
+                                    "true_data_value": "嘉宝",
+                                    "type": "text",
+                                    "title": "姓名",
+                                    "value": "嘉宝",
+                                    "key": "name"
+                                },
+                                {
+                                    "name": "gender",
+                                    "true_data_value": 1,
+                                    "type": "radio",
+                                    "title": "性别",
+                                    "value": "男",
+                                    "key": "gender"
+                                },
+                                {
+                                    "name": "birthday",
+                                    "true_data_value": "2009-11-03",
+                                    "type": "date",
+                                    "title": "出生日期",
+                                    "value": "2009-11-03",
+                                    "key": "birthday"
+                                },
+                                {
+                                    "name": "idcard_type",
+                                    "true_data_value": 1,
+                                    "type": "select",
+                                    "title": "证件类型",
+                                    "value": "身份证",
+                                    "key": "idcard_type"
+                                },
+                                {
+                                    "name": "idcard",
+                                    "true_data_value": "320483200911031910",
+                                    "type": "text",
+                                    "title": "有效证件号",
+                                    "value": "320483200911031910",
+                                    "key": "idcard"
+                                },
+                                {
+                                    "name": "head",
+                                    "true_data_value": "https://dev.cdn.xinduobang.cn//tmp_55ea637622763923fd86e778a24aeea6ed5e3812052baa89.jpg",
+                                    "type": "file",
+                                    "title": "营员正面照",
+                                    "value": "https://dev.cdn.xinduobang.cn//tmp_55ea637622763923fd86e778a24aeea6ed5e3812052baa89.jpg",
+                                    "key": "head"
+                                },
+                                {
+                                    "name": "selectName1",
+                                    "true_data_value": "1",
+                                    "type": "select",
+                                    "title": "学校",
+                                    "value": "雅礼中学",
+                                    "key": "selectName1"
+                                },
+                                {
+                                    "name": "grade",
+                                    "true_data_value": "1",
+                                    "type": "select",
+                                    "title": "年级",
+                                    "value": "二年级",
+                                    "key": "grade"
+                                },
+                                {
+                                    "name": "classes",
+                                    "true_data_value": "0",
+                                    "type": "select",
+                                    "title": "班级",
+                                    "value": "一班",
+                                    "key": "classes"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "student_id_arr": [
+                    "2"
+                ],
+                "order_createtime": "2020-04-26 14:33:19",
+                "order_remark": [
+                    {
+                        "id": "1",
+                        "title": "备注类型",
+                        "data": "备注内容",
+                        "addtime": "添加时间",
+                        "admin_user": "操作人1"
+                    },
+                    {
+                        "id": "2",
+                        "title": "备注类型2",
+                        "data": "备注内容2",
+                        "addtime": "添加时间2",
+                        "admin_user": "操作人2"
+                    }
+                ],
+                "inviter": ""
+            },
+            {
+                "orderid": "14",
+                "order_number": "NO20200426143319160485",
+                "order_detail": {
+                    "couse_id": "9",
+                    "course_name": "军事独立营|退换无忧|营期名称|TAG|后置报名表",
+                    "period_id": "29",
+                    "period_name": "2020/07/21-2020/07/27",
+                    "order_student_name": [
+                        {
+                            "name": "嘉宝",
+                            "form_data": [
+                                {
+                                    "name": "name",
+                                    "true_data_value": "嘉宝",
+                                    "type": "text",
+                                    "title": "姓名",
+                                    "value": "嘉宝",
+                                    "key": "name"
+                                },
+                                {
+                                    "name": "gender",
+                                    "true_data_value": 1,
+                                    "type": "radio",
+                                    "title": "性别",
+                                    "value": "男",
+                                    "key": "gender"
+                                },
+                                {
+                                    "name": "birthday",
+                                    "true_data_value": "2009-11-03",
+                                    "type": "date",
+                                    "title": "出生日期",
+                                    "value": "2009-11-03",
+                                    "key": "birthday"
+                                },
+                                {
+                                    "name": "idcard_type",
+                                    "true_data_value": 1,
+                                    "type": "select",
+                                    "title": "证件类型",
+                                    "value": "身份证",
+                                    "key": "idcard_type"
+                                },
+                                {
+                                    "name": "idcard",
+                                    "true_data_value": "320483200911031910",
+                                    "type": "text",
+                                    "title": "有效证件号",
+                                    "value": "320483200911031910",
+                                    "key": "idcard"
+                                },
+                                {
+                                    "name": "head",
+                                    "true_data_value": "https://dev.cdn.xinduobang.cn//tmp_55ea637622763923fd86e778a24aeea6ed5e3812052baa89.jpg",
+                                    "type": "file",
+                                    "title": "营员正面照",
+                                    "value": "https://dev.cdn.xinduobang.cn//tmp_55ea637622763923fd86e778a24aeea6ed5e3812052baa89.jpg",
+                                    "key": "head"
+                                },
+                                {
+                                    "name": "selectName1",
+                                    "true_data_value": "1",
+                                    "type": "select",
+                                    "title": "学校",
+                                    "value": "雅礼中学",
+                                    "key": "selectName1"
+                                },
+                                {
+                                    "name": "grade",
+                                    "true_data_value": "1",
+                                    "type": "select",
+                                    "title": "年级",
+                                    "value": "二年级",
+                                    "key": "grade"
+                                },
+                                {
+                                    "name": "classes",
+                                    "true_data_value": "0",
+                                    "type": "select",
+                                    "title": "班级",
+                                    "value": "一班",
+                                    "key": "classes"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "student_id_arr": [
+                    "2"
+                ],
+                "order_createtime": "2020-04-26 14:33:19",
+                "order_remark": [],
+                "inviter": ""
+            }
+        ]
+    }
+}
