@@ -1,0 +1,11 @@
+{
+    "code": 0,
+    "data": {
+        "cash_sum": "1111",
+        "cash_rank": "1",
+        "order_count": "222",
+        "order_rank": "2",
+        "visitor_count": "3333",
+        "visitor_rank": "1"
+    }
+}

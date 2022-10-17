@@ -1,0 +1,23 @@
+{
+    "data": {
+        "code": 0,
+        "data": {
+            "formdata": [
+                {
+                    "label_name": "退款金额合计",
+                    "value": "0",
+                    "prefix": "￥",
+                    "is_show": "1",
+                    "highlight": "1"
+                },
+                {
+                    "label_name": "原路退回金额",
+                    "value": "0",
+                    "prefix": "￥",
+                    "is_show": "0",
+                    "highlight": "1"
+                }
+            ]
+        }
+    }
+}

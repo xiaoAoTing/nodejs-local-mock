@@ -1,0 +1,29 @@
+{
+    "code": 0,
+    "data": [
+        {
+            "rank_duibi": {
+                "type":  "1"
+            },
+            "parents_name": "会员回大撒的撒大苏",
+            "staff_name": "销售大撒大撒",
+            "data": "123123"
+        },
+        {
+            "rank_duibi": {
+                "type":  "-2"
+            },
+            "parents_name": "会员回大撒的撒大苏",
+            "staff_name": "销售大撒大撒",
+            "data": "435345"
+        },
+        {
+            "rank_duibi": {
+                "type":  "0"
+            },
+            "parents_name": "会员回大撒的撒大苏",
+            "staff_name": "销售大撒大撒",
+            "data": "8123"
+        }
+    ]
+}

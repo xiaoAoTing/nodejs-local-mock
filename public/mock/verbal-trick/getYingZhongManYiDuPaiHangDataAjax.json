@@ -1,0 +1,69 @@
+{
+    "code": 0,
+    "select_datetime": "2222-22-22 - 2222-22-22",
+    "data": [
+        {
+            "rank_duibi":{
+                "type":  "0"
+            },
+            "cid": "1",
+            "cname": "营种名称",
+            "haopin_count": "1123213",
+            "chapin_count": "12321312"
+        },
+        {
+            "rank_duibi":{
+                "type":  "1"
+            },
+            "cid": "1",
+            "cname": "营种名称",
+            "haopin_count": "1123213",
+            "chapin_count": "12321312"
+        },
+        {
+            "rank_duibi":{
+                "type":  "1"
+            },
+            "cid": "1",
+            "cname": "营种名称",
+            "haopin_count": "1123213",
+            "chapin_count": "12321312"
+        },
+        {
+            "rank_duibi":{
+                "type":  "1"
+            },
+            "cid": "1",
+            "cname": "营种名称",
+            "haopin_count": "1123213",
+            "chapin_count": "12321312"
+        },
+        {
+            "rank_duibi":{
+                "type":  "1"
+            },
+            "cid": "1",
+            "cname": "营种名称",
+            "haopin_count": "1123213",
+            "chapin_count": "12321312"
+        },
+        {
+            "rank_duibi":{
+                "type":  "1"
+            },
+            "cid": "1",
+            "cname": "营种名称",
+            "haopin_count": "1123213",
+            "chapin_count": "12321312"
+        },
+        {
+            "rank_duibi":{
+                "type":  "1"
+            },
+            "cid": "1",
+            "cname": "营种名称",
+            "haopin_count": "1123213",
+            "chapin_count": "12321312"
+        }
+    ]
+}

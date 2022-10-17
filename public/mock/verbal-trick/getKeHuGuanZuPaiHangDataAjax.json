@@ -1,0 +1,37 @@
+{
+    "code": 0,
+    "data": [
+        {
+            "rank_duibi":{
+                "type":  "1"
+            },
+            "pid": "pid",
+            "title": "营种名称",
+            "data": "12431234"
+        },
+        {
+            "rank_duibi":{
+                "type":  "2"
+            },
+            "pid": "pid",
+            "title": "营种名称",
+            "data": "12321"
+        },
+        {
+            "rank_duibi":{
+                "type":  "12131"
+            },
+            "pid": "pid",
+            "title": "营种名称",
+            "data": "23142134"
+        },
+        {
+            "rank_duibi":{
+                "type":  "-10909"
+            },
+            "pid": "pid",
+            "title": "营种名称",
+            "data": "123123"
+        }
+    ]
+}

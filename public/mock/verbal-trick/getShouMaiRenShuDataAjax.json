@@ -1,0 +1,110 @@
+{
+    "code": 0,
+    "select_datetime": "2022-22-22 - 2222-22-22",
+    "data": [
+        {
+            "rank_duibi":{
+                "type":  0
+            },
+            "number_pre": 20,
+            "pname": "营种名",
+            "number": "123123"
+        },
+        {
+            "rank_duibi":{
+                "type":  1
+            },
+            "number_pre": 20,
+            "pname": "营种名",
+            "number": "123123"
+        },
+        {
+            "rank_duibi":{
+                "type":  -1
+            },
+            "number_pre": 20,
+            "pname": "营种名",
+            "number": "123123"
+        },
+        {
+            "rank_duibi":{
+                "type":  -1
+            },
+            "number_pre": 20,
+            "pname": "营种名",
+            "number": "123123"
+        },
+        {
+            "rank_duibi":{
+                "type":  -1
+            },
+            "number_pre": 20,
+            "pname": "营种名",
+            "number": "123123"
+        },
+        {
+            "rank_duibi":{
+                "type":  -1
+            },
+            "number_pre": 20,
+            "pname": "营种名",
+            "number": "123123"
+        },
+        {
+            "rank_duibi":{
+                "type":  -1
+            },
+            "number_pre": 20,
+            "pname": "营种名",
+            "number": "123123"
+        },
+        {
+            "rank_duibi":{
+                "type":  -1
+            },
+            "number_pre": 20,
+            "pname": "营种名",
+            "number": "123123"
+        },
+        {
+            "rank_duibi":{
+                "type":  -1
+            },
+            "number_pre": 20,
+            "pname": "营种名",
+            "number": "123123"
+        },
+        {
+            "rank_duibi":{
+                "type":  -1
+            },
+            "number_pre": 20,
+            "pname": "营种名",
+            "number": "123123"
+        },
+        {
+            "rank_duibi":{
+                "type":  -1
+            },
+            "number_pre": 20,
+            "pname": "营种名",
+            "number": "123123"
+        },
+        {
+            "rank_duibi":{
+                "type":  -1
+            },
+            "number_pre": 20,
+            "pname": "营种名",
+            "number": "123123"
+        },
+        {
+            "rank_duibi":{
+                "type":  -1
+            },
+            "number_pre": 20,
+            "pname": "营种名",
+            "number": "123123"
+        }
+    ]
+}

@@ -1,0 +1,45 @@
+{
+    "code": 0,
+    "data": [
+        {
+            "rank_duibi": {
+                "type": "1"
+            },
+            "uid": "uid",
+            "headimgurl": "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png",
+            "name": "销售姓名",
+            "cashdata": "123871283",
+            "numberdata": "10"
+        },
+        {
+            "rank_duibi": {
+                "type": "1"
+            },
+            "uid": "uid",
+            "headimgurl": "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png",
+            "name": "销售姓名",
+            "cashdata": "123871283",
+            "numberdata": "10"
+        },
+        {
+            "rank_duibi": {
+                "type": "1"
+            },
+            "uid": "uid",
+            "headimgurl": "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png",
+            "name": "销售姓名",
+            "cashdata": "123871283",
+            "numberdata": "10"
+        },
+        {
+            "rank_duibi": {
+                "type": "1"
+            },
+            "uid": "uid",
+            "headimgurl": "https://file.dev.xinduobang.cn/headimg/1643273121xiashancs_mysql.png",
+            "name": "销售姓名",
+            "cashdata": "123871283",
+            "numberdata": "10"
+        }
+    ]
+}
