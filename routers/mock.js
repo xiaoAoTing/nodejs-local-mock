@@ -2,6 +2,9 @@
  * Handling JSONP requests.
  */
 const express = require('express');
+let router = express.Router();
+
+
 const DIRECTORY = {
     INTEGRAL_MOCK: 'integral-mock',
     ASSION_GROUPS: 'assion-groups',
@@ -12,11 +15,13 @@ const DIRECTORY = {
     SHORT_MESSAGE: 'short-message',
     SHORT_MESSAGE_BACK: 'short-message-back',
     VERBAL_TRICK: 'verbal-trick',
+    PART_TIME_JOB: 'part-time-job',
 };
-const CURRENT_DIRECTORY = DIRECTORY['VERBAL_TRICK']; 
+const CURRENT_DIRECTORY = DIRECTORY['PART_TIME_JOB'];
 const path = require('path');
 const fs = require('fs');
-let router = express.Router();
+
+
 
 /**
  * Express set.

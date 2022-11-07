@@ -30,6 +30,9 @@ app.use(express.urlencoded({
 app.use('/public/mock', express.static('public/mock', {
   extensions: ['html', 'htm', 'js', 'json'],
 }));
+app.use('/public/images', express.static('public/images', {
+  extensions: ['html', 'htm', 'js', 'json', 'png', 'jpg', 'gif'],
+}));
 app.use('/public/page', express.static('public/page', {
   extensions: ['html', 'htm', 'js', 'json'],
 }));
@@ -42,6 +45,7 @@ app.use('/public/js', express.static('public/js', {
  */
 app.use('/index', require('./routers/index'));
 app.use('/mock', require('./routers/mock'));
+app.use('/test', require('./routers/test'));
 
 /**
  * Error handling
