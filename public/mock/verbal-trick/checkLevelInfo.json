@@ -1,0 +1,44 @@
+{
+  "code": 0,
+  "data": {
+    "level_options": [
+      {
+        "mentor_level_id": 1,
+        "mentor_level": "等级1",
+        "selected": 0
+      },
+      {
+        "mentor_level_id": 2,
+        "mentor_level": "等级2",
+        "selected": 0
+      },
+      {
+        "mentor_level_id": 3,
+        "mentor_level": "等级3",
+        "selected": 1
+      }
+    ],
+    "effect_period": [
+      {
+        "period_name": "营期1",
+        "period_id": 1,
+        "selected": 0
+      },
+      {
+        "period_name": "营期2",
+        "period_id": 1,
+        "selected": 0
+      },
+      {
+        "period_name": "营期3",
+        "period_id": 1,
+        "selected": 0
+      },
+      {
+        "period_name": "营期4",
+        "period_id": 1,
+        "selected": 1
+      }
+    ]
+  }
+}

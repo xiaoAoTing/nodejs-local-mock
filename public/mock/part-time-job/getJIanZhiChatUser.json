@@ -1,0 +1,31 @@
+{
+  "code": 0,
+  "msg": "成功获取数据",
+  "totalnum": 100,
+  "data": [
+    {
+      "name": "打算打算爱大",
+      "phone": "1",
+      "is_in_chat_str": "是否进群",
+      "group_nickname": "群内昵称",
+      "bind_staff_chat_id": "所属员工企业微信",
+      "work_course_name": "报名营地"
+    },
+    {
+      "name": "打算打算爱大",
+      "phone": "1",
+      "is_in_chat_str": "是否进群",
+      "group_nickname": "群内昵称",
+      "bind_staff_chat_id": "所属员工企业微信",
+      "work_course_name": "报名营地"
+    },
+    {
+      "name": "打算打算爱大",
+      "phone": "1",
+      "is_in_chat_str": "是否进群",
+      "group_nickname": "群内昵称",
+      "bind_staff_chat_id": "所属员工企业微信",
+      "work_course_name": "报名营地"
+    }
+  ]
+}

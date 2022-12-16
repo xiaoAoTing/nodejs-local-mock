@@ -1,0 +1,17 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "jianzhi_level_id": 1,
+      "jianzhi_level_name": "等级名称1"
+    },
+    {
+      "jianzhi_level_id": 2,
+      "jianzhi_level_name": "等级名称2"
+    },
+    {
+      "jianzhi_level_id": 3,
+      "jianzhi_level_name": "等级名称3"
+    }
+  ]
+}

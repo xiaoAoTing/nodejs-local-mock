@@ -1,0 +1,20 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "camp_id": 1,
+      "camp_name": "游美化学营地1",
+      "staff_id": "1,2,3,4"
+    },
+    {
+      "camp_id": 1,
+      "camp_name": "游美化学营地2",
+      "staff_id": 2
+    },
+    {
+      "camp_id": 1,
+      "camp_name": "游美化学营地3",
+      "staff_id": 3
+    }
+  ]
+}

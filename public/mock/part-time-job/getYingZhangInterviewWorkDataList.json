@@ -1,0 +1,309 @@
+{
+  "totalnum": 3,
+  "code": 0,
+  "interview_course_list": [
+    {
+      "sale_state": 1,
+      "camp_status": 1,
+      "interview_course_id": 1,
+      "interview_course_name": "营种名称1"
+    },
+    {
+      "sale_state": 1,
+      "camp_status": 3,
+      "interview_course_id": 2,
+      "interview_course_name": "营种名称2"
+    },
+    {
+      "sale_state": 1,
+      "camp_status": 2,
+      "interview_course_id": 3,
+      "interview_course_name": "营种名称3"
+    },
+    {
+      "sale_state": 2,
+      "camp_status": 2,
+      "interview_course_id": 4,
+      "interview_course_name": "营种名称4"
+    }
+  ],
+  "data": [
+    {
+      "interview_result_id": 1,
+      "select_work_role_id": 2,
+      "jianzhi_level_id": 1,
+      "is_confirm_level": 1,
+      "kaoshi_flags": 1,
+      "select_course_list": [
+        {
+          "course_id": 1,
+          "course_name": "营种名称1"
+        },
+        {
+          "sale_state": 1,
+          "camp_status": 1,
+          "course_id": 1,
+          "course_name": "营种名称1"
+        },
+        {
+          "sale_state": 1,
+          "camp_status": 3,
+          "course_id": 2,
+          "course_name": "营种名称2"
+        },
+        {
+          "sale_state": 1,
+          "camp_status": 2,
+          "course_id": 3,
+          "course_name": "营种名称3"
+        },
+        {
+          "sale_state": 2,
+          "camp_status": 2,
+          "course_id": 4,
+          "course_name": "营种名称4"
+        }
+      ],
+      "idcard_type": "居民身份证",
+      "idcard": "213123123213",
+      "interview_id": 1,
+      "work_data_id": 1,
+      "name": "Michael",
+      "nickname": "Jokicy",
+      "cells": [
+        "男",
+        "清华手打的的",
+        "清华手打的的",
+        "清华手打的的",
+        "",
+        "心魔力学",
+        "一年级"
+      ],
+      "apply_camp": "千岛湖",
+      "job": "观察员",
+      "phone": "231243123",
+      "wx_number": "wxid_dassdadaf12312",
+      "form_name": "填写表单名称",
+      "expect": "对于冬令的工作期待对于冬令营的工作期待对于冬令营的工作期待待对于冬令营的工作期待对于冬令营的工作期待对于冬令营的工作期待对于冬令营的工作期待对于冬令营的工作期待对于冬令营的工作期待对于冬令营的工的工作期的工作期待对于冬令营的工的工作期待作期待对于冬于冬令营的工的工作期待作期待对于冬令营的工的工作作期待对于冬令营的工的工作",
+      "ext_fields": [
+        {
+          "label": "实习/社团/兼职",
+          "value": "大撒大撒大苏打实打实"
+        },
+        {
+          "label": "实习/社团/兼职",
+          "value": "大撒大撒大苏打实打实"
+        },
+        {
+          "label": "实习/社团/兼职",
+          "value": "大撒大撒大苏打实打实"
+        }
+      ],
+      "interview_result": 0
+    },
+    {
+      "interview_result_id": 1,
+      "select_work_role_id": 3,
+      "jianzhi_level_id": 2,
+      "is_confirm_level": 2,
+      "select_course_list": [
+        {
+          "course_id": 1,
+          "course_name": "营种名称1"
+        },
+        {
+          "sale_state": 1,
+          "camp_status": 1,
+          "course_id": 1,
+          "course_name": "营种名称1"
+        },
+        {
+          "sale_state": 1,
+          "camp_status": 3,
+          "course_id": 2,
+          "course_name": "营种名称2"
+        },
+        {
+          "sale_state": 1,
+          "camp_status": 2,
+          "course_id": 3,
+          "course_name": "营种名称3"
+        },
+        {
+          "sale_state": 2,
+          "camp_status": 2,
+          "course_id": 4,
+          "course_name": "营种名称4"
+        }
+      ],
+      "interview_id": 2,
+      "work_data_id": 2,
+      "name": "Michael",
+      "nickname": "Jokicy",
+      "cells": [
+        "男",
+        "清华手打的的",
+        "",
+        "心魔力学",
+        "一年级"
+      ],
+      "apply_camp": "千岛湖",
+      "job": "观察员",
+      "phone": "231243123",
+      "wx_number": "wxid_dassdadaf12312",
+      "form_name": "填写表单名称",
+      "expect": "对于冬令营的工作期待",
+      "ext_fields": [
+        {
+          "label": "实习/社团/兼职",
+          "value": "大撒大撒大苏打实打实"
+        },
+        {
+          "label": "实习/社团/兼职",
+          "value": "大撒大撒大苏打实打实"
+        },
+        {
+          "label": "实习/社团/兼职",
+          "value": "大撒大撒大苏打实打实"
+        }
+      ],
+      "interview_result": 1
+    },
+    {
+      "interview_result_id": 1,
+      "select_work_role_id": 4,
+      "select_course_list": [
+        {
+          "course_id": 1,
+          "course_name": "营种名称1"
+        },
+        {
+          "sale_state": 1,
+          "camp_status": 1,
+          "course_id": 1,
+          "course_name": "营种名称1"
+        },
+        {
+          "sale_state": 1,
+          "camp_status": 3,
+          "course_id": 2,
+          "course_name": "营种名称2"
+        },
+        {
+          "sale_state": 1,
+          "camp_status": 2,
+          "course_id": 3,
+          "course_name": "营种名称3"
+        },
+        {
+          "sale_state": 2,
+          "camp_status": 2,
+          "course_id": 4,
+          "course_name": "营种名称4"
+        }
+      ],
+      "interview_id": 3,
+      "work_data_id": 3,
+      "name": "Michael",
+      "nickname": "Jokicy",
+      "cells": [
+        "男",
+        "清华手打的的",
+        "",
+        "心魔力学",
+        "一年级"
+      ],
+      "apply_camp": "千岛湖",
+      "job": "观察员",
+      "phone": "231243123",
+      "wx_number": "wxid_dassdadaf12312",
+      "form_name": "填写表单名称",
+      "expect": "对于冬令营的工作期待",
+      "ext_fields": [
+        {
+          "label": "实习/社团/兼职",
+          "value": "大撒大撒大苏打实打实"
+        },
+        {
+          "label": "实习/社团/兼职",
+          "value": "大撒大撒大苏打实打实"
+        },
+        {
+          "label": "实习/社团/兼职",
+          "value": "大撒大撒大苏打实打实"
+        }
+      ],
+      "interview_result": 2
+    },
+    {
+      "select_work_role_id": 5,
+      "interview_id": 4,
+      "work_data_id": 4,
+      "name": "Michael",
+      "nickname": "Jokicy",
+      "cells": [
+        "男",
+        "清华手打的的",
+        "",
+        "心魔力学",
+        "一年级"
+      ],
+      "apply_camp": "千岛湖",
+      "job": "观察员",
+      "phone": "231243123",
+      "wx_number": "wxid_dassdadaf12312",
+      "form_name": "填写表单名称",
+      "expect": "对于冬令营的工作期待",
+      "ext_fields": [
+        {
+          "label": "实习/社团/兼职",
+          "value": "大撒大撒大苏打实打实"
+        },
+        {
+          "label": "实习/社团/兼职",
+          "value": "大撒大撒大苏打实打实"
+        },
+        {
+          "label": "实习/社团/兼职",
+          "value": "大撒大撒大苏打实打实"
+        }
+      ],
+      "interview_result": 2
+    },
+    {
+      "select_work_role_id": 1,
+      "interview_id": 5,
+      "work_data_id": 5,
+      "name": "Michael",
+      "nickname": "Jokicy",
+      "cells": [
+        "男",
+        "清华手打的的",
+        "",
+        "心魔力学",
+        "一年级"
+      ],
+      "apply_camp": "千岛湖",
+      "job": "观察员",
+      "phone": "231243123",
+      "wx_number": "wxid_dassdadaf12312",
+      "form_name": "填写表单名称",
+      "expect": "对于冬令营的工作期待",
+      "ext_fields": [
+        {
+          "label": "实习/社团/兼职",
+          "value": "大撒大撒大苏打实打实"
+        },
+        {
+          "label": "实习/社团/兼职",
+          "value": "大撒大撒大苏打实打实"
+        },
+        {
+          "label": "实习/社团/兼职",
+          "value": "大撒大撒大苏打实打实"
+        }
+      ],
+      "interview_result": 4
+    }
+  ]
+}

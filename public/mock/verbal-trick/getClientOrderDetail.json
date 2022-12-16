@@ -1,29 +1,29 @@
 {
     "code": 0,
-    "msg": "balasd",
+    "msg": "成功获取数据",
     "data": {
-        "page_size": 10,
-        "page_num": 10,
-        "page_total": 5,
+        "page_size": "10",
+        "page_num": "1",
+        "page_total": 4,
         "order_list": [
             {
-                "orderid": "14",
-                "order_number": "NO20200426143319160485",
+                "orderid": "186",
+                "order_number": "NO20221114192325240719",
                 "order_detail": {
-                    "couse_id": "9",
-                    "course_name": "军事独立营|退换无忧|营期名称|TAG|后置报名表",
-                    "period_id": "29",
-                    "period_name": "2020/07/21-2020/07/27",
+                    "couse_id": "19",
+                    "course_name": "10月1假期营",
+                    "period_id": "265",
+                    "period_name": "2022/11/07-2022/11/22",
                     "order_student_name": [
                         {
-                            "name": "嘉宝",
+                            "name": "格式化",
                             "form_data": [
                                 {
                                     "name": "name",
-                                    "true_data_value": "嘉宝",
+                                    "true_data_value": "格式化",
                                     "type": "text",
                                     "title": "姓名",
-                                    "value": "嘉宝",
+                                    "value": "格式化",
                                     "key": "name"
                                 },
                                 {
@@ -35,92 +35,436 @@
                                     "key": "gender"
                                 },
                                 {
+                                    "name": "phone",
+                                    "true_data_value": "13556569853",
+                                    "type": "text",
+                                    "title": "手机号",
+                                    "value": "13556569853",
+                                    "key": "phone"
+                                },
+                                {
                                     "name": "birthday",
-                                    "true_data_value": "2009-11-03",
+                                    "true_data_value": "2006-11-09",
                                     "type": "date",
                                     "title": "出生日期",
-                                    "value": "2009-11-03",
+                                    "value": "2006-11-09",
                                     "key": "birthday"
                                 },
                                 {
                                     "name": "idcard_type",
-                                    "true_data_value": 1,
+                                    "true_data_value": 3,
                                     "type": "select",
                                     "title": "证件类型",
-                                    "value": "身份证",
+                                    "value": "其他",
                                     "key": "idcard_type"
                                 },
                                 {
+                                    "name": "idcard_img_zm",
+                                    "true_data_value": "",
+                                    "type": "file",
+                                    "title": "证件照正面",
+                                    "value": null,
+                                    "key": "idcard_img_zm"
+                                },
+                                {
+                                    "name": "idcard_img_fm",
+                                    "true_data_value": "",
+                                    "type": "file",
+                                    "title": "证件照反面",
+                                    "value": null,
+                                    "key": "idcard_img_fm"
+                                },
+                                {
                                     "name": "idcard",
-                                    "true_data_value": "320483200911031910",
+                                    "true_data_value": "8741199999974148741",
                                     "type": "text",
                                     "title": "有效证件号",
-                                    "value": "320483200911031910",
+                                    "value": "8741199999974148741",
                                     "key": "idcard"
                                 },
                                 {
                                     "name": "head",
-                                    "true_data_value": "https://dev.cdn.xinduobang.cn//tmp_55ea637622763923fd86e778a24aeea6ed5e3812052baa89.jpg",
+                                    "true_data_value": "",
                                     "type": "file",
                                     "title": "营员正面照",
-                                    "value": "https://dev.cdn.xinduobang.cn//tmp_55ea637622763923fd86e778a24aeea6ed5e3812052baa89.jpg",
+                                    "value": "",
                                     "key": "head"
-                                },
-                                {
-                                    "name": "selectName1",
-                                    "true_data_value": "1",
-                                    "type": "select",
-                                    "title": "学校",
-                                    "value": "雅礼中学",
-                                    "key": "selectName1"
-                                },
-                                {
-                                    "name": "grade",
-                                    "true_data_value": "1",
-                                    "type": "select",
-                                    "title": "年级",
-                                    "value": "二年级",
-                                    "key": "grade"
-                                },
-                                {
-                                    "name": "classes",
-                                    "true_data_value": "0",
-                                    "type": "select",
-                                    "title": "班级",
-                                    "value": "一班",
-                                    "key": "classes"
                                 }
-                            ]
+                            ],
+                            "order_id": "186",
+                            "befor_id": "41",
+                            "edit_id": "80"
                         }
-                    ]
+                    ],
+                    "course_state_name": "开营中",
+                    "course_state": 3
                 },
+                "course_id": "19",
+                "period_id": "265",
+                "pid": "19",
+                "order_status": "报名成功",
+                "course_state_name": "开营中",
+                "course_state": 3,
                 "student_id_arr": [
-                    "2"
+                    "44"
                 ],
-                "order_createtime": "2020-04-26 14:33:19",
-                "order_remark": [
-                    
+                "order_createtime": "2022-11-14 19:23:25",
+                "order_remark": [],
+                "inviter": "",
+                "closed_info": [],
+                "opening_info": [
+                    {
+                        "name": "所在团",
+                        "value": "",
+                        "state": 0,
+                        "action": 0
+                    },
+                    {
+                        "name": "所在组",
+                        "value": "",
+                        "state": 0,
+                        "action": 0
+                    },
+                    {
+                        "name": "营中照片数",
+                        "value": 0,
+                        "state": 0,
+                        "action": 4
+                    }
+                ]
+            },
+            {
+                "orderid": "185",
+                "order_number": "NO20221114192238230958",
+                "order_detail": {
+                    "couse_id": "19",
+                    "course_name": "10月1假期营",
+                    "period_id": "270",
+                    "period_name": "2022/11/14-2022/11/29",
+                    "order_student_name": [
+                        {
+                            "name": "格式化",
+                            "form_data": [
+                                {
+                                    "name": "name",
+                                    "true_data_value": "格式化",
+                                    "type": "text",
+                                    "title": "姓名",
+                                    "value": "格式化",
+                                    "key": "name"
+                                },
+                                {
+                                    "name": "gender",
+                                    "true_data_value": 1,
+                                    "type": "radio",
+                                    "title": "性别",
+                                    "value": "男",
+                                    "key": "gender"
+                                },
+                                {
+                                    "name": "phone",
+                                    "true_data_value": "13556569853",
+                                    "type": "text",
+                                    "title": "手机号",
+                                    "value": "13556569853",
+                                    "key": "phone"
+                                },
+                                {
+                                    "name": "birthday",
+                                    "true_data_value": "2006-11-09",
+                                    "type": "date",
+                                    "title": "出生日期",
+                                    "value": "2006-11-09",
+                                    "key": "birthday"
+                                },
+                                {
+                                    "name": "idcard_type",
+                                    "true_data_value": 3,
+                                    "type": "select",
+                                    "title": "证件类型",
+                                    "value": "其他",
+                                    "key": "idcard_type"
+                                },
+                                {
+                                    "name": "idcard_img_zm",
+                                    "true_data_value": "",
+                                    "type": "file",
+                                    "title": "证件照正面",
+                                    "value": null,
+                                    "key": "idcard_img_zm"
+                                },
+                                {
+                                    "name": "idcard_img_fm",
+                                    "true_data_value": "",
+                                    "type": "file",
+                                    "title": "证件照反面",
+                                    "value": null,
+                                    "key": "idcard_img_fm"
+                                },
+                                {
+                                    "name": "idcard",
+                                    "true_data_value": "8741199999974148741",
+                                    "type": "text",
+                                    "title": "有效证件号",
+                                    "value": "8741199999974148741",
+                                    "key": "idcard"
+                                },
+                                {
+                                    "name": "head",
+                                    "true_data_value": "",
+                                    "type": "file",
+                                    "title": "营员正面照",
+                                    "value": "",
+                                    "key": "head"
+                                }
+                            ],
+                            "order_id": "185",
+                            "befor_id": "41",
+                            "edit_id": "79"
+                        }
+                    ],
+                    "course_state_name": "开营中",
+                    "course_state": 2
+                },
+                "course_id": "19",
+                "period_id": "270",
+                "pid": "19",
+                "order_status": "报名成功",
+                "course_state_name": "开营中",
+                "course_state": 2,
+                "student_id_arr": [
+                    "44"
                 ],
+                "order_createtime": "2022-11-14 19:22:38",
+                "order_remark": [],
+                "inviter": "",
+                "closed_info": [],
+                "opening_info": [
+                    {
+                        "name": "所在团",
+                        "value": "1",
+                        "state": 0,
+                        "action": 0
+                    },
+                    {
+                        "name": "所在组",
+                        "value": "1",
+                        "state": 0,
+                        "action": 0
+                    },
+                    {
+                        "name": "营中照片数",
+                        "value": 0,
+                        "state": 0,
+                        "action": 4
+                    }
+                ]
+            },
+            {
+                "orderid": "182",
+                "order_number": "NO20221109203150528436",
+                "order_detail": {
+                    "couse_id": "19",
+                    "course_name": "10月1假期营",
+                    "period_id": "265",
+                    "period_name": "2022/11/07-2022/11/22",
+                    "order_student_name": [
+                        {
+                            "name": "马克杯",
+                            "form_data": [
+                                {
+                                    "name": "name",
+                                    "true_data_value": "马克杯",
+                                    "type": "text",
+                                    "title": "姓名",
+                                    "value": "马克杯",
+                                    "key": "name"
+                                },
+                                {
+                                    "name": "gender",
+                                    "true_data_value": 1,
+                                    "type": "radio",
+                                    "title": "性别",
+                                    "value": "男",
+                                    "key": "gender"
+                                },
+                                {
+                                    "name": "phone",
+                                    "true_data_value": "1355235896",
+                                    "type": "text",
+                                    "title": "手机号",
+                                    "value": "1355235896",
+                                    "key": "phone"
+                                },
+                                {
+                                    "name": "birthday",
+                                    "true_data_value": "2007-11-09",
+                                    "type": "date",
+                                    "title": "出生日期",
+                                    "value": "2007-11-09",
+                                    "key": "birthday"
+                                },
+                                {
+                                    "name": "idcard_type",
+                                    "true_data_value": 3,
+                                    "type": "select",
+                                    "title": "证件类型",
+                                    "value": "其他",
+                                    "key": "idcard_type"
+                                },
+                                {
+                                    "name": "idcard_img_zm",
+                                    "true_data_value": "",
+                                    "type": "file",
+                                    "title": "证件照正面",
+                                    "value": null,
+                                    "key": "idcard_img_zm"
+                                },
+                                {
+                                    "name": "idcard_img_fm",
+                                    "true_data_value": "",
+                                    "type": "file",
+                                    "title": "证件照反面",
+                                    "value": null,
+                                    "key": "idcard_img_fm"
+                                },
+                                {
+                                    "name": "idcard",
+                                    "true_data_value": "9852356",
+                                    "type": "text",
+                                    "title": "有效证件号",
+                                    "value": "9852356",
+                                    "key": "idcard"
+                                },
+                                {
+                                    "name": "head",
+                                    "true_data_value": "",
+                                    "type": "file",
+                                    "title": "营员正面照",
+                                    "value": "",
+                                    "key": "head"
+                                }
+                            ],
+                            "order_id": "182",
+                            "befor_id": "43",
+                            "edit_id": "75"
+                        },
+                        {
+                            "name": "天冷了",
+                            "form_data": [
+                                {
+                                    "name": "name",
+                                    "true_data_value": "天冷了",
+                                    "type": "text",
+                                    "title": "姓名",
+                                    "value": "天冷了",
+                                    "key": "name"
+                                },
+                                {
+                                    "name": "gender",
+                                    "true_data_value": 1,
+                                    "type": "radio",
+                                    "title": "性别",
+                                    "value": "男",
+                                    "key": "gender"
+                                },
+                                {
+                                    "name": "phone",
+                                    "true_data_value": "1355235896",
+                                    "type": "text",
+                                    "title": "手机号",
+                                    "value": "1355235896",
+                                    "key": "phone"
+                                },
+                                {
+                                    "name": "birthday",
+                                    "true_data_value": "2007-11-09",
+                                    "type": "date",
+                                    "title": "出生日期",
+                                    "value": "2007-11-09",
+                                    "key": "birthday"
+                                },
+                                {
+                                    "name": "idcard_type",
+                                    "true_data_value": 3,
+                                    "type": "select",
+                                    "title": "证件类型",
+                                    "value": "其他",
+                                    "key": "idcard_type"
+                                },
+                                {
+                                    "name": "idcard_img_zm",
+                                    "true_data_value": "",
+                                    "type": "file",
+                                    "title": "证件照正面",
+                                    "value": null,
+                                    "key": "idcard_img_zm"
+                                },
+                                {
+                                    "name": "idcard_img_fm",
+                                    "true_data_value": "",
+                                    "type": "file",
+                                    "title": "证件照反面",
+                                    "value": null,
+                                    "key": "idcard_img_fm"
+                                },
+                                {
+                                    "name": "idcard",
+                                    "true_data_value": "9852356涂",
+                                    "type": "text",
+                                    "title": "有效证件号",
+                                    "value": "9852356涂",
+                                    "key": "idcard"
+                                },
+                                {
+                                    "name": "head",
+                                    "true_data_value": "",
+                                    "type": "file",
+                                    "title": "营员正面照",
+                                    "value": "",
+                                    "key": "head"
+                                }
+                            ],
+                            "order_id": "182",
+                            "befor_id": "44",
+                            "edit_id": "76"
+                        }
+                    ],
+                    "course_state_name": "开营中",
+                    "course_state": 3
+                },
+                "course_id": "19",
+                "period_id": "265",
+                "pid": "19",
+                "order_status": "报名成功",
+                "course_state_name": "开营中",
+                "course_state": 3,
+                "student_id_arr": [
+                    "47",
+                    "48"
+                ],
+                "order_createtime": "2022-11-09 20:31:50",
+                "order_remark": [],
                 "inviter": ""
             },
             {
-                "orderid": "14",
-                "order_number": "NO20200426143319160485",
+                "orderid": "181",
+                "order_number": "NO20221109201407162089",
                 "order_detail": {
-                    "couse_id": "9",
-                    "course_name": "军事独立营|退换无忧|营期名称|TAG|后置报名表",
-                    "period_id": "29",
-                    "period_name": "2020/07/21-2020/07/27",
+                    "couse_id": "19",
+                    "course_name": "10月1假期营",
+                    "period_id": "270",
+                    "period_name": "2022/11/14-2022/11/29",
                     "order_student_name": [
                         {
-                            "name": "嘉宝",
+                            "name": "卡卡卡",
                             "form_data": [
                                 {
                                     "name": "name",
-                                    "true_data_value": "嘉宝",
+                                    "true_data_value": "卡卡卡",
                                     "type": "text",
                                     "title": "姓名",
-                                    "value": "嘉宝",
+                                    "value": "卡卡卡",
                                     "key": "name"
                                 },
                                 {
@@ -132,105 +476,319 @@
                                     "key": "gender"
                                 },
                                 {
+                                    "name": "phone",
+                                    "true_data_value": "13556569853",
+                                    "type": "text",
+                                    "title": "手机号",
+                                    "value": "13556569853",
+                                    "key": "phone"
+                                },
+                                {
                                     "name": "birthday",
-                                    "true_data_value": "2009-11-03",
+                                    "true_data_value": "2006-11-09",
                                     "type": "date",
                                     "title": "出生日期",
-                                    "value": "2009-11-03",
+                                    "value": "2006-11-09",
                                     "key": "birthday"
                                 },
                                 {
                                     "name": "idcard_type",
-                                    "true_data_value": 1,
+                                    "true_data_value": 3,
                                     "type": "select",
                                     "title": "证件类型",
-                                    "value": "身份证",
+                                    "value": "其他",
                                     "key": "idcard_type"
                                 },
                                 {
+                                    "name": "idcard_img_zm",
+                                    "true_data_value": "",
+                                    "type": "file",
+                                    "title": "证件照正面",
+                                    "value": null,
+                                    "key": "idcard_img_zm"
+                                },
+                                {
+                                    "name": "idcard_img_fm",
+                                    "true_data_value": "",
+                                    "type": "file",
+                                    "title": "证件照反面",
+                                    "value": null,
+                                    "key": "idcard_img_fm"
+                                },
+                                {
                                     "name": "idcard",
-                                    "true_data_value": "320483200911031910",
+                                    "true_data_value": "584125",
                                     "type": "text",
                                     "title": "有效证件号",
-                                    "value": "320483200911031910",
+                                    "value": "584125",
                                     "key": "idcard"
                                 },
                                 {
                                     "name": "head",
-                                    "true_data_value": "https://dev.cdn.xinduobang.cn//tmp_55ea637622763923fd86e778a24aeea6ed5e3812052baa89.jpg",
+                                    "true_data_value": "",
                                     "type": "file",
                                     "title": "营员正面照",
-                                    "value": "https://dev.cdn.xinduobang.cn//tmp_55ea637622763923fd86e778a24aeea6ed5e3812052baa89.jpg",
+                                    "value": "",
                                     "key": "head"
-                                },
-                                {
-                                    "name": "selectName1",
-                                    "true_data_value": "1",
-                                    "type": "select",
-                                    "title": "学校",
-                                    "value": "雅礼中学",
-                                    "key": "selectName1"
-                                },
-                                {
-                                    "name": "grade",
-                                    "true_data_value": "1",
-                                    "type": "select",
-                                    "title": "年级",
-                                    "value": "二年级",
-                                    "key": "grade"
-                                },
-                                {
-                                    "name": "classes",
-                                    "true_data_value": "0",
-                                    "type": "select",
-                                    "title": "班级",
-                                    "value": "一班",
-                                    "key": "classes"
                                 }
-                            ]
+                            ],
+                            "order_id": "181",
+                            "befor_id": "42",
+                            "edit_id": "74"
                         }
-                    ]
+                    ],
+                    "course_state_name": "开营中",
+                    "course_state": 3
                 },
+                "course_id": "19",
+                "period_id": "270",
+                "pid": "19",
+                "order_status": "报名成功",
+                "course_state_name": "开营中",
+                "course_state": 3,
                 "student_id_arr": [
-                    "2"
+                    "46"
                 ],
-                "order_createtime": "2020-04-26 14:33:19",
+                "order_createtime": "2022-11-09 20:14:07",
+                "order_remark": [],
+                "inviter": ""
+            },
+            {
+                "orderid": "178",
+                "order_number": "NO20221109195309589263",
+                "order_detail": {
+                    "couse_id": "19",
+                    "course_name": "10月1假期营",
+                    "period_id": "265",
+                    "period_name": "2022/11/07-2022/11/22",
+                    "order_student_name": [
+                        {
+                            "name": "额额额",
+                            "form_data": [
+                                {
+                                    "name": "name",
+                                    "true_data_value": "额额额",
+                                    "type": "text",
+                                    "title": "姓名",
+                                    "value": "额额额",
+                                    "key": "name"
+                                },
+                                {
+                                    "name": "gender",
+                                    "true_data_value": 1,
+                                    "type": "radio",
+                                    "title": "性别",
+                                    "value": "男",
+                                    "key": "gender"
+                                },
+                                {
+                                    "name": "phone",
+                                    "true_data_value": "13556569853",
+                                    "type": "text",
+                                    "title": "手机号",
+                                    "value": "13556569853",
+                                    "key": "phone"
+                                },
+                                {
+                                    "name": "birthday",
+                                    "true_data_value": "2006-11-09",
+                                    "type": "date",
+                                    "title": "出生日期",
+                                    "value": "2006-11-09",
+                                    "key": "birthday"
+                                },
+                                {
+                                    "name": "idcard_type",
+                                    "true_data_value": 3,
+                                    "type": "select",
+                                    "title": "证件类型",
+                                    "value": "其他",
+                                    "key": "idcard_type"
+                                },
+                                {
+                                    "name": "idcard_img_zm",
+                                    "true_data_value": "",
+                                    "type": "file",
+                                    "title": "证件照正面",
+                                    "value": null,
+                                    "key": "idcard_img_zm"
+                                },
+                                {
+                                    "name": "idcard_img_fm",
+                                    "true_data_value": "",
+                                    "type": "file",
+                                    "title": "证件照反面",
+                                    "value": null,
+                                    "key": "idcard_img_fm"
+                                },
+                                {
+                                    "name": "idcard",
+                                    "true_data_value": "874119999997414",
+                                    "type": "text",
+                                    "title": "有效证件号",
+                                    "value": "874119999997414",
+                                    "key": "idcard"
+                                },
+                                {
+                                    "name": "head",
+                                    "true_data_value": "",
+                                    "type": "file",
+                                    "title": "营员正面照",
+                                    "value": "",
+                                    "key": "head"
+                                }
+                            ],
+                            "order_id": "178",
+                            "befor_id": "40",
+                            "edit_id": "70"
+                        }
+                    ],
+                    "course_state_name": "开营中",
+                    "course_state": 3
+                },
+                "course_id": "19",
+                "period_id": "265",
+                "pid": "19",
+                "order_status": "报名成功",
+                "course_state_name": "开营中",
+                "course_state": 3,
+                "student_id_arr": [
+                    "43"
+                ],
+                "order_createtime": "2022-11-09 19:53:09",
                 "order_remark": [
                     {
-                        "id": "1",
-                        "title": "备注类型",
-                        "data": "备注内容",
-                        "addtime": "添加时间",
-                        "admin_user": "操作人1"
-                    },
-                    {
-                        "id": "2",
-                        "title": "备注类型2",
-                        "data": "备注内容2",
-                        "addtime": "添加时间2",
-                        "admin_user": "操作人2"
+                        "title": "退款原因备注",
+                        "addtime": "2022-11-09 19:56:54",
+                        "data": "疫情原因取消出团  营员退款:(营员格式化退款 )",
+                        "admin_user": "管理员",
+                        "id": "97",
+                        "type": "9"
                     }
                 ],
                 "inviter": ""
             },
             {
-                "orderid": "14",
-                "order_number": "NO20200426143319160485",
+                "orderid": "175",
+                "order_number": "NO20221109192708964312",
                 "order_detail": {
-                    "couse_id": "9",
-                    "course_name": "军事独立营|退换无忧|营期名称|TAG|后置报名表",
-                    "period_id": "29",
-                    "period_name": "2020/07/21-2020/07/27",
+                    "couse_id": "19",
+                    "course_name": "10月1假期营",
+                    "period_id": "263",
+                    "period_name": "2022/09/25-2022/10/07",
+                    "order_student_name": [],
+                    "course_state_name": "已结营",
+                    "course_state": 3
+                },
+                "course_id": "19",
+                "period_id": "263",
+                "pid": "19",
+                "order_status": "已完成",
+                "course_state_name": "已结营",
+                "course_state": 3,
+                "student_id_arr": [],
+                "order_createtime": "2022-11-09 19:27:08",
+                "order_remark": [],
+                "inviter": ""
+            },
+            {
+                "orderid": "174",
+                "order_number": "NO20221109192323647183",
+                "order_detail": {
+                    "couse_id": "19",
+                    "course_name": "10月1假期营",
+                    "period_id": "270",
+                    "period_name": "2022/11/14-2022/11/29",
                     "order_student_name": [
                         {
-                            "name": "嘉宝",
+                            "name": "和平路",
                             "form_data": [
                                 {
                                     "name": "name",
-                                    "true_data_value": "嘉宝",
+                                    "true_data_value": "和平路",
                                     "type": "text",
                                     "title": "姓名",
-                                    "value": "嘉宝",
+                                    "value": "和平路",
+                                    "key": "name"
+                                },
+                                {
+                                    "name": "gender",
+                                    "true_data_value": 2,
+                                    "type": "radio",
+                                    "title": "性别",
+                                    "value": "女",
+                                    "key": "gender"
+                                },
+                                {
+                                    "name": "phone",
+                                    "true_data_value": "13552437341",
+                                    "type": "text",
+                                    "title": "手机号",
+                                    "value": "13552437341",
+                                    "key": "phone"
+                                },
+                                {
+                                    "name": "birthday",
+                                    "true_data_value": "2017-11-09",
+                                    "type": "date",
+                                    "title": "出生日期",
+                                    "value": "2017-11-09",
+                                    "key": "birthday"
+                                },
+                                {
+                                    "name": "idcard_type",
+                                    "true_data_value": 3,
+                                    "type": "select",
+                                    "title": "证件类型",
+                                    "value": "其他",
+                                    "key": "idcard_type"
+                                },
+                                {
+                                    "name": "idcard_img_zm",
+                                    "true_data_value": "",
+                                    "type": "file",
+                                    "title": "证件照正面",
+                                    "value": null,
+                                    "key": "idcard_img_zm"
+                                },
+                                {
+                                    "name": "idcard_img_fm",
+                                    "true_data_value": "",
+                                    "type": "file",
+                                    "title": "证件照反面",
+                                    "value": null,
+                                    "key": "idcard_img_fm"
+                                },
+                                {
+                                    "name": "idcard",
+                                    "true_data_value": "995553",
+                                    "type": "text",
+                                    "title": "有效证件号",
+                                    "value": "995553",
+                                    "key": "idcard"
+                                },
+                                {
+                                    "name": "head",
+                                    "true_data_value": "",
+                                    "type": "file",
+                                    "title": "营员正面照",
+                                    "value": "",
+                                    "key": "head"
+                                }
+                            ],
+                            "order_id": "174",
+                            "befor_id": "38",
+                            "edit_id": "66"
+                        },
+                        {
+                            "name": "模型界",
+                            "form_data": [
+                                {
+                                    "name": "name",
+                                    "true_data_value": "模型界",
+                                    "type": "text",
+                                    "title": "姓名",
+                                    "value": "模型界",
                                     "key": "name"
                                 },
                                 {
@@ -242,70 +800,376 @@
                                     "key": "gender"
                                 },
                                 {
+                                    "name": "phone",
+                                    "true_data_value": "13556569853",
+                                    "type": "text",
+                                    "title": "手机号",
+                                    "value": "13556569853",
+                                    "key": "phone"
+                                },
+                                {
                                     "name": "birthday",
-                                    "true_data_value": "2009-11-03",
+                                    "true_data_value": "2006-11-09",
                                     "type": "date",
                                     "title": "出生日期",
-                                    "value": "2009-11-03",
+                                    "value": "2006-11-09",
                                     "key": "birthday"
                                 },
                                 {
                                     "name": "idcard_type",
-                                    "true_data_value": 1,
+                                    "true_data_value": 3,
                                     "type": "select",
                                     "title": "证件类型",
-                                    "value": "身份证",
+                                    "value": "其他",
                                     "key": "idcard_type"
                                 },
                                 {
+                                    "name": "idcard_img_zm",
+                                    "true_data_value": "",
+                                    "type": "file",
+                                    "title": "证件照正面",
+                                    "value": null,
+                                    "key": "idcard_img_zm"
+                                },
+                                {
+                                    "name": "idcard_img_fm",
+                                    "true_data_value": "",
+                                    "type": "file",
+                                    "title": "证件照反面",
+                                    "value": null,
+                                    "key": "idcard_img_fm"
+                                },
+                                {
                                     "name": "idcard",
-                                    "true_data_value": "320483200911031910",
+                                    "true_data_value": "87411999999",
                                     "type": "text",
                                     "title": "有效证件号",
-                                    "value": "320483200911031910",
+                                    "value": "87411999999",
                                     "key": "idcard"
                                 },
                                 {
                                     "name": "head",
-                                    "true_data_value": "https://dev.cdn.xinduobang.cn//tmp_55ea637622763923fd86e778a24aeea6ed5e3812052baa89.jpg",
+                                    "true_data_value": "",
                                     "type": "file",
                                     "title": "营员正面照",
-                                    "value": "https://dev.cdn.xinduobang.cn//tmp_55ea637622763923fd86e778a24aeea6ed5e3812052baa89.jpg",
+                                    "value": "",
                                     "key": "head"
-                                },
-                                {
-                                    "name": "selectName1",
-                                    "true_data_value": "1",
-                                    "type": "select",
-                                    "title": "学校",
-                                    "value": "雅礼中学",
-                                    "key": "selectName1"
-                                },
-                                {
-                                    "name": "grade",
-                                    "true_data_value": "1",
-                                    "type": "select",
-                                    "title": "年级",
-                                    "value": "二年级",
-                                    "key": "grade"
-                                },
-                                {
-                                    "name": "classes",
-                                    "true_data_value": "0",
-                                    "type": "select",
-                                    "title": "班级",
-                                    "value": "一班",
-                                    "key": "classes"
                                 }
-                            ]
+                            ],
+                            "order_id": "174",
+                            "befor_id": "39",
+                            "edit_id": "67"
                         }
-                    ]
+                    ],
+                    "course_state_name": "开营中",
+                    "course_state": 3
                 },
+                "course_id": "19",
+                "period_id": "270",
+                "pid": "19",
+                "order_status": "报名成功",
+                "course_state_name": "开营中",
+                "course_state": 3,
                 "student_id_arr": [
-                    "2"
+                    "41",
+                    "42"
                 ],
-                "order_createtime": "2020-04-26 14:33:19",
+                "order_createtime": "2022-11-09 19:23:23",
                 "order_remark": [],
+                "inviter": ""
+            },
+            {
+                "orderid": "173",
+                "order_number": "NO20221109190228490273",
+                "order_detail": {
+                    "couse_id": "12",
+                    "course_name": "信多帮营前营中演示",
+                    "period_id": "254",
+                    "period_name": "2021/12/28-2021/12/31",
+                    "order_student_name": [
+                        {
+                            "name": "消息了",
+                            "form_data": [
+                                {
+                                    "name": "name",
+                                    "true_data_value": "消息了",
+                                    "type": "text",
+                                    "title": "姓名",
+                                    "value": "消息了",
+                                    "key": "name"
+                                },
+                                {
+                                    "name": "gender",
+                                    "true_data_value": 1,
+                                    "type": "radio",
+                                    "title": "性别",
+                                    "value": "男",
+                                    "key": "gender"
+                                },
+                                {
+                                    "name": "phone",
+                                    "true_data_value": "13552437352",
+                                    "type": "text",
+                                    "title": "手机号",
+                                    "value": "13552437352",
+                                    "key": "phone"
+                                },
+                                {
+                                    "name": "birthday",
+                                    "true_data_value": "2017-11-09",
+                                    "type": "date",
+                                    "title": "出生日期",
+                                    "value": "2017-11-09",
+                                    "key": "birthday"
+                                },
+                                {
+                                    "name": "idcard_type",
+                                    "true_data_value": 3,
+                                    "type": "select",
+                                    "title": "证件类型",
+                                    "value": "其他",
+                                    "key": "idcard_type"
+                                },
+                                {
+                                    "name": "idcard_img_zm",
+                                    "true_data_value": "",
+                                    "type": "file",
+                                    "title": "证件照正面",
+                                    "value": null,
+                                    "key": "idcard_img_zm"
+                                },
+                                {
+                                    "name": "idcard_img_fm",
+                                    "true_data_value": "",
+                                    "type": "file",
+                                    "title": "证件照反面",
+                                    "value": null,
+                                    "key": "idcard_img_fm"
+                                },
+                                {
+                                    "name": "idcard",
+                                    "true_data_value": "998999",
+                                    "type": "text",
+                                    "title": "有效证件号",
+                                    "value": "998999",
+                                    "key": "idcard"
+                                },
+                                {
+                                    "name": "head",
+                                    "true_data_value": "",
+                                    "type": "file",
+                                    "title": "营员正面照",
+                                    "value": "",
+                                    "key": "head"
+                                }
+                            ],
+                            "order_id": "173",
+                            "befor_id": "36",
+                            "edit_id": "64"
+                        }
+                    ],
+                    "course_state_name": "已结营",
+                    "course_state": 3
+                },
+                "course_id": "12",
+                "period_id": "254",
+                "pid": "12",
+                "order_status": "已完成",
+                "course_state_name": "已结营",
+                "course_state": 3,
+                "student_id_arr": [
+                    "39"
+                ],
+                "order_createtime": "2022-11-09 19:02:28",
+                "order_remark": [
+                    {
+                        "title": "退款原因备注",
+                        "addtime": "2022-11-09 19:13:53",
+                        "data": "学员生病不能参加  营员退款:(营员增加点退款 )",
+                        "admin_user": "管理员",
+                        "id": "96",
+                        "type": "9"
+                    }
+                ],
+                "inviter": ""
+            },
+            {
+                "orderid": "172",
+                "order_number": "NO20221109184352014569",
+                "order_detail": {
+                    "couse_id": "19",
+                    "course_name": "10月1假期营",
+                    "period_id": "270",
+                    "period_name": "2022/11/14-2022/11/29",
+                    "order_student_name": [],
+                    "course_state_name": "开营中",
+                    "course_state": 3
+                },
+                "course_id": "19",
+                "period_id": "270",
+                "pid": "19",
+                "order_status": "报名成功",
+                "course_state_name": "开营中",
+                "course_state": 3,
+                "student_id_arr": [],
+                "order_createtime": "2022-11-09 18:43:52",
+                "order_remark": [
+                    {
+                        "title": "退款原因备注",
+                        "addtime": "2022-11-09 18:56:31",
+                        "data": "疫情原因取消出团  营员退款:(营员增加点退款 )",
+                        "admin_user": "管理员",
+                        "id": "95",
+                        "type": "9"
+                    },
+                    {
+                        "title": "退款原因备注",
+                        "addtime": "2022-11-09 18:51:20",
+                        "data": "重复报名  营员退款:(营员消息了退款 )",
+                        "admin_user": "管理员",
+                        "id": "94",
+                        "type": "9"
+                    },
+                    {
+                        "title": "退款原因备注",
+                        "addtime": "2022-11-09 18:50:54",
+                        "data": "学员生病不能参加",
+                        "admin_user": "管理员",
+                        "id": "93",
+                        "type": "9"
+                    }
+                ],
+                "inviter": ""
+            },
+            {
+                "orderid": "171",
+                "order_number": "NO20221109182506728569",
+                "order_detail": {
+                    "couse_id": "12",
+                    "course_name": "信多帮营前营中演示",
+                    "period_id": "254",
+                    "period_name": "2021/12/28-2021/12/31",
+                    "order_student_name": [
+                        {
+                            "name": "口味",
+                            "form_data": [
+                                {
+                                    "name": "name",
+                                    "true_data_value": "口味",
+                                    "type": "text",
+                                    "title": "姓名",
+                                    "value": "口味",
+                                    "key": "name"
+                                },
+                                {
+                                    "name": "gender",
+                                    "true_data_value": 1,
+                                    "type": "radio",
+                                    "title": "性别",
+                                    "value": "男",
+                                    "key": "gender"
+                                },
+                                {
+                                    "name": "phone",
+                                    "true_data_value": "13566236523",
+                                    "type": "text",
+                                    "title": "手机号",
+                                    "value": "13566236523",
+                                    "key": "phone"
+                                },
+                                {
+                                    "name": "birthday",
+                                    "true_data_value": "2016-11-09",
+                                    "type": "date",
+                                    "title": "出生日期",
+                                    "value": "2016-11-09",
+                                    "key": "birthday"
+                                },
+                                {
+                                    "name": "idcard_type",
+                                    "true_data_value": 3,
+                                    "type": "select",
+                                    "title": "证件类型",
+                                    "value": "其他",
+                                    "key": "idcard_type"
+                                },
+                                {
+                                    "name": "idcard_img_zm",
+                                    "true_data_value": "",
+                                    "type": "file",
+                                    "title": "证件照正面",
+                                    "value": null,
+                                    "key": "idcard_img_zm"
+                                },
+                                {
+                                    "name": "idcard_img_fm",
+                                    "true_data_value": "",
+                                    "type": "file",
+                                    "title": "证件照反面",
+                                    "value": null,
+                                    "key": "idcard_img_fm"
+                                },
+                                {
+                                    "name": "idcard",
+                                    "true_data_value": "9855涂",
+                                    "type": "text",
+                                    "title": "有效证件号",
+                                    "value": "9855涂",
+                                    "key": "idcard"
+                                },
+                                {
+                                    "name": "head",
+                                    "true_data_value": "",
+                                    "type": "file",
+                                    "title": "营员正面照",
+                                    "value": "",
+                                    "key": "head"
+                                }
+                            ],
+                            "order_id": "171",
+                            "befor_id": "35",
+                            "edit_id": "61"
+                        }
+                    ],
+                    "course_state_name": "已结营",
+                    "course_state": 3
+                },
+                "course_id": "12",
+                "period_id": "254",
+                "pid": "12",
+                "order_status": "已完成",
+                "course_state_name": "已结营",
+                "course_state": 3,
+                "student_id_arr": [
+                    "38"
+                ],
+                "order_createtime": "2022-11-09 18:25:06",
+                "order_remark": [
+                    {
+                        "title": "退款原因备注",
+                        "addtime": "2022-11-09 18:40:16",
+                        "data": "七天无理由退款",
+                        "admin_user": "sxf",
+                        "id": "92",
+                        "type": "9"
+                    },
+                    {
+                        "title": "退款原因备注",
+                        "addtime": "2022-11-09 18:35:30",
+                        "data": "七天无理由退款",
+                        "admin_user": "管理员",
+                        "id": "91",
+                        "type": "9"
+                    },
+                    {
+                        "title": "退款原因备注",
+                        "addtime": "2022-11-09 18:33:02",
+                        "data": "七天无理由退款",
+                        "admin_user": "管理员",
+                        "id": "90",
+                        "type": "9"
+                    }
+                ],
                 "inviter": ""
             }
         ]

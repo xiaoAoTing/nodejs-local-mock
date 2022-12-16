@@ -1,0 +1,28 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "interview_passed_exit": 10,
+      "interview_id": "1",
+      "interview_name": "项目名称",
+      "interview_total": "面试总人数",
+      "interview_await_total": "待面试人数",
+      "interview_through_total": "考试通过人数",
+      "interview_unthroughed_total": "考试未通过人数",
+      "into_interview_lib_name": [
+        "简历库1",
+        "简历库1",
+        "简历库1"
+      ],
+      "interview_accounts": [
+        "管理员1",
+        "管理员2",
+        "管理员3"
+      ]
+    }
+  ],
+  "resume_count": "1",
+  "group_interview_count": "2",
+  "head_interview_count": "3",
+  "totalnum": 100
+}

@@ -1,0 +1,10 @@
+{
+  "code": 0,
+  "data": {
+    "broadcast_name": "broadcast_name",
+    "timespan": "1",
+    "report_time": "02:03",
+    "select_send_content": "1,2",
+    "notification_account_ids": "1,2"
+  }
+}

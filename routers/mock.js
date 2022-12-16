@@ -17,7 +17,7 @@ const DIRECTORY = {
     VERBAL_TRICK: 'verbal-trick',
     PART_TIME_JOB: 'part-time-job',
 };
-const CURRENT_DIRECTORY = DIRECTORY['PART_TIME_JOB'];
+const CURRENT_DIRECTORY = DIRECTORY['VERBAL_TRICK'];
 const path = require('path');
 const fs = require('fs');
 
@@ -34,11 +34,18 @@ router.get('/:filename', function (req, res) {
     const filePath = path.join.apply(null, paths);
 
     fs.readFile(filePath, function (err, buf) {
+        let json = buf.toString();
         if (err) {
+            res.send(`The "${basename}.json" file was not found`)
             res.sendStatus(404);
             return;
         }
-        res[req.query[JSONP_CALLBACK_NAME] ? 'jsonp' : 'send'](JSON.parse(buf.toString()));
+        if (json === '') {
+            res.send(`The "${basename}.json" is an empty file.`)
+            res.sendStatus(404);
+            return
+        }
+        res[req.query[JSONP_CALLBACK_NAME] ? 'jsonp' : 'send'](JSON.parse(json));
     });
 });
 
@@ -48,11 +55,18 @@ router.post('/:filename', function (req, res) {
     const filePath = path.join.apply(null, paths);
 
     fs.readFile(filePath, function (err, buf) {
+        let json = buf.toString();
         if (err) {
+            res.send(`The "${basename}.json" file was not found`)
             res.sendStatus(404);
             return;
         }
-        res[req.query[JSONP_CALLBACK_NAME] ? 'jsonp' : 'send'](JSON.parse(buf.toString()));
+        if (json === '') {
+            res.send(`The "${basename}.json" is an empty file.`)
+            res.sendStatus(404);
+            return
+        }
+        res[req.query[JSONP_CALLBACK_NAME] ? 'jsonp' : 'send'](JSON.parse(json));
     });
 });
 

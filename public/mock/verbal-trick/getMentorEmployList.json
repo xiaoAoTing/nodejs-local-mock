@@ -1,0 +1,19 @@
+{
+  "code": 0,
+  "totalnum": 100,
+  "data": [
+    {
+      "id": 1,
+      "camp_name": "1231231213",
+      "period_name": [
+        "xxxx/xx/xx - xxxx/xx/xx"
+      ],
+      "proportion_sale": "10/100",
+      "assign_ratio": "11/12/11",
+      "cameraman_count": "10",
+      "observer_count": "10",
+      "office_count": "1231231213",
+      "medical_count": "1231231213"
+    }
+  ]
+}

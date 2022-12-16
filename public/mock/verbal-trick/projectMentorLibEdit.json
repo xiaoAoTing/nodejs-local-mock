@@ -1,0 +1,10 @@
+{
+  "msg": "成共",
+  "code": 0,
+  "data": {
+    "project_name": "项目名称",
+    "camp_relevance": "1",
+    "period_relevance": "1,2",
+    "relevance_contract": "2"
+  }
+}

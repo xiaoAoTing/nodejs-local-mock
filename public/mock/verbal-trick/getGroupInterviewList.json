@@ -1,0 +1,29 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "interview_passed_exit": 10,
+      "interview_id": "1",
+      "interview_name": "同步简历库名称",
+      "addtime": "简历库提交时间",
+      "interview_total": "总简历数",
+      "interview_await_total": "待筛选简历数",
+      "interview_through_total": "已通简历数",
+      "interview_unthroughed_total": "未通简历数",
+      "interview_accounts": [
+        "管理员1",
+        "管理员2",
+        "管理员3"
+      ],
+      "into_interview_lib_name": [
+        "简历库1",
+        "简历库1",
+        "简历库1"
+      ]
+    }
+  ],
+  "resume_count": "1",
+  "group_interview_count": "2",
+  "head_interview_count": "3",
+  "totalnum": 100
+}

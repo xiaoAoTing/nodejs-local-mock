@@ -1,0 +1,17 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "notification_account_id": 1,
+      "account_name": "员工名1"
+    },
+    {
+      "notification_account_id": 2,
+      "account_name": "员工名2"
+    },
+    {
+      "notification_account_id": 3,
+      "account_name": "员工名3"
+    }
+  ]
+}

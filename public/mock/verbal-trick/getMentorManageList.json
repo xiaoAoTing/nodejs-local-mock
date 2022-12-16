@@ -1,0 +1,30 @@
+{
+  "code": 0,
+  "totalnum": 100,
+  "data": [
+    {
+      "project_id": 1,
+      "project_name": "项目名称",
+      "period_relevance": [
+        "关联营期1",
+        "关联营期2"
+      ],
+      "camp_relevance": "关联营种",
+      "mentor_total": "1231",
+      "mentor_assigned_total": "22222",
+      "is_send_offer": 1
+    },
+    {
+      "project_id": 1,
+      "project_name": "项目名称",
+      "period_relevance": [
+        "关联营期1",
+        "关联营期2"
+      ],
+      "camp_relevance": "关联营种",
+      "mentor_total": "1231",
+      "mentor_assigned_total": "22222",
+      "is_send_offer": 0
+    }
+  ]
+}

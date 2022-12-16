@@ -1,0 +1,31 @@
+{
+  "code": 0,
+  "msg": "成功获取数据",
+  "totalnum": 10,
+  "data": [
+    {
+      "chat_id": 1,
+      "chat_name": "群攻1"
+    },
+    {
+      "chat_id": 2,
+      "chat_name": "群攻2"
+    },
+    {
+      "chat_id": 3,
+      "chat_name": "群攻3"
+    },
+    {
+      "chat_id": 4,
+      "chat_name": "群攻4"
+    },
+    {
+      "chat_id": 5,
+      "chat_name": "群攻5"
+    },
+    {
+      "chat_id": 6,
+      "chat_name": "群攻6"
+    }
+  ]
+}

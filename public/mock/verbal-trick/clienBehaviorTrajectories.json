@@ -4,7 +4,7 @@
     "data": {
         "page_size": 10,
         "page_num": 10,
-        "page_total": 1,
+        "page_total": 3,
         "access_log": [
             {
                 "data": {
@@ -23,7 +23,24 @@
                 "is_invite": 0,
                 "user_name": "陈建新",
                 "invite_user_name": "陈建新",
-                "invite_uid": "931"
+                "invite_uid": "931",
+                "course_name": "冬令营地",
+                "view_count": 10,
+                "sum_time": 3,
+                "detailed_record": [
+                    {
+                        "date": "2222-22-22 - 22:22:22",
+                        "stay": 10
+                    },
+                    {
+                        "date": "2222-22-22 - 22:22:22",
+                        "stay": 10
+                    },
+                    {
+                        "date": "2222-22-22 - 22:22:22",
+                        "stay": 10
+                    }
+                ]
             },
             {
                 "data": {
@@ -42,7 +59,24 @@
                 "is_invite": 0,
                 "user_name": "陈建新",
                 "invite_user_name": "陈建新",
-                "invite_uid": "931"
+                "invite_uid": "931",
+                "course_name": "冬令营地",
+                "view_count": 10,
+                "sum_time": 3,
+                "detailed_record": [
+                    {
+                        "date": "2222-22-22 - 22:22:22",
+                        "stay": 10
+                    },
+                    {
+                        "date": "2222-22-22 - 22:22:22",
+                        "stay": 10
+                    },
+                    {
+                        "date": "2222-22-22 - 22:22:22",
+                        "stay": 10
+                    }
+                ]
             },
             {
                 "data": {
@@ -80,7 +114,24 @@
                 "is_invite": 0,
                 "user_name": "陈建新",
                 "invite_user_name": "陈建新",
-                "invite_uid": "931"
+                "invite_uid": "931",
+                "course_name": "冬令营地",
+                "view_count": 10,
+                "sum_time": 3,
+                "detailed_record": [
+                    {
+                        "date": "2222-22-22 - 22:22:22",
+                        "stay": 10
+                    },
+                    {
+                        "date": "2222-22-22 - 22:22:22",
+                        "stay": 10
+                    },
+                    {
+                        "date": "2222-22-22 - 22:22:22",
+                        "stay": 10
+                    }
+                ]
             },
             {
                 "data": {
@@ -99,7 +150,24 @@
                 "is_invite": 0,
                 "user_name": "陈建新",
                 "invite_user_name": "陈建新",
-                "invite_uid": "931"
+                "invite_uid": "931",
+                "course_name": "冬令营地",
+                "view_count": 10,
+                "sum_time": 3,
+                "detailed_record": [
+                    {
+                        "date": "2222-22-22 - 22:22:22",
+                        "stay": 10
+                    },
+                    {
+                        "date": "2222-22-22 - 22:22:22",
+                        "stay": 10
+                    },
+                    {
+                        "date": "2222-22-22 - 22:22:22",
+                        "stay": 10
+                    }
+                ]
             },
             {
                 "data": {
@@ -118,7 +186,24 @@
                 "is_invite": 0,
                 "user_name": "陈建新",
                 "invite_user_name": "陈建新",
-                "invite_uid": "931"
+                "invite_uid": "931",
+                "course_name": "冬令营地",
+                "view_count": 10,
+                "sum_time": 3,
+                "detailed_record": [
+                    {
+                        "date": "2222-22-22 - 22:22:22",
+                        "stay": 10
+                    },
+                    {
+                        "date": "2222-22-22 - 22:22:22",
+                        "stay": 10
+                    },
+                    {
+                        "date": "2222-22-22 - 22:22:22",
+                        "stay": 10
+                    }
+                ]
             },
             {
                 "data": {
@@ -137,7 +222,24 @@
                 "is_invite": 0,
                 "user_name": "陈建新",
                 "invite_user_name": "陈建新",
-                "invite_uid": "931"
+                "invite_uid": "931",
+                "course_name": "冬令营地",
+                "view_count": 10,
+                "sum_time": 3,
+                "detailed_record": [
+                    {
+                        "date": "2222-22-22 - 22:22:22",
+                        "stay": 10
+                    },
+                    {
+                        "date": "2222-22-22 - 22:22:22",
+                        "stay": 10
+                    },
+                    {
+                        "date": "2222-22-22 - 22:22:22",
+                        "stay": 10
+                    }
+                ]
             },
             {
                 "data": {
@@ -156,7 +258,24 @@
                 "is_invite": 0,
                 "user_name": "陈建新",
                 "invite_user_name": "陈建新",
-                "invite_uid": "931"
+                "invite_uid": "931",
+                "course_name": "冬令营地",
+                "view_count": 10,
+                "sum_time": 3,
+                "detailed_record": [
+                    {
+                        "date": "2222-22-22 - 22:22:22",
+                        "stay": 10
+                    },
+                    {
+                        "date": "2222-22-22 - 22:22:22",
+                        "stay": 10
+                    },
+                    {
+                        "date": "2222-22-22 - 22:22:22",
+                        "stay": 10
+                    }
+                ]
             },
             {
                 "data": {
@@ -194,7 +313,24 @@
                 "is_invite": 0,
                 "user_name": "陈建新",
                 "invite_user_name": "陈建新",
-                "invite_uid": "931"
+                "invite_uid": "931",
+                "course_name": "冬令营地",
+                "view_count": 10,
+                "sum_time": 3,
+                "detailed_record": [
+                    {
+                        "date": "2222-22-22 - 22:22:22",
+                        "stay": 10
+                    },
+                    {
+                        "date": "2222-22-22 - 22:22:22",
+                        "stay": 10
+                    },
+                    {
+                        "date": "2222-22-22 - 22:22:22",
+                        "stay": 10
+                    }
+                ]
             }
         ]
     }

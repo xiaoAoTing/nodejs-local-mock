@@ -1,0 +1,66 @@
+{
+  "code": 0,
+  "msg": "成功获取数据",
+  "data": [
+    {
+      "jianzhi_level_id": "1",
+      "jianzhi_level_code": "1",
+      "jianzhi_level_name": "最低等级",
+      "jianzhi_level_salary": "100",
+      "jianzhi_level_count": "19",
+      "jiaotong_buzhu": "10",
+      "sheyingshi_buzhu": "10",
+      "diwen_buzhu": "10"
+    },
+    {
+      "jianzhi_level_id": "2",
+      "jianzhi_level_code": "2",
+      "jianzhi_level_name": "二级销售",
+      "jianzhi_level_salary": "222",
+      "jianzhi_level_count": "3",
+      "jiaotong_buzhu": "10",
+      "sheyingshi_buzhu": "10",
+      "diwen_buzhu": "10"
+    },
+    {
+      "jianzhi_level_id": "3",
+      "jianzhi_level_code": "3",
+      "jianzhi_level_name": "3级销售",
+      "jianzhi_level_salary": "500",
+      "jianzhi_level_count": "4",
+      "jiaotong_buzhu": "10",
+      "sheyingshi_buzhu": "10",
+      "diwen_buzhu": "10"
+    },
+    {
+      "jianzhi_level_id": "4",
+      "jianzhi_level_code": "4",
+      "jianzhi_level_name": "4星",
+      "jianzhi_level_salary": "0",
+      "jianzhi_level_count": "2",
+      "jiaotong_buzhu": "10",
+      "sheyingshi_buzhu": "10",
+      "diwen_buzhu": "10"
+    },
+    {
+      "jianzhi_level_id": "5",
+      "jianzhi_level_code": "5",
+      "jianzhi_level_name": "专业",
+      "jianzhi_level_salary": "0",
+      "jianzhi_level_count": "2",
+      "jiaotong_buzhu": "10",
+      "sheyingshi_buzhu": "10",
+      "diwen_buzhu": "10"
+    },
+    {
+      "jianzhi_level_id": "6",
+      "jianzhi_level_code": "6",
+      "jianzhi_level_name": "TOP",
+      "jianzhi_level_salary": "0",
+      "jianzhi_level_count": "1",
+      "jiaotong_buzhu": "10",
+      "sheyingshi_buzhu": "10",
+      "diwen_buzhu": "10"
+    }
+  ]
+}

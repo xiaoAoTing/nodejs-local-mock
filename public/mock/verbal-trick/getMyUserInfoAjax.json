@@ -2,6 +2,36 @@
     "code": 0,
     "msg": "成功获取数据",
     "data": {
+        "aaaa": [
+            [
+                "dasada"
+            ],
+            {
+                
+            }
+        ],
+        "personal_info": [
+            {
+                "name": "可用优惠券",
+                "value": "5 张优惠券",
+                "action": 1
+            },
+            {
+                "name": "可用年卡",
+                "value": "6 张可用年卡",
+                "action": 2
+            },
+            {
+                "name": "大苏的撒打算的撒",
+                "value": "6 张可用年卡",
+                "action": 0
+            },
+            {
+                "name": "阿萨的风险资产",
+                "value": "6 张可用年卡",
+                "action": 0
+            }
+        ],
         "access_log": [
             {
                 "data": {

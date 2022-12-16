@@ -1,0 +1,30 @@
+{
+  "code": 0,
+  "data": {
+    "mentor_id": 1,
+    "origin_camp_name": "原营种",
+    "modify_period_options": [
+      {
+        "modify_period_id": 1,
+        "modify_period_name": "营期名",
+        "selected": 1
+      }
+    ],
+    "modified_camp_options": [
+      {
+        "modified_camp_id": 1,
+        "modified_camp_name": "影城命案的撒的",
+        "selected": 1,
+        "camp_status": 1,
+        "sale_state": "sale"
+      }
+    ],
+    "modified_period_options": [
+      {
+        "modified_period_id": 1,
+        "modified_period_name": "阿斯巴甜",
+        "selected": 1
+      }
+    ]
+  }
+}

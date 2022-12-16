@@ -1,0 +1,21 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "interview_course_id": 1,
+      "interview_course_name": "营种名称1"
+    },
+    {
+      "interview_course_id": 2,
+      "interview_course_name": "营种名称2"
+    },
+    {
+      "interview_course_id": 3,
+      "interview_course_name": "营种名称3"
+    },
+    {
+      "interview_course_id": 4,
+      "interview_course_name": "营种名称4"
+    }
+  ]
+}

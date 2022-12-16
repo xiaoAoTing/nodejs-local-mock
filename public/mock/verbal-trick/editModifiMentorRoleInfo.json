@@ -1,0 +1,30 @@
+{
+  "code": 0,
+  "data": {
+    "mentor_id": 1,
+    "mentor_role_options": [
+      {
+        "mentor_role_id": 1,
+        "mentor_role_name": "岗位名称 - 1",
+        "selected": 1
+      },
+      {
+        "mentor_role_id": 2,
+        "mentor_role_name": "岗位名称 - 2",
+        "selected": 1
+      },
+      {
+        "mentor_role_id": 3,
+        "mentor_role_name": "岗位名称 - 3",
+        "selected": 1
+      }
+    ],
+    "suitable_period_options": [
+      {
+        "period_id": 1,
+        "period_name": "营期名",
+        "selected": 1
+      }
+    ]
+  }
+}

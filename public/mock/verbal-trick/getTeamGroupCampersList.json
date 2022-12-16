@@ -1,0 +1,81 @@
+{
+  "code": 0,
+  "msg": "操作成功！",
+  "data": {
+    "not_set_campers_list": [],
+    "team_group_campers_list": [
+      {
+        "team_id": "4597",
+        "team_name": "1团",
+        "team_nick_name": "",
+        "campers_num": 6,
+        "student_num": "6",
+        "group_list": [
+          {
+            "group_id": "6417",
+            "group_name": "1组",
+            "group_nick_name": "",
+            "student_num": "6",
+            "campers_list": [
+              {
+                "sid": "2933",
+                "offsid": 0,
+                "name": "陌陌",
+                "show_conf_field": [],
+                "birthdate": "0",
+                "sex": "Men",
+                "remark": "孩子老不听话"
+              },
+              {
+                "sid": "3065",
+                "offsid": 0,
+                "name": "分析",
+                "show_conf_field": [],
+                "birthdate": "0",
+                "sex": "Men",
+                "remark": "孩子老不听话"
+              },
+              {
+                "sid": "4489",
+                "offsid": 0,
+                "name": "陌陌",
+                "show_conf_field": [],
+                "birthdate": "0",
+                "sex": "Men",
+                "remark": "孩子老不听话"
+              },
+              {
+                "sid": "4490",
+                "offsid": 0,
+                "name": "年级",
+                "show_conf_field": [],
+                "birthdate": "0",
+                "sex": "Men",
+                "remark": "孩子老不听话"
+              },
+              {
+                "sid": "4491",
+                "offsid": 0,
+                "name": "班次",
+                "show_conf_field": [],
+                "birthdate": "0",
+                "sex": "Men",
+                "remark": "孩子老不听话"
+              },
+              {
+                "sid": "4492",
+                "offsid": 0,
+                "name": "门卫",
+                "show_conf_field": [],
+                "birthdate": "0",
+                "sex": "woMen",
+                "remark": "孩子老不听话"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "field_conf_list": []
+  }
+}

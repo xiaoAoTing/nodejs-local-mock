@@ -2,8 +2,13 @@ const express = require('express');
 let router = express.Router();
 
 router.post('/', function (req, res) {
-    console.log('接收到了 ~');
+    console.log('接收到了 post ~');
     res.send(req.body);
+})
+
+router.get('/', function (req, res) {
+    console.log('接收到了 get ~');
+    res.send('Hello world');
 })
 
 router.post('/getUserInfo', function (req, res) {

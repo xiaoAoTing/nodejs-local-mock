@@ -1,0 +1,130 @@
+{
+  "project_id": "14",
+  "project_code": "10",
+  "in_chatgroup_count": 17,
+  "code": 0,
+  "msg": "获取成功",
+  "totalnum": 16,
+  "data": [
+    {
+      "name": "丁宗麒",
+      "phone": "17636509646",
+      "is_in_chat": 1,
+      "chat_id": "wrj8xBDgAAe9I_OP_eRN8YVELsI1w16A",
+      "chat_name": "",
+      "is_in_chat_str": "是",
+      "group_nickname": "Harry-丁宗麒-营地导师",
+      "work_course_id": "861",
+      "work_course_name": "游美·滑雪冬令营｜北京-石京龙站（22/23雪季）",
+      "create_time": "2022-11-04 11:49:30"
+    },
+    {
+      "name": "付新宇",
+      "phone": "19560719212",
+      "is_in_chat": 1,
+      "chat_id": "wrj8xBDgAAe9I_OP_eRN8YVELsI1w16A",
+      "chat_name": "",
+      "is_in_chat_str": "是",
+      "group_nickname": "",
+      "work_course_id": "861",
+      "work_course_name": "游美·滑雪冬令营｜北京-石京龙站（22/23雪季）",
+      "create_time": "2022-11-04 11:49:30"
+    },
+    {
+      "name": "关燕",
+      "phone": "16632028810",
+      "is_in_chat": 1,
+      "chat_id": "wrj8xBDgAAe9I_OP_eRN8YVELsI1w16A",
+      "chat_name": "",
+      "is_in_chat_str": "是",
+      "group_nickname": "Candy 关燕 观察员",
+      "work_course_id": "861",
+      "work_course_name": "游美·滑雪冬令营｜北京-石京龙站（22/23雪季）",
+      "create_time": "2022-11-04 11:49:30"
+    },
+    {
+      "name": "吴娜",
+      "phone": "19823430317",
+      "is_in_chat": 1,
+      "chat_id": "wrj8xBDgAAe9I_OP_eRN8YVELsI1w16A",
+      "chat_name": "",
+      "is_in_chat_str": "是",
+      "group_nickname": "Lala吴娜+营地导师",
+      "work_course_id": "861",
+      "work_course_name": "游美·滑雪冬令营｜北京-石京龙站（22/23雪季）",
+      "create_time": "2022-11-04 11:49:30"
+    },
+    {
+      "name": "姜雨薇",
+      "phone": "18953340516",
+      "is_in_chat": 1,
+      "chat_id": "wrj8xBDgAAe9I_OP_eRN8YVELsI1w16A",
+      "chat_name": "",
+      "is_in_chat_str": "是",
+      "group_nickname": "Vivi姜雨薇观察员",
+      "work_course_id": "861",
+      "work_course_name": "游美·滑雪冬令营｜北京-石京龙站（22/23雪季）",
+      "create_time": "2022-11-04 11:49:30"
+    },
+    {
+      "name": "段诗濛",
+      "phone": "15903938931",
+      "is_in_chat": 1,
+      "chat_id": "wrj8xBDgAAe9I_OP_eRN8YVELsI1w16A",
+      "chat_name": "",
+      "is_in_chat_str": "是",
+      "group_nickname": "Chloe段诗濛—导师",
+      "work_course_id": "861",
+      "work_course_name": "游美·滑雪冬令营｜北京-石京龙站（22/23雪季）",
+      "create_time": "2022-11-04 11:49:30"
+    },
+    {
+      "name": "毛璐璐",
+      "phone": "15558153930",
+      "is_in_chat": 1,
+      "chat_id": "wrj8xBDgAAe9I_OP_eRN8YVELsI1w16A",
+      "chat_name": "",
+      "is_in_chat_str": "是",
+      "group_nickname": "Lulu 毛璐璐 摄影",
+      "work_course_id": "861",
+      "work_course_name": "游美·滑雪冬令营｜北京-石京龙站（22/23雪季）",
+      "create_time": "2022-11-04 11:49:30"
+    },
+    {
+      "name": "汤仁杰",
+      "phone": "13115240785",
+      "is_in_chat": 1,
+      "chat_id": "wrj8xBDgAAe9I_OP_eRN8YVELsI1w16A",
+      "chat_name": "",
+      "is_in_chat_str": "是",
+      "group_nickname": "cap-营地导师",
+      "work_course_id": "861",
+      "work_course_name": "游美·滑雪冬令营｜北京-石京龙站（22/23雪季）",
+      "create_time": "2022-11-04 11:49:30"
+    },
+    {
+      "name": "王庚洋",
+      "phone": "19972851129",
+      "is_in_chat": 1,
+      "chat_id": "wrj8xBDgAAe9I_OP_eRN8YVELsI1w16A",
+      "chat_name": "",
+      "is_in_chat_str": "是",
+      "group_nickname": "",
+      "work_course_id": "861",
+      "work_course_name": "游美·滑雪冬令营｜北京-石京龙站（22/23雪季）",
+      "create_time": "2022-11-04 11:49:30"
+    },
+    {
+      "name": "陈翠儿",
+      "phone": "13713126476",
+      "is_in_chat": 1,
+      "chat_id": "wrj8xBDgAAe9I_OP_eRN8YVELsI1w16A",
+      "chat_name": "",
+      "is_in_chat_str": "是",
+      "group_nickname": "Olivia 陈翠儿 营地导师",
+      "work_course_id": "861",
+      "work_course_name": "游美·滑雪冬令营｜北京-石京龙站（22/23雪季）",
+      "create_time": "2022-11-04 11:49:30"
+    }
+  ]
+}

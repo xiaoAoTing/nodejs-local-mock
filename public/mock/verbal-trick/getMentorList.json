@@ -1,0 +1,18 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "mentor_name": "兼职导师名称",
+      "mentor_id": 1,
+      "mentor_role_name": "岗位",
+      "mentor_sex": "男",
+      "interview_remark": "面试备注",
+      "mentor_level": 1,
+      "camp_surplus": "剩余可用营种",
+      "period_surplus": "剩余可用营期",
+      "employ_camp": "录用营种",
+      "employ_period": "录用营期"
+    }
+  ],
+  "totalnum": 999
+}

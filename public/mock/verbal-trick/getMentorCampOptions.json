@@ -1,0 +1,29 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "camp_name": "营种名称 - 1",
+      "camp_id": 1,
+      "camp_status": 1,
+      "sale_state": "sale"
+    },
+    {
+      "camp_name": "营种名称 - 2",
+      "camp_id": 2,
+      "camp_status": 2,
+      "sale_state": "sale"
+    },
+    {
+      "camp_name": "营种名称 - 3",
+      "camp_id": 3,
+      "camp_status": 3,
+      "sale_state": "sale"
+    },
+    {
+      "camp_name": "营种名称 - 4",
+      "camp_id": 4,
+      "camp_status": 1,
+      "sale_state": "sale"
+    }
+  ]
+}

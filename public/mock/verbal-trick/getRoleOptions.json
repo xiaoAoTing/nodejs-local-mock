@@ -1,0 +1,25 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "jianzhi_role_id": 1,
+      "jianzhi_role_name": "岗位名称1",
+      "is_selected": 0
+    },
+    {
+      "jianzhi_role_id": 2,
+      "jianzhi_role_name": "岗位名称2",
+      "is_selected": 1
+    },
+    {
+      "jianzhi_role_id": 3,
+      "jianzhi_role_name": "岗位名称3",
+      "is_selected": 1
+    },
+    {
+      "jianzhi_role_id": 4,
+      "jianzhi_role_name": "岗位名称4",
+      "is_selected": 1
+    }
+  ]
+}

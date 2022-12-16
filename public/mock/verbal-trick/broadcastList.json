@@ -1,0 +1,22 @@
+{
+  "code": 0,
+  "totalnum": 123,
+  "data": [
+    {
+      "sid": 1,
+      "broadcast_name": "播报名",
+      "timespan": "时间跨度",
+      "report_time": "播报时间",
+      "select_send_content": [
+        "播报内容1",
+        "播报内容1",
+        "播报内容1"
+      ],
+      "notification_account_names": [
+        "通知账号1",
+        "通知账号1",
+        "通知账号1"
+      ]
+    }
+  ]
+}

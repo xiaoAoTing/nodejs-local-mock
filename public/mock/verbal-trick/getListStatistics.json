@@ -1,0 +1,25 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "total_mentor": "总导师数",
+      "total_student": "总营员数",
+      "mentor_student_ratio": "导师营员比",
+      "life_mentor_student_ratio": "生活导师营员比",
+      "star_1": "1星人数",
+      "star_2": "2星人数",
+      "star_3": "3星人数",
+      "star_4": "4星人数"
+    },
+    {
+      "total_mentor": "总导师数",
+      "total_student": "总营员数",
+      "mentor_student_ratio": "导师营员比",
+      "life_mentor_student_ratio": "生活导师营员比",
+      "star_1": "1星人数",
+      "star_2": "2星人数",
+      "star_3": "3星人数",
+      "star_4": "4星人数"
+    }
+  ]
+}

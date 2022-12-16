@@ -1,0 +1,17 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "interview_lib_name": "简历库名称1",
+      "interview_lib_id": 1
+    },
+    {
+      "interview_lib_name": "简历库名称2",
+      "interview_lib_id": 2
+    },
+    {
+      "interview_lib_name": "简历库名称3",
+      "interview_lib_id": 3
+    }
+  ]
+}

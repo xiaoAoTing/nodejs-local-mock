@@ -1,0 +1,33 @@
+{
+  "code": 0,
+  "data": [
+    [
+      {
+        "name": "优惠券名称",
+        "value": "优惠内容"
+      },
+      {
+        "name": "到期时间",
+        "value": "xxxxx"
+      },
+      {
+        "name": "优惠内容",
+        "value": "xxxxx"
+      }
+    ],
+    [
+      {
+        "name": "优惠券名称",
+        "value": "优惠内容"
+      },
+      {
+        "name": "到期时间",
+        "value": "xxxxx"
+      },
+      {
+        "name": "优惠内容",
+        "value": "xxxxx"
+      }
+    ]
+  ]
+}
